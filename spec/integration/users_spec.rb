@@ -37,4 +37,28 @@ describe 'Guest visits home page' do
     response.should have_selector 'a', :href => login_path
   end
 
+  it "should fail with invalid username" do
+    @user = User.create(:username => 'user1', :password => 'mypassword', :email_address => 'leogodin217@gmail.com')
+
+    visit root_path
+    click_link 'Login'
+    fill_in 'Username', :with  => 'anotheruser1'
+    fill_in 'Password', :with => 'mypassword'
+    click_button 'Login'
+
+    response.should contain("Login Failed")
+  end
+
+
+  it "should fail with invalid password" do
+    @user = User.create(:username => 'user1', :password => 'mypassword', :email_address => 'leogodin217@gmail.com')
+
+    visit root_path
+    click_link 'Login'
+    fill_in 'Username', :with  => 'user1'
+    fill_in 'Password', :with => 'myotherpassword'
+    click_button 'Login'
+
+    response.should contain("Login Failed")
+  end
 end

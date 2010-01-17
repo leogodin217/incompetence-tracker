@@ -18,8 +18,22 @@ class UsersController < ApplicationController
   end
 
   def authenticate
-    session[:logged_in] = true   
-    flash[:notice] = "#{params[:username]} is logged in"
-    redirect_to root_path
+    session[:logged_in] = false  
+    if @user = User.first(:username => params[:username]) 
+   
+      if @user.authenticate(:username => params[:username], :password => params[:password]) 
+        session[:logged_in] = true 
+        flash[:notice] = "#{params[:username]} is logged in"
+
+        redirect_to root_path
+      else
+        flash[:notice] = "Login Failed"
+        redirect_to login_path
+      end
+    else
+        flash[:notice] = "Login Failed"
+        redirect_to login_path
+    
+    end
   end
 end

@@ -23,6 +23,6 @@ class User
   end
 
   def password
-
+    # TODO: Figure out why I need this
   end
 end

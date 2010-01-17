@@ -763,3 +763,255 @@ Processing UsersController#create (for 127.0.0.1 at 2010-01-17 09:15:24) [POST]
   Parameters: {"commit"=>"Signup", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "user"=>{"username"=>"myuser", "email_address"=>"me@you.com", "password"=>"mypass"}}
 Rendering users/signup
 Completed in 26ms (View: 7 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 10:05:23) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "user"=>{"username"=>"myuser", "email_address"=>"me@you.com", "password"=>"mypass"}}
+
+DataObjects::SyntaxError (table users has no column named password_hash):
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute_non_query'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:269:in `with_connection'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:59:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:110:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `each'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/repository.rb:129:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:864:in `_create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:624:in `hookable__create_hook_nan_before_advised'
+  extlib (0.9.14) lib/extlib/hook.rb:299:in `create_hook'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `catch'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `create_hook'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:925:in `save_self'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:61:in `save_self'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:912:in `_save'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:1085:in `run_once'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:911:in `_save'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:351:in `save'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations/support/context.rb:30:in `validation_context'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  app/controllers/users_controller.rb:13:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.0ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:05:32) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 10:05:34) [GET]
+Rendering users/signup
+Completed in 19ms (View: 5 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 10:05:44) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "user"=>{"username"=>"me", "email_address"=>"me@you.com", "password"=>"mypass"}}
+
+DataObjects::SyntaxError (table users has no column named password_hash):
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute_non_query'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:269:in `with_connection'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:59:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:110:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `each'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/repository.rb:129:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:864:in `_create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:624:in `hookable__create_hook_nan_before_advised'
+  extlib (0.9.14) lib/extlib/hook.rb:299:in `create_hook'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `catch'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `create_hook'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:925:in `save_self'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:61:in `save_self'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:912:in `_save'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:1085:in `run_once'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:911:in `_save'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:351:in `save'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations/support/context.rb:30:in `validation_context'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  app/controllers/users_controller.rb:13:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 10:06:33) [GET]
+Rendering users/signup
+Completed in 19ms (View: 4 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 10:06:37) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "user"=>{"username"=>"sdf", "email_address"=>"asdfasdfasd", "password"=>"asdfasfdfd"}}
+
+DataObjects::SyntaxError (table users has no column named password_hash):
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute_non_query'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:269:in `with_connection'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:59:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:110:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `each'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/repository.rb:129:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:864:in `_create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:624:in `hookable__create_hook_nan_before_advised'
+  extlib (0.9.14) lib/extlib/hook.rb:299:in `create_hook'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `catch'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `create_hook'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:925:in `save_self'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:61:in `save_self'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:912:in `_save'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:1085:in `run_once'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:911:in `_save'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:351:in `save'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations/support/context.rb:30:in `validation_context'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  app/controllers/users_controller.rb:13:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (118.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:17:46) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:17:48) [GET]
+Rendering users/login
+Completed in 11ms (View: 8 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:17:52) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "username"=>"me", "password"=>"mypass"}
+Redirected to http://localhost:3000/login
+Completed in 18ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:17:52) [GET]
+Rendering users/login
+Completed in 5ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 10:18:00) [GET]
+Rendering users/signup
+Completed in 20ms (View: 5 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 10:18:05) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "user"=>{"username"=>"me", "email_address"=>"", "password"=>"mypass"}}
+Redirected to http://localhost:3000/
+Completed in 21ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:18:05) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-17 10:18:10) [GET]
+Redirected to http://localhost:3000/
+Completed in 7ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:18:10) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:18:11) [GET]
+Rendering users/login
+Completed in 5ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:18:15) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "username"=>"me", "password"=>"mypass"}
+Redirected to http://localhost:3000/login
+Completed in 18ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:18:15) [GET]
+Rendering users/login
+Completed in 5ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 10:19:00) [GET]
+Rendering users/signup
+Completed in 20ms (View: 5 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 10:19:11) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "user"=>{"username"=>"leo", "email_address"=>"me@you.com", "password"=>"mypass"}}
+Redirected to http://localhost:3000/
+Completed in 20ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:19:11) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-17 10:19:14) [GET]
+Redirected to http://localhost:3000/
+Completed in 3ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:19:14) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:19:15) [GET]
+Rendering users/login
+Completed in 5ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:19:23) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "username"=>"leo", "password"=>"mypass"}
+Redirected to http://localhost:3000/
+Completed in 19ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:19:23) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]

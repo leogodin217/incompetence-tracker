@@ -2846,3 +2846,1366 @@ REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REF
 Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:24:29) [GET]
 Rendering home_page/index
 Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:29:31) [GET]
+Rendering home_page/index
+Completed in 10ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:29:31) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 09:29:31) [GET]
+Rendering users/signup
+Completed in 17ms (View: 13 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 09:29:31) [POST]
+  Parameters: {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}}
+Redirected to http://www.example.com/
+Completed in 3ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:29:31) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:29:31) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 09:29:31) [GET]
+Rendering users/login
+Completed in 3ms (View: 3 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 09:29:31) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:29:31) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-17 09:29:31) [GET]
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:29:31) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:23) [GET]
+Rendering home_page/index
+Completed in 10ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:23) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 09:32:23) [GET]
+Rendering users/signup
+Completed in 17ms (View: 13 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 09:32:23) [POST]
+  Parameters: {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}}
+Redirected to http://www.example.com/
+Completed in 3ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:23) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:23) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 09:32:23) [GET]
+Rendering users/login
+Completed in 3ms (View: 3 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 09:32:23) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:23) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-17 09:32:23) [GET]
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:23) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:44) [GET]
+Rendering home_page/index
+Completed in 10ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:44) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 09:32:44) [GET]
+Rendering users/signup
+Completed in 17ms (View: 13 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 09:32:44) [POST]
+  Parameters: {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}}
+Redirected to http://www.example.com/
+Completed in 3ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:44) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:44) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 09:32:44) [GET]
+Rendering users/login
+Completed in 3ms (View: 3 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 09:32:44) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:44) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-17 09:32:45) [GET]
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:45) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:45) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 09:32:45) [GET]
+Rendering users/login
+Completed in 2ms (View: 1 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 09:32:45) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:45) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:45) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 09:32:45) [GET]
+Rendering users/login
+Completed in 2ms (View: 1 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 09:32:45) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:32:45) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:36:54) [GET]
+Rendering home_page/index
+Completed in 10ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:36:54) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 09:36:54) [GET]
+Rendering users/signup
+Completed in 17ms (View: 13 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 09:36:54) [POST]
+  Parameters: {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}}
+Redirected to http://www.example.com/
+Completed in 3ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:36:54) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:36:54) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 09:36:54) [GET]
+Rendering users/login
+Completed in 3ms (View: 3 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 09:36:54) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"}
+
+NoMethodError (undefined method `authenticate' for nil:NilClass):
+  app/controllers/users_controller.rb:24:in `authenticate'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `send'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `do_request'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:27:in `post'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `post'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `send'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `process_request'
+  webrat (0.6.0) lib/webrat/core/session.rb:122:in `request_page'
+  webrat (0.6.0) lib/webrat/core/elements/form.rb:20:in `submit'
+  webrat (0.6.0) lib/webrat/core/elements/field.rb:225:in `click'
+  webrat (0.6.0) lib/webrat/core/scope.rb:290:in `click_button'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `click_button'
+  (eval):2:in `click_button'
+  spec/integration/users_spec.rb:31
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.2.9) lib/spec/runner/options.rb:151:in `run_examples'
+  rspec (1.2.9) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.2.9) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendered rescues/_trace (47.1ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:36:55) [GET]
+Rendering home_page/index
+Completed in 3ms (View: 3 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 09:36:55) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 09:36:55) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"}
+
+NoMethodError (undefined method `authenticate' for nil:NilClass):
+  app/controllers/users_controller.rb:24:in `authenticate'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `send'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `do_request'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:27:in `post'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `post'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `send'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `process_request'
+  webrat (0.6.0) lib/webrat/core/session.rb:122:in `request_page'
+  webrat (0.6.0) lib/webrat/core/elements/form.rb:20:in `submit'
+  webrat (0.6.0) lib/webrat/core/elements/field.rb:225:in `click'
+  webrat (0.6.0) lib/webrat/core/scope.rb:290:in `click_button'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `click_button'
+  (eval):2:in `click_button'
+  spec/integration/users_spec.rb:47
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.2.9) lib/spec/runner/options.rb:151:in `run_examples'
+  rspec (1.2.9) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.2.9) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendered rescues/_trace (53.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 09:36:55) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 09:36:55) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 09:36:55) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"}
+
+NoMethodError (undefined method `authenticate' for nil:NilClass):
+  app/controllers/users_controller.rb:24:in `authenticate'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `send'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `do_request'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:27:in `post'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `post'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `send'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `process_request'
+  webrat (0.6.0) lib/webrat/core/session.rb:122:in `request_page'
+  webrat (0.6.0) lib/webrat/core/elements/form.rb:20:in `submit'
+  webrat (0.6.0) lib/webrat/core/elements/field.rb:225:in `click'
+  webrat (0.6.0) lib/webrat/core/scope.rb:290:in `click_button'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `click_button'
+  (eval):2:in `click_button'
+  spec/integration/users_spec.rb:60
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.2.9) lib/spec/runner/options.rb:151:in `run_examples'
+  rspec (1.2.9) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.2.9) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendered rescues/_trace (53.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:07:14) [GET]
+Rendering home_page/index
+Completed in 10ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:07:14) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 10:07:14) [GET]
+Rendering users/signup
+Completed in 17ms (View: 14 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 10:07:14) [POST]
+  Parameters: {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}}
+Redirected to http://www.example.com/
+Completed in 3ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:07:14) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:07:14) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:07:14) [GET]
+Rendering users/login
+Completed in 3ms (View: 3 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:07:14) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"}
+
+NoMethodError (undefined method `authenticate' for nil:NilClass):
+  app/controllers/users_controller.rb:24:in `authenticate'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `send'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `do_request'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:27:in `post'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `post'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `send'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `process_request'
+  webrat (0.6.0) lib/webrat/core/session.rb:122:in `request_page'
+  webrat (0.6.0) lib/webrat/core/elements/form.rb:20:in `submit'
+  webrat (0.6.0) lib/webrat/core/elements/field.rb:225:in `click'
+  webrat (0.6.0) lib/webrat/core/scope.rb:290:in `click_button'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `click_button'
+  (eval):2:in `click_button'
+  spec/integration/users_spec.rb:31
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.2.9) lib/spec/runner/options.rb:151:in `run_examples'
+  rspec (1.2.9) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.2.9) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:07:14) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:07:14) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:07:14) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"}
+
+NoMethodError (undefined method `authenticate' for nil:NilClass):
+  app/controllers/users_controller.rb:24:in `authenticate'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `send'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `do_request'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:27:in `post'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `post'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `send'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `process_request'
+  webrat (0.6.0) lib/webrat/core/session.rb:122:in `request_page'
+  webrat (0.6.0) lib/webrat/core/elements/form.rb:20:in `submit'
+  webrat (0.6.0) lib/webrat/core/elements/field.rb:225:in `click'
+  webrat (0.6.0) lib/webrat/core/scope.rb:290:in `click_button'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `click_button'
+  (eval):2:in `click_button'
+  spec/integration/users_spec.rb:47
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.2.9) lib/spec/runner/options.rb:151:in `run_examples'
+  rspec (1.2.9) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.2.9) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendered rescues/_trace (66.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:07:15) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:07:15) [GET]
+Rendering users/login
+Completed in 2ms (View: 1 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:07:15) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"}
+
+NoMethodError (undefined method `authenticate' for nil:NilClass):
+  app/controllers/users_controller.rb:24:in `authenticate'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `send'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `do_request'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:27:in `post'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `post'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `send'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `process_request'
+  webrat (0.6.0) lib/webrat/core/session.rb:122:in `request_page'
+  webrat (0.6.0) lib/webrat/core/elements/form.rb:20:in `submit'
+  webrat (0.6.0) lib/webrat/core/elements/field.rb:225:in `click'
+  webrat (0.6.0) lib/webrat/core/scope.rb:290:in `click_button'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `click_button'
+  (eval):2:in `click_button'
+  spec/integration/users_spec.rb:60
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.2.9) lib/spec/runner/options.rb:151:in `run_examples'
+  rspec (1.2.9) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.2.9) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendered rescues/_trace (65.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:11:59) [GET]
+Rendering home_page/index
+Completed in 10ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:11:59) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 10:11:59) [GET]
+Rendering users/signup
+Completed in 16ms (View: 13 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 10:11:59) [POST]
+  Parameters: {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}}
+Redirected to http://www.example.com/
+Completed in 3ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:11:59) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:11:59) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:11:59) [GET]
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:11:59) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:11:59) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-17 10:11:59) [GET]
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:11:59) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:11:59) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:11:59) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:11:59) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"}
+
+NoMethodError (undefined method `authenticate' for nil:NilClass):
+  app/controllers/users_controller.rb:24:in `authenticate'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `send'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `do_request'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:27:in `post'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `post'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `send'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `process_request'
+  webrat (0.6.0) lib/webrat/core/session.rb:122:in `request_page'
+  webrat (0.6.0) lib/webrat/core/elements/form.rb:20:in `submit'
+  webrat (0.6.0) lib/webrat/core/elements/field.rb:225:in `click'
+  webrat (0.6.0) lib/webrat/core/scope.rb:290:in `click_button'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `click_button'
+  (eval):2:in `click_button'
+  spec/integration/users_spec.rb:47
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.2.9) lib/spec/runner/options.rb:151:in `run_examples'
+  rspec (1.2.9) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.2.9) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendered rescues/_trace (44.2ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:12:00) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:12:00) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:12:00) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"}
+
+ActionView::MissingTemplate (Missing template users/authenticate.erb in view path app/views):
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `send'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `do_request'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:27:in `post'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `post'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `send'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `process_request'
+  webrat (0.6.0) lib/webrat/core/session.rb:122:in `request_page'
+  webrat (0.6.0) lib/webrat/core/elements/form.rb:20:in `submit'
+  webrat (0.6.0) lib/webrat/core/elements/field.rb:225:in `click'
+  webrat (0.6.0) lib/webrat/core/scope.rb:290:in `click_button'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `click_button'
+  (eval):2:in `click_button'
+  spec/integration/users_spec.rb:60
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.2.9) lib/spec/runner/options.rb:151:in `run_examples'
+  rspec (1.2.9) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.2.9) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering home_page/index
+Completed in 9ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering users/signup
+Completed in 16ms (View: 13 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 10:13:17) [POST]
+  Parameters: {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}}
+Redirected to http://www.example.com/
+Completed in 3ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering users/login
+Completed in 3ms (View: 3 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:13:17) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:13:17) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"}
+
+NoMethodError (undefined method `authenticate' for nil:NilClass):
+  app/controllers/users_controller.rb:24:in `authenticate'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `send'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `do_request'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:27:in `post'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `post'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `send'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `process_request'
+  webrat (0.6.0) lib/webrat/core/session.rb:122:in `request_page'
+  webrat (0.6.0) lib/webrat/core/elements/form.rb:20:in `submit'
+  webrat (0.6.0) lib/webrat/core/elements/field.rb:225:in `click'
+  webrat (0.6.0) lib/webrat/core/scope.rb:290:in `click_button'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `click_button'
+  (eval):2:in `click_button'
+  spec/integration/users_spec.rb:47
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.2.9) lib/spec/runner/options.rb:151:in `run_examples'
+  rspec (1.2.9) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.2.9) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendered rescues/_trace (45.2ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:13:17) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"}
+Redirected to http://www.example.com/login
+Completed in 3ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:13:17) [GET]
+Rendering users/login
+Completed in 14ms (View: 14 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering home_page/index
+Completed in 10ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering users/signup
+Completed in 17ms (View: 14 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 10:14:10) [POST]
+  Parameters: {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}}
+Redirected to http://www.example.com/
+Completed in 3ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering users/login
+Completed in 4ms (View: 4 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:14:10) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:14:10) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"}
+
+NoMethodError (undefined method `authenticate' for nil:NilClass):
+  app/controllers/users_controller.rb:24:in `authenticate'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `send'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:54:in `do_request'
+  webrat (0.6.0) lib/webrat/adapters/rails.rb:27:in `post'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `post'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `send'
+  webrat (0.6.0) lib/webrat/core/session.rb:283:in `process_request'
+  webrat (0.6.0) lib/webrat/core/session.rb:122:in `request_page'
+  webrat (0.6.0) lib/webrat/core/elements/form.rb:20:in `submit'
+  webrat (0.6.0) lib/webrat/core/elements/field.rb:225:in `click'
+  webrat (0.6.0) lib/webrat/core/scope.rb:290:in `click_button'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `click_button'
+  (eval):2:in `click_button'
+  spec/integration/users_spec.rb:47
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:40:in `execute'
+  /usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.2.9) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.2.9) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.2.9) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.2.9) lib/spec/runner/options.rb:151:in `run_examples'
+  rspec (1.2.9) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.2.9) bin/spec:5
+  /usr/bin/spec:19:in `load'
+  /usr/bin/spec:19
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering users/login
+Completed in 4ms (View: 4 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:14:10) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"}
+Redirected to http://www.example.com/login
+Completed in 3ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:14:10) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering home_page/index
+Completed in 10ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering users/signup
+Completed in 17ms (View: 13 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 10:17:35) [POST]
+  Parameters: {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}}
+Redirected to http://www.example.com/
+Completed in 3ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering users/login
+Completed in 4ms (View: 4 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:17:35) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:17:35) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"}
+Redirected to http://www.example.com/login
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:17:35) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"}
+Redirected to http://www.example.com/login
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:17:35) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering home_page/index
+Completed in 9ms (View: 6 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering users/signup
+Completed in 16ms (View: 13 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 10:19:54) [POST]
+  Parameters: {"commit"=>"Signup", "user"=>{"username"=>"myuser", "email_address"=>"mymail", "password"=>"mypass"}}
+Redirected to http://www.example.com/
+Completed in 3ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering users/login
+Completed in 4ms (View: 4 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:19:54) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"mypassword"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:19:54) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"anotheruser1", "password"=>"mypassword"}
+Redirected to http://www.example.com/login
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering home_page/index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-17 10:19:54) [POST]
+  Parameters: {"commit"=>"Login", "username"=>"user1", "password"=>"myotherpassword"}
+Redirected to http://www.example.com/login
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-17 10:19:54) [GET]
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
