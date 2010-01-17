@@ -1,0 +1,7 @@
+*.sw?
+tmp
+*.log
+*.sqlite*
+~*
+webrat*
+test
