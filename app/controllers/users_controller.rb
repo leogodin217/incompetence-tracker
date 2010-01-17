@@ -11,4 +11,10 @@ class UsersController < ApplicationController
       render :signup
     end
   end
+
+  def authenticate
+    session[:logged_in] = true   
+    flash[:notice] = "#{params[:username]} is logged in"
+    redirect_to root_path
+  end
 end

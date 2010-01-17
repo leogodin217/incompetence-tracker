@@ -182,41 +182,16 @@ a {
 <div class="example_group">
   <dl>
   <dt id="example_group_1">Guest visits home page</dt>
-    <script type="text/javascript">makeRed('rspec-header');</script>
-    <script type="text/javascript">makeRed('example_group_1');</script>
-    <script type="text/javascript">moveProgressBar('20.0');</script>
-    <dd class="spec failed">
-      <span class="failed_spec_name">should see home page</span>
-      <div class="failure" id="failure_1">
-        <div class="message"><pre>undefined local variable or method `root_path' for #&lt;Spec::Rails::Example::IntegrationExampleGroup::Subclass_1:0xb6dcbac0&gt;</pre></div>
-        <div class="backtrace"><pre>./spec/integration/users_spec.rb:5:</pre></div>
-    <pre class="ruby"><code><span class="linenum">3</span>describe 'Guest visits home page' do
-<span class="linenum">4</span>  it "should see home page" do 
-<span class="offending"><span class="linenum">5</span>    visit root_path </span>
-<span class="linenum">6</span>    response.should == "Incompetence Tracker"
-<span class="linenum">7</span>  end
-<span class="linenum">8</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre>
-      </div>
-    </dd>
-    <script type="text/javascript">moveProgressBar('40.0');</script>
-    <dd class="spec not_implemented"><span class="not_implemented_spec_name">should be able to create account (PENDING: Not Yet Implemented)</span></dd>
-    <script type="text/javascript">moveProgressBar('60.0');</script>
-    <dd class="spec not_implemented"><span class="not_implemented_spec_name">should do foo (PENDING: Not Yet Implemented)</span></dd>
-  </dl>
-</div>
-<div class="example_group">
-  <dl>
-  <dt id="example_group_2">User</dt>
-    <script type="text/javascript">makeYellow('example_group_2');</script>
-    <script type="text/javascript">moveProgressBar('80.0');</script>
-    <dd class="spec not_implemented"><span class="not_implemented_spec_name">has required fields (PENDING: Not Yet Implemented)</span></dd>
-    <script type="text/javascript">makeYellow('example_group_2');</script>
+    <script type="text/javascript">moveProgressBar('33.3');</script>
+    <dd class="spec passed"><span class="passed_spec_name">should see home page</span></dd>
+    <script type="text/javascript">moveProgressBar('66.6');</script>
+    <dd class="spec passed"><span class="passed_spec_name">can create account</span></dd>
     <script type="text/javascript">moveProgressBar('100.0');</script>
-    <dd class="spec not_implemented"><span class="not_implemented_spec_name">does foo (PENDING: Not Yet Implemented)</span></dd>
+    <dd class="spec passed"><span class="passed_spec_name">can login</span></dd>
   </dl>
 </div>
-<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0.050711 seconds</strong>";</script>
-<script type="text/javascript">document.getElementById('totals').innerHTML = "5 examples, 1 failure, 4 pending";</script>
+<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0.15817 seconds</strong>";</script>
+<script type="text/javascript">document.getElementById('totals').innerHTML = "3 examples, 0 failures";</script>
 </div>
 </div>
 </body>

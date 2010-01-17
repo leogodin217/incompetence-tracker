@@ -1,3 +1,8 @@
 %h3 Welcome to the Incompetence Tracker
+.flash= flash[:notice]
 
-= link_to 'Signup', signup_path
+- if session[:logged_in] == nil
+  = link_to 'login', login_path
+  = link_to 'Signup', signup_path
+- else
+  = link_to 'logout', logout_path

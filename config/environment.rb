@@ -22,4 +22,4 @@ end
 
 Haml.init_rails(binding)
 
-#require File.join(Rails.root, '/lib/datamapper_extensions')
+require File.join(Rails.root, '/lib/datamapper_extensions')

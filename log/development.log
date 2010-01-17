@@ -319,3 +319,252 @@ Completed in 21ms | 302 Found [http://localhost/users]
 Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 22:05:42) [GET]
 Rendering home_page/index
 Completed in 8ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 22:18:41) [GET]
+Rendering users/signup
+Completed in 97ms (View: 28 | 200 OK [http://localhost/signup]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 22:30:30) [GET]
+Rendering home_page/index
+Completed in 9ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 22:32:38) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 22:45:23) [GET]
+Rendering users/login
+
+ActionView::TemplateError (undefined method `label' for nil:NilClass) on line #5 of app/views/users/login.html.haml:
+2: 
+3: - form_tag :login do |f|
+4:   
+5:   = f.label :username
+6:   = f.text_field :username
+7: 
+8:   = f.label :password
+
+    app/views/users/login.html.haml:5:in `_run_haml_app47views47users47login46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:141:in `call'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:141:in `form_tag'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `call'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `haml_bind_proc'
+    haml (2.2.17) lib/haml/helpers.rb:322:in `call'
+    haml (2.2.17) lib/haml/helpers.rb:322:in `capture_haml'
+    haml (2.2.17) lib/haml/helpers.rb:523:in `with_haml_buffer'
+    haml (2.2.17) lib/haml/helpers.rb:318:in `capture_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:87:in `capture'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:147:in `form_tag'
+    app/views/users/login.html.haml:3:in `_run_haml_app47views47users47login46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (56.5ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 22:47:23) [GET]
+Rendering users/login
+ERROR: compiling _run_haml_app47views47users47login46html46haml RAISED compile error
+/home/lggodin/projects/incompetence-tracker/app/views/users/login.html.haml:13: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47users47login46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:encoding=>nil, :ugly=>false, :escape_html=>false, :preserve=>["textarea", "pre", "code"], :format=>:xhtml, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+_hamlout.push_text("<h3>Login</h3>\n", 0, false); form_tag              :login;
+
+_hamlout.push_text("#{haml_temp =  label_tag           :username
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  text_field_tag      :username
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);
+_hamlout.push_text("#{haml_temp =  label_tag           :password
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  password_field_tag  :password
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);
+_hamlout.push_text("#{haml_temp =  submit_tag
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/lggodin/projects/incompetence-tracker/app/views/users/login.html.haml:13:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/usr/lib/ruby/gems/1.8/gems/haml-2.2.17/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/lggodin/projects/incompetence-tracker/app/views/users/login.html.haml:13: syntax error, unexpected kENSURE, expecting $end) on line #13 of app/views/users/login.html.haml:
+10: 
+11:   = submit_tag
+
+    app/views/users/login.html.haml:13:in `compile!'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 22:48:00) [GET]
+Rendering users/login
+Completed in 9ms (View: 6 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 22:48:17) [GET]
+Rendering users/login
+Completed in 9ms (View: 6 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 22:48:59) [GET]
+Rendering users/login
+Completed in 9ms (View: 7 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 22:49:03) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "username"=>"asdf", "password"=>"adsffsd"}
+Rendering users/login
+Completed in 5ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 22:49:30) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "username"=>"asdf", "password"=>"adsffsd"}
+Rendering users/login
+
+ActionView::TemplateError (undefined method `authenticate_path' for #<ActionView::Base:0xb6cc3574>) on line #3 of app/views/users/login.html.haml:
+1: %h3 Login
+2: 
+3: = form_tag  :authenticate        
+4:   
+5: = label_tag           :username
+6: = text_field_tag      :username
+
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:147:in `form_tag'
+    app/views/users/login.html.haml:3:in `_run_haml_app47views47users47login46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 22:53:00) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "username"=>"asdf", "password"=>"adsffsd"}
+Rendering users/login
+Completed in 11ms (View: 8 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-16 22:53:09) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "username"=>"sdfasdf", "password"=>"asdfdsf"}
+
+ActionView::MissingTemplate (Missing template users/authenticate.erb in view path app/views):
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
