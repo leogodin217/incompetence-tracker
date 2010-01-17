@@ -1,0 +1,249 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Action Controller: Exception caught</title>
+  <style>
+    body { background-color: #fff; color: #333; }
+
+    body, p, ol, ul, td {
+      font-family: verdana, arial, helvetica, sans-serif;
+      font-size:   13px;
+      line-height: 18px;
+    }
+
+    pre {
+      background-color: #eee;
+      padding: 10px;
+      font-size: 11px;
+    }
+
+    a { color: #000; }
+    a:visited { color: #666; }
+    a:hover { color: #fff; background-color:#000; }
+  </style>
+</head>
+<body>
+
+<h1>
+  NameError
+  
+    in Home pageController#index
+  
+</h1>
+<pre>uninitialized constant HomePageController</pre>
+
+
+
+<p><code>RAILS_ROOT: /home/lggodin/projects/incompetence-tracker</code></p>
+
+<div id="traces">
+  
+    
+    <a href="#" onclick="document.getElementById('Framework-Trace').style.display='none';document.getElementById('Full-Trace').style.display='none';document.getElementById('Application-Trace').style.display='block';; return false;">Application Trace</a> |
+  
+    
+    <a href="#" onclick="document.getElementById('Application-Trace').style.display='none';document.getElementById('Full-Trace').style.display='none';document.getElementById('Framework-Trace').style.display='block';; return false;">Framework Trace</a> |
+  
+    
+    <a href="#" onclick="document.getElementById('Application-Trace').style.display='none';document.getElementById('Framework-Trace').style.display='none';document.getElementById('Full-Trace').style.display='block';; return false;">Full Trace</a> 
+  
+
+  
+    <div id="Application-Trace" style="display: block;">
+      <pre><code>/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:443:in `load_missing_constant'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/inflector.rb:361:in `constantize'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/inflector.rb:360:in `each'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/inflector.rb:360:in `constantize'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:443:in `recognize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:436:in `call'</code></pre>
+    </div>
+  
+    <div id="Framework-Trace" style="display: none;">
+      <pre><code>/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:443:in `load_missing_constant'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/inflector.rb:361:in `constantize'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/inflector.rb:360:in `each'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/inflector.rb:360:in `constantize'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:443:in `recognize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:436:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lint.rb:47:in `_call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lint.rb:35:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/integration.rb:316:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/integration.rb:197:in `get'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/integration.rb:499:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/integration.rb:499:in `get'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/adapters/rails.rb:54:in `send'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/adapters/rails.rb:54:in `do_request'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/adapters/rails.rb:23:in `get'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/core/session.rb:281:in `send'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/core/session.rb:281:in `process_request'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/core/session.rb:122:in `request_page'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/core/session.rb:220:in `visit'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_methods.rb:40:in `instance_eval'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_methods.rb:40:in `execute'
+/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_methods.rb:37:in `execute'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:214:in `run_examples'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:212:in `each'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:212:in `run_examples'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:103:in `run'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:23:in `run'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:22:in `each'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:22:in `run'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:151:in `run_examples'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/test_framework/rspec.rb:6:in `run_tests'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/run_strategy/forking.rb:13:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/forker.rb:20:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/forker.rb:18:in `fork'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/forker.rb:18:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/run_strategy/forking.rb:9:in `new'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/run_strategy/forking.rb:9:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/server.rb:47:in `run'
+/usr/lib/ruby/1.8/drb/drb.rb:1563:in `__send__'
+/usr/lib/ruby/1.8/drb/drb.rb:1563:in `perform_without_block'
+/usr/lib/ruby/1.8/drb/drb.rb:1523:in `perform'
+/usr/lib/ruby/1.8/drb/drb.rb:1597:in `main_loop'
+/usr/lib/ruby/1.8/drb/drb.rb:1593:in `loop'
+/usr/lib/ruby/1.8/drb/drb.rb:1593:in `main_loop'
+/usr/lib/ruby/1.8/drb/drb.rb:1589:in `start'
+/usr/lib/ruby/1.8/drb/drb.rb:1589:in `main_loop'
+/usr/lib/ruby/1.8/drb/drb.rb:1438:in `run'
+/usr/lib/ruby/1.8/drb/drb.rb:1435:in `start'
+/usr/lib/ruby/1.8/drb/drb.rb:1435:in `run'
+/usr/lib/ruby/1.8/drb/drb.rb:1355:in `initialize'
+/usr/lib/ruby/1.8/drb/drb.rb:1635:in `new'
+/usr/lib/ruby/1.8/drb/drb.rb:1635:in `start_service'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/server.rb:29:in `listen'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/server.rb:20:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/runner.rb:75:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/runner.rb:9:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/bin/spork:10</code></pre>
+    </div>
+  
+    <div id="Full-Trace" style="display: none;">
+      <pre><code>/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:443:in `load_missing_constant'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/inflector.rb:361:in `constantize'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/inflector.rb:360:in `each'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/inflector.rb:360:in `constantize'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:443:in `recognize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:436:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lint.rb:47:in `_call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lint.rb:35:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/integration.rb:316:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/integration.rb:197:in `get'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/integration.rb:499:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/integration.rb:499:in `get'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/adapters/rails.rb:54:in `send'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/adapters/rails.rb:54:in `do_request'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/adapters/rails.rb:23:in `get'
+(__FORWARDABLE__):3:in `__send__'
+(__FORWARDABLE__):3:in `get'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/core/session.rb:281:in `send'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/core/session.rb:281:in `process_request'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/core/session.rb:122:in `request_page'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.6.0/lib/webrat/core/session.rb:220:in `visit'
+(eval):2:in `visit'
+spec/integration/users_spec.rb:5
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_methods.rb:40:in `instance_eval'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_methods.rb:40:in `execute'
+/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_methods.rb:37:in `execute'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:214:in `run_examples'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:212:in `each'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:212:in `run_examples'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/example/example_group_methods.rb:103:in `run'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:23:in `run'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:22:in `each'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/example_group_runner.rb:22:in `run'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/options.rb:151:in `run_examples'
+/usr/lib/ruby/gems/1.8/gems/rspec-1.2.9/lib/spec/runner/command_line.rb:9:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/test_framework/rspec.rb:6:in `run_tests'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/run_strategy/forking.rb:13:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/forker.rb:20:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/forker.rb:18:in `fork'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/forker.rb:18:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/run_strategy/forking.rb:9:in `new'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/run_strategy/forking.rb:9:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/server.rb:47:in `run'
+/usr/lib/ruby/1.8/drb/drb.rb:1563:in `__send__'
+/usr/lib/ruby/1.8/drb/drb.rb:1563:in `perform_without_block'
+/usr/lib/ruby/1.8/drb/drb.rb:1523:in `perform'
+/usr/lib/ruby/1.8/drb/drb.rb:1597:in `main_loop'
+/usr/lib/ruby/1.8/drb/drb.rb:1593:in `loop'
+/usr/lib/ruby/1.8/drb/drb.rb:1593:in `main_loop'
+/usr/lib/ruby/1.8/drb/drb.rb:1589:in `start'
+/usr/lib/ruby/1.8/drb/drb.rb:1589:in `main_loop'
+/usr/lib/ruby/1.8/drb/drb.rb:1438:in `run'
+/usr/lib/ruby/1.8/drb/drb.rb:1435:in `start'
+/usr/lib/ruby/1.8/drb/drb.rb:1435:in `run'
+/usr/lib/ruby/1.8/drb/drb.rb:1355:in `initialize'
+/usr/lib/ruby/1.8/drb/drb.rb:1635:in `new'
+/usr/lib/ruby/1.8/drb/drb.rb:1635:in `start_service'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/server.rb:29:in `listen'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/server.rb:20:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/runner.rb:75:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/lib/spork/runner.rb:9:in `run'
+/usr/lib/ruby/gems/1.8/gems/spork-0.7.5/bin/spork:10
+/usr/bin/spork:19:in `load'
+/usr/bin/spork:19</code></pre>
+    </div>
+  
+</div>
+
+
+
+
+
+
+<h2 style="margin-top: 30px">Request</h2>
+<p><b>Parameters</b>: <pre>None</pre></p>
+
+<p><a href="#" onclick="document.getElementById('session_dump').style.display='block'; return false;">Show session dump</a></p>
+<div id="session_dump" style="display:none"><pre class='debug_dump'>--- 
+</pre></div>
+
+
+<h2 style="margin-top: 30px">Response</h2>
+<p><b>Headers</b>: <pre>{&quot;Content-Type&quot;=&gt;&quot;&quot;,
+ &quot;Cache-Control&quot;=&gt;&quot;no-cache&quot;}</pre></p>
+
+
+
+</body>
+</html>

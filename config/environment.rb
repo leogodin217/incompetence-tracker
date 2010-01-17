@@ -1,3 +1,4 @@
+require 'rubygems'
 # Be sure to restart your server when you modify this file
 
 # Specifies gem version of Rails to use when vendor/rails is not present
@@ -7,8 +8,8 @@ RAILS_GEM_VERSION = '2.3.5' unless defined? RAILS_GEM_VERSION
 require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
-  config.gem 'haml',        :lib => false
-  config.gem 'datamapper',  :lib => false
+  config.gem 'haml'        
+  config.gem 'datamapper'  
   config.gem 'rails_datamapper'
   config.gem 'data_objects'
 
@@ -20,3 +21,5 @@ Rails::Initializer.run do |config|
 end
 
 Haml.init_rails(binding)
+
+#require File.join(Rails.root, '/lib/datamapper_extensions')

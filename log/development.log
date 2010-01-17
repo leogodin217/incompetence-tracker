@@ -1,0 +1,321 @@
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 12:27:04) [GET]
+Rendering home_page/index
+Completed in 8ms (View: 6 | 200 OK [http://localhost/]
+DEPRECATION WARNING: require "activerecord" is deprecated and will be removed in Rails 3. Use require "active_record" instead.. (called from /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/activerecord.rb:2)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 21:26:54) [GET]
+Rendering home_page/index
+Completed in 96ms (View: 31 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 21:28:48) [GET]
+Rendering home_page/index
+Completed in 120ms (View: 79 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 21:28:57) [GET]
+Rendering home_page/index
+
+ActionView::TemplateError (undefined method `signup_path' for #<ActionView::Base:0xb6ec20c8>) on line #3 of app/views/home_page/index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3: = link_to 'Signup', :signup
+
+    app/views/home_page/index.haml:3:in `_run_haml_app47views47home_page47index46haml'
+    haml (2.2.17) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (77.1ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 21:29:48) [GET]
+Rendering home_page/index
+
+ActionView::TemplateError (undefined local variable or method `signup_path' for #<ActionView::Base:0xb6f9ea14>) on line #3 of app/views/home_page/index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3: = link_to 'Signup', signup_path
+
+    app/views/home_page/index.haml:3:in `_run_haml_app47views47home_page47index46haml'
+    haml (2.2.17) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 21:45:05) [GET]
+Rendering home_page/index
+Completed in 3ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 21:45:06) [GET]
+Rendering users/signup
+Completed in 10ms (View: 7 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 21:49:04) [GET]
+Rendering users/signup
+
+ActionView::TemplateError (undefined method `errors' for #<User @id=nil>) on line #4 of app/views/users/signup.html.haml:
+1: 
+2: Signup for the Incompetence Tracker
+3: 
+4: = error_messages_for :user
+5: 
+6: - form_for @user do |f|
+7:   f.label :username
+
+    app/views/users/signup.html.haml:4:in `_run_haml_app47views47users47signup46html46haml'
+    haml (2.2.17) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 21:52:59) [GET]
+Rendering users/signup
+
+ActionView::TemplateError (undefined method `errors' for #<User @id=nil>) on line #4 of app/views/users/signup.html.haml:
+1: 
+2: Signup for the Incompetence Tracker
+3: 
+4: = error_messages_for :user
+5: 
+6: - form_for @user do |f|
+7:   f.label :username
+
+    app/views/users/signup.html.haml:4:in `_run_haml_app47views47users47signup46html46haml'
+    haml (2.2.17) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 21:53:01) [GET]
+Rendering users/signup
+
+ActionView::TemplateError (undefined method `errors' for #<User @id=nil>) on line #4 of app/views/users/signup.html.haml:
+1: 
+2: Signup for the Incompetence Tracker
+3: 
+4: = error_messages_for :user
+5: 
+6: - form_for @user do |f|
+7:   f.label :username
+
+    app/views/users/signup.html.haml:4:in `_run_haml_app47views47users47signup46html46haml'
+    haml (2.2.17) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (116.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 21:55:15) [GET]
+Rendering users/signup
+Completed in 30ms (View: 16 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 21:55:18) [GET]
+Rendering users/signup
+Completed in 17ms (View: 2 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 21:55:19) [GET]
+Rendering users/signup
+Completed in 17ms (View: 3 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 21:55:20) [GET]
+Rendering users/signup
+Completed in 16ms (View: 2 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 21:55:20) [GET]
+Rendering users/signup
+Completed in 16ms (View: 3 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 21:59:18) [GET]
+Rendering users/signup
+Completed in 38ms (View: 25 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-16 22:03:21) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "user"=>{"username"=>"", "email_address"=>"", "password"=>""}}
+
+ActionController::UnknownAction (No action responded to create. Actions: signup):
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-16 22:04:48) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "user"=>{"username"=>"Leo", "email_address"=>"me@you.com", "password"=>"alksjfakfs"}}
+
+DataObjects::SyntaxError (table users has no column named username):
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute_non_query'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:269:in `with_connection'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:59:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:110:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `each'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/repository.rb:129:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:864:in `_create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:624:in `hookable__create_hook_nan_before_advised'
+  extlib (0.9.14) lib/extlib/hook.rb:299:in `create_hook'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `catch'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `create_hook'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:925:in `save_self'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:61:in `save_self'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:912:in `_save'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:1085:in `run_once'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:911:in `_save'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:351:in `save'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations/support/context.rb:30:in `validation_context'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  app/controllers/users_controller.rb:8:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (114.9ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-16 22:05:07) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "user"=>{"username"=>"Leo", "email_address"=>"me@you.com", "password"=>"alksjfakfs"}}
+
+DataObjects::SyntaxError (table users has no column named username):
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute_non_query'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:269:in `with_connection'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:59:in `execute'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:110:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `each'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/repository.rb:129:in `create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:864:in `_create'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:624:in `hookable__create_hook_nan_before_advised'
+  extlib (0.9.14) lib/extlib/hook.rb:299:in `create_hook'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `catch'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `create_hook'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:925:in `save_self'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:61:in `save_self'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:912:in `_save'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:1085:in `run_once'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:911:in `_save'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:351:in `save'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations/support/context.rb:30:in `validation_context'
+  /usr/lib/ruby/gems/1.8/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  app/controllers/users_controller.rb:8:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (50.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-16 22:05:42) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "user"=>{"username"=>"Leo", "email_address"=>"me@you.com", "password"=>"alksjfakfs"}}
+Redirected to http://localhost:3000/
+Completed in 21ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 22:05:42) [GET]
+Rendering home_page/index
+Completed in 8ms (View: 6 | 200 OK [http://localhost/]
