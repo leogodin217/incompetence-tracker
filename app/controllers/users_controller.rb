@@ -3,6 +3,11 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+  def logout
+    session[:logged_in] = nil
+    redirect_to root_path
+  end
+
   def create
     @user = User.new(params[:user])
     if @user.save

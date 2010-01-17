@@ -18,7 +18,7 @@ describe 'Guest visits home page' do
     User.count.should == 1
   end
 
-  it "can login" do
+  it "can login and logout" do
     visit root_path
     response.should have_selector 'a', :href => login_path
 
@@ -31,5 +31,10 @@ describe 'Guest visits home page' do
     click_button 'Login'
     
     response.should contain 'user1 is logged in'
+
+    click_link "logout"
+    
+    response.should have_selector 'a', :href => login_path
   end
+
 end

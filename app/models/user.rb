@@ -5,4 +5,6 @@ class User
   property :username,       String
   property :password,       String
   property :email_address,  String
+
+
 end

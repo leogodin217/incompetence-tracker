@@ -1,10 +1,9 @@
-require File.dirname(_FILE__) + '/../spec_helper'
+require File.dirname(__FILE__) + '/../spec_helper'
 
 describe User, "Create" do
-  it "creates a hashed password"
-  it "creates a salt"
   
-  it "authenticates using the salt and hashed password"
-
-  it "authenticates with correct username and password"
+  it "authenticates with correct username and password" 
+#    @user = User.create :username => "myname", :password => "somepassword", :email_address => "me@you.com"
+#    @user.authenticate(:username => "myname", :password => "somepassword").should be_true
+#  end
 end

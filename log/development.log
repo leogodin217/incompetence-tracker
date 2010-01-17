@@ -568,3 +568,161 @@ ActionView::MissingTemplate (Missing template users/authenticate.erb in view pat
   /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:03:07) [GET]
+Rendering home_page/index
+Completed in 9ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 23:03:09) [GET]
+Rendering users/login
+Completed in 5ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-16 23:03:13) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "username"=>"afdfdsadf", "password"=>"asdfdsf"}
+Redirected to http://localhost:3000/
+Completed in 3ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:03:13) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:21:17) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-16 23:21:19) [GET]
+
+ActionController::UnknownAction (No action responded to logout. Actions: authenticate, create, and signup):
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:21:24) [GET]
+Rendering home_page/index
+Completed in 5ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:21:44) [GET]
+Rendering home_page/index
+Completed in 9ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:25:52) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-16 23:27:56) [GET]
+Redirected to http://localhost:3000/
+Completed in 4ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:27:56) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 23:28:00) [GET]
+Rendering users/login
+Completed in 13ms (View: 11 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-16 23:28:14) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "username"=>"adsdf", "password"=>"asdfasf"}
+Redirected to http://localhost:3000/
+Completed in 3ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:28:14) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-16 23:28:21) [GET]
+Redirected to http://localhost:3000/
+Completed in 3ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:28:21) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 23:29:20) [GET]
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-16 23:29:23) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "username"=>"asdfa", "password"=>"asdfasd"}
+Redirected to http://localhost:3000/
+Completed in 3ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:29:23) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-16 23:29:24) [GET]
+Redirected to http://localhost:3000/
+Completed in 3ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:29:24) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-16 23:29:25) [GET]
+Rendering users/signup
+Completed in 40ms (View: 25 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-16 23:29:28) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "user"=>{"username"=>"asdfasdf", "email_address"=>"asdfdas", "password"=>"asdfasdf"}}
+Redirected to http://localhost:3000/
+Completed in 24ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:29:28) [GET]
+Rendering home_page/index
+Completed in 5ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 23:29:30) [GET]
+Rendering users/login
+Completed in 6ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-16 23:29:33) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"X3KIQPpXcAAnyLKyUuIT4NO313accwtIrgkzkGmNLTs=", "username"=>"asdfdsfda", "password"=>"adsfasfafsd"}
+Redirected to http://localhost:3000/
+Completed in 4ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-16 23:29:33) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-16 23:30:47) [GET]
+Rendering users/login
+Completed in 5ms (View: 2 | 200 OK [http://localhost/login]
