@@ -181,17 +181,37 @@ a {
 <div class="results">
 <div class="example_group">
   <dl>
-  <dt id="example_group_1">User Create</dt>
+  <dt id="example_group_1">Guest visits home page</dt>
+    <script type="text/javascript">moveProgressBar('16.6');</script>
+    <dd class="spec passed"><span class="passed_spec_name">should see home page</span></dd>
     <script type="text/javascript">moveProgressBar('33.3');</script>
-    <dd class="spec passed"><span class="passed_spec_name">authenticates with correct username and password</span></dd>
+    <dd class="spec passed"><span class="passed_spec_name">can create account</span></dd>
+    <script type="text/javascript">makeRed('rspec-header');</script>
+    <script type="text/javascript">makeRed('example_group_1');</script>
+    <script type="text/javascript">moveProgressBar('50.0');</script>
+    <dd class="spec failed">
+      <span class="failed_spec_name">requires username, password, and email address to create an account</span>
+      <div class="failure" id="failure_1">
+        <div class="message"><pre>expected valid? to return false, got true</pre></div>
+        <div class="backtrace"><pre>/home/lggodin/projects/incompetence-tracker/spec/integration/users_spec.rb:23:</pre></div>
+    <pre class="ruby"><code><span class="linenum">21</span>  it "requires username, password, and email address to create an account" do
+<span class="linenum">22</span>    User.create(:password => "mypass", :email_address => "me@you.com").should_not be_valid
+<span class="offending"><span class="linenum">23</span>    User.create(:username => "mypass", :email_address => "me@you.com").should_not be_valid</span>
+<span class="linenum">24</span>    User.create(:password => "mypass", :password => "mypass").should_not be_valid
+<span class="linenum">25</span>
+<span class="linenum">26</span><span class="comment"># gem install syntax to get syntax highlighting</span></code></pre>
+      </div>
+    </dd>
     <script type="text/javascript">moveProgressBar('66.6');</script>
-    <dd class="spec passed"><span class="passed_spec_name">fails with incorrect username </span></dd>
+    <dd class="spec passed"><span class="passed_spec_name">can login and logout</span></dd>
+    <script type="text/javascript">moveProgressBar('83.3');</script>
+    <dd class="spec passed"><span class="passed_spec_name">should fail with invalid username</span></dd>
     <script type="text/javascript">moveProgressBar('100.0');</script>
-    <dd class="spec passed"><span class="passed_spec_name">fails with incorrect password</span></dd>
+    <dd class="spec passed"><span class="passed_spec_name">should fail with invalid password</span></dd>
   </dl>
 </div>
-<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0.021055 seconds</strong>";</script>
-<script type="text/javascript">document.getElementById('totals').innerHTML = "3 examples, 0 failures";</script>
+<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0.259697 seconds</strong>";</script>
+<script type="text/javascript">document.getElementById('totals').innerHTML = "6 examples, 1 failure";</script>
 </div>
 </div>
 </body>

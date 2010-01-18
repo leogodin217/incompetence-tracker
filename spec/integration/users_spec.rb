@@ -18,6 +18,13 @@ describe 'Guest visits home page' do
     User.count.should == 1
   end
 
+  it "requires username, password, and email address to create an account" do
+    User.create(:password => "mypass", :email_address => "me@you.com").should_not be_valid
+    User.create(:username => "mypass", :email_address => "me@you.com").should_not be_valid
+    User.create(:password => "mypass", :password => "mypass").should_not be_valid
+
+  end
+
   it "can login and logout" do
     visit root_path
     response.should have_selector 'a', :href => login_path
