@@ -11,7 +11,7 @@ describe 'Guest visits home page' do
     visit root_path
     click_link 'Signup'
     fill_in 'Username', :with => "myuser"
-    fill_in 'Password', :with => "mypass"
+    fill_in 'Password', :with => "mypassword"
     fill_in 'Email',    :with => "mymail@myserver.com"
     click_button 'Signup'
 

@@ -2,9 +2,9 @@ class User
   include DataMapper::Resource
 
   property :id,             Serial
-  property :username,       String, :required => true
+  property :username,       String, :required => true, :length => (3..24)
   property :email_address,  String, :required => true, :format => :email_address
-  property :password_hash,  String, :length => 64, :required => true, :message => "Password required"
+  property :password_hash,  String, :length => 64, :required => true, :message => "Password must be between 8 and 24 characters"
   property :password_salt,  String
 
 
@@ -19,7 +19,7 @@ class User
   end
 
   def password=(password)
-    if password.present?
+    if password.present? && password.length >= 8 && password.length <= 24
       salt = rand
       self.password_salt = salt
       self.password_hash = Digest::SHA256.hexdigest(password + salt.to_s)
