@@ -1,0 +1,10 @@
+!!! XML
+!!! Strict
+%html
+  %head
+  %title The Incompetence Tracker
+  = stylesheet_link_tag 'application'
+  %body
+    %h1
+      = link_to 'The Incompetence Tracker', root_path
+    #content= yield 

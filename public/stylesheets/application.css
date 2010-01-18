@@ -1,0 +1,11 @@
+
+
+.flash {
+  -webkit-border-radius: 1em; }
+
+#errorExplanation {
+  border: 1px solid black;
+  -webkit-border-radius: 1em;
+  padding: .8em;
+  margin: 1em;
+  background-color: #ccc; }
