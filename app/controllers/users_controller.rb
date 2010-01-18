@@ -11,10 +11,11 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
     if @user.save
+      puts "Yo, wazzup"
       flash[:notice] = "New User Created"
       redirect_to root_path
     else
-      render signup_path
+      render :controller => :users, :action => :signup
     end
   end
 

@@ -3,19 +3,11 @@ class User
 
   property :id,             Serial
   property :username,       String, :required => true
-  property :email_address,  String, :required => true
+  property :email_address,  String, :required => true, :format => :email_address
   property :password_hash,  String, :length => 64, :required => true, :message => "Password required"
   property :password_salt,  String
 
-  #validates_with_method :check_password
 
-  def check_password
-    if password.present?
-      return true
-    else
-      [false, "You must supply a password"]
-    end
-  end
 
   def authenticate(opts)
    
@@ -27,9 +19,11 @@ class User
   end
 
   def password=(password)
-    salt = rand
-    self.password_salt = salt
-    self.password_hash = Digest::SHA256.hexdigest(password + salt.to_s)
+    if password.present?
+      salt = rand
+      self.password_salt = salt
+      self.password_hash = Digest::SHA256.hexdigest(password + salt.to_s)
+    end
   end
 
   def password

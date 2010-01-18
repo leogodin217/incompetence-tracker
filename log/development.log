@@ -1366,3 +1366,448 @@ Completed in 16ms | 302 Found [http://localhost/users]
 Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 20:55:26) [GET]
 Rendering users/signup
 Completed in 20ms (View: 4 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:00:07) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"dsfsadf", "email_address"=>"asdfasfda", "password"=>"asdfasdf"}}
+Rendering /signup
+
+ActionView::MissingTemplate (Missing template /signup.erb in view path app/views):
+  haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/users_controller.rb:17:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:00:22) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"dsfsadf", "email_address"=>"asdfasfda", "password"=>"asdfasdf"}}
+Redirected to http://localhost:3000/
+Completed in 81ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:00:22) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:00:26) [GET]
+Rendering users/signup
+Completed in 22ms (View: 5 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:00:29) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasfdfad", "email_address"=>"adsfasdfasd", "password"=>""}}
+Redirected to http://localhost:3000/
+Completed in 36ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:00:29) [GET]
+Rendering home_page/index
+Completed in 12ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:00:34) [GET]
+Rendering users/signup
+Completed in 23ms (View: 5 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:00:38) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasfdfad", "email_address"=>"asdfasfdads", "password"=>"asdfasfds"}}
+Redirected to http://localhost:3000/
+Completed in 31ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:00:38) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:00:40) [GET]
+Rendering users/signup
+Completed in 29ms (View: 4 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:00:47) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"", "email_address"=>"asdfasfda", "password"=>"asdfasdf"}}
+Rendering /signup
+
+ActionView::MissingTemplate (Missing template /signup.erb in view path app/views):
+  haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/users_controller.rb:17:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:00:53) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasfdfad", "email_address"=>"me@you.com", "password"=>"asdfasdf"}}
+Redirected to http://localhost:3000/
+Completed in 28ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:00:53) [GET]
+Rendering home_page/index
+Completed in 16ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:00:56) [GET]
+Rendering users/signup
+Completed in 22ms (View: 4 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:02:22) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfsdf", "email_address"=>"adfasdf", "password"=>"asdfasfd"}}
+Redirected to http://localhost:3000/
+Completed in 27ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:02:22) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:02:25) [GET]
+Rendering users/signup
+Completed in 20ms (View: 5 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:02:34) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"", "email_address"=>"asdfasdfasd", "password"=>"asdfasdf"}}
+Rendering /signup
+
+ActionView::MissingTemplate (Missing template /signup.erb in view path app/views):
+  haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/users_controller.rb:17:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:02:41) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasdf", "email_address"=>"asdfasdfasd", "password"=>""}}
+Redirected to http://localhost:3000/
+Completed in 28ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:02:41) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:03:02) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasdf", "email_address"=>"asdfasdfasd", "password"=>""}}
+Rendering /signup
+
+ActionView::MissingTemplate (Missing template /signup.erb in view path app/views):
+  haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/users_controller.rb:17:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:03:06) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasdf", "email_address"=>"asdfasdfasd", "password"=>"asdfasdf"}}
+Rendering /signup
+
+ActionView::MissingTemplate (Missing template /signup.erb in view path app/views):
+  haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/users_controller.rb:17:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:03:14) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasdfasdf", "email_address"=>"asdfasdfasdasdfs", "password"=>"asdfasdfsdf"}}
+Rendering /signup
+
+ActionView::MissingTemplate (Missing template /signup.erb in view path app/views):
+  haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/users_controller.rb:17:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:04:46) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasdfasdf", "email_address"=>"asdfasdfasdasdfs", "password"=>"asdfasdfsdf"}}
+Rendering /signup
+
+ActionView::MissingTemplate (Missing template /signup.erb in view path app/views):
+  haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render'
+  app/controllers/users_controller.rb:18:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:05:45) [GET]
+Rendering users/signup
+Completed in 22ms (View: 5 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:05:48) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"sdfasf", "email_address"=>"adfasfd", "password"=>"asdfasdfasfd"}}
+Rendering users/signup
+Completed in 27ms (View: 7 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:05:56) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"sdfasf", "email_address"=>"adfasfd", "password"=>"sdfasdfasdf"}}
+Rendering users/signup
+Completed in 24ms (View: 6 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:06:26) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"sdfasf", "email_address"=>"adfasfd", "password"=>""}}
+Redirected to http://localhost:3000/
+Completed in 25ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:06:26) [GET]
+Rendering home_page/index
+Completed in 8ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:06:27) [GET]
+Rendering users/signup
+Completed in 24ms (View: 4 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:06:30) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasfdfad", "email_address"=>"asdfasfd", "password"=>""}}
+Redirected to http://localhost:3000/
+Completed in 30ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:06:30) [GET]
+Rendering home_page/index
+Completed in 67ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:06:32) [GET]
+Rendering users/signup
+Completed in 22ms (View: 5 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:06:35) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdafsd", "email_address"=>"adsasdf", "password"=>"asdfasfd"}}
+Redirected to http://localhost:3000/
+Completed in 24ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:06:35) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:08:33) [GET]
+Rendering users/signup
+Completed in 22ms (View: 5 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:08:36) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasdf", "email_address"=>"asdffds", "password"=>""}}
+Redirected to http://localhost:3000/
+Completed in 27ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:08:36) [GET]
+Rendering home_page/index
+Completed in 9ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:08:39) [GET]
+Rendering users/signup
+Completed in 23ms (View: 6 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:08:47) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"mynewuser", "email_address"=>"asdfkajsfdk", "password"=>""}}
+Redirected to http://localhost:3000/
+Completed in 92ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:08:48) [GET]
+Rendering home_page/index
+Completed in 7ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:11:54) [GET]
+Rendering users/signup
+Completed in 22ms (View: 4 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:11:57) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"adfasdf", "email_address"=>"adsfadfs", "password"=>""}}
+
+NoMethodError (undefined method `present' for "":String):
+  app/models/user.rb:22:in `password='
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:281:in `__send__'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:281:in `attributes='
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:277:in `each'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:277:in `attributes='
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/resource.rb:649:in `initialize'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/model.rb:399:in `new'
+  /usr/lib/ruby/gems/1.8/gems/dm-core-0.10.2/lib/dm-core/model.rb:399:in `new'
+  app/controllers/users_controller.rb:12:in `create'
+  haml (2.2.17) rails/./lib/sass/plugin/rails.rb:19:in `process'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:12:08) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"adfasdf", "email_address"=>"adsfadfs", "password"=>""}}
+Rendering users/signup
+Completed in 25ms (View: 7 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:12:13) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"adfasdf", "email_address"=>"adsfadfs", "password"=>"asdfsda"}}
+Redirected to http://localhost:3000/
+Completed in 22ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:12:13) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:12:15) [GET]
+Rendering users/signup
+Completed in 22ms (View: 5 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:12:19) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"", "email_address"=>"asdfasfddas", "password"=>"adsfafsd"}}
+Rendering users/signup
+Completed in 27ms (View: 9 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:12:26) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasdf", "email_address"=>"", "password"=>"asdfasdf"}}
+Rendering users/signup
+Completed in 33ms (View: 6 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:12:32) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"asdfasdf", "email_address"=>"adsasdf", "password"=>"adsfadfs"}}
+Redirected to http://localhost:3000/
+Completed in 23ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:12:32) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-17 21:12:51) [GET]
+Rendering users/signup
+Completed in 21ms (View: 4 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:12:56) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"adfafds", "email_address"=>"asfasfd", "password"=>"adsfasdf"}}
+Rendering users/signup
+Completed in 25ms (View: 7 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:13:05) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"adfafds", "email_address"=>"asfasfd@you.com", "password"=>""}}
+Rendering users/signup
+Completed in 26ms (View: 7 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-17 21:13:07) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"cyAh0WsZQ2jflNPOiC0aSYGKR+dPH8wIedfE8Ywwqno=", "user"=>{"username"=>"adfafds", "email_address"=>"asfasfd@you.com", "password"=>"asdfasdf"}}
+Redirected to http://localhost:3000/
+Completed in 37ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:13:08) [GET]
+Rendering home_page/index
+Completed in 4ms (View: 1 | 200 OK [http://localhost/]

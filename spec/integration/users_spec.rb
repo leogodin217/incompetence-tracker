@@ -12,7 +12,7 @@ describe 'Guest visits home page' do
     click_link 'Signup'
     fill_in 'Username', :with => "myuser"
     fill_in 'Password', :with => "mypass"
-    fill_in 'Email',    :with => "mymail"
+    fill_in 'Email',    :with => "mymail@myserver.com"
     click_button 'Signup'
 
     User.count.should == 1
