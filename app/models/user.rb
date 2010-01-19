@@ -2,8 +2,8 @@ class User
   include DataMapper::Resource
 
   property :id,             Serial
-  property :username,       String, :required => true, :length => (3..24)
-  property :email_address,  String, :required => true, :format => :email_address
+  property :username,       String, :required => true, :length => (3..24), :unique => true
+  property :email_address,  String, :required => true, :format => :email_address, :unique => true
   property :password_hash,  String, :length => 64, :required => true, :message => "Password must be between 8 and 24 characters long"
   property :password_salt,  String
 

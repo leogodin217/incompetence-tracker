@@ -2324,3 +2324,89 @@ Processing HomePageController#index (for 127.0.0.1 at 2010-01-17 21:39:05) [GET]
 Rendering template within layouts/application
 Rendering home_page/index
 Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-18 17:35:48) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 25ms (View: 22 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-18 17:35:52) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 14ms (View: 11 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-18 17:35:57) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"uXPCcF4FH/VUMR+ibhg5LLBaSHJ/aTLE31F1pC2V3KM=", "username"=>"leogodin217", "password"=>"mypass"}
+Redirected to http://localhost:3000/login
+Completed in 26ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-18 17:35:57) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 6ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-18 17:36:03) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"uXPCcF4FH/VUMR+ibhg5LLBaSHJ/aTLE31F1pC2V3KM=", "username"=>"leogodin217", "password"=>"mypassword"}
+Redirected to http://localhost:3000/
+Completed in 22ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-18 17:36:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-18 17:36:05) [GET]
+Redirected to http://localhost:3000/
+Completed in 3ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-18 17:36:05) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-18 17:36:07) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 43ms (View: 23 | 200 OK [http://localhost/signup]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-18 17:36:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 5ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-01-18 17:37:24) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 22ms (View: 6 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-18 17:37:29) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"uXPCcF4FH/VUMR+ibhg5LLBaSHJ/aTLE31F1pC2V3KM=", "user"=>{"username"=>"", "email_address"=>"", "password"=>""}}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 27ms (View: 7 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-18 17:37:40) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"uXPCcF4FH/VUMR+ibhg5LLBaSHJ/aTLE31F1pC2V3KM=", "user"=>{"username"=>"adsfaasdf", "email_address"=>"my@you.com", "password"=>""}}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 26ms (View: 7 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-01-18 17:37:47) [POST]
+  Parameters: {"commit"=>"Signup", "authenticity_token"=>"uXPCcF4FH/VUMR+ibhg5LLBaSHJ/aTLE31F1pC2V3KM=", "user"=>{"username"=>"adsfaasdf", "email_address"=>"", "password"=>"asdfasfdasfdafsasfd"}}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 26ms (View: 7 | 200 OK [http://localhost/users]

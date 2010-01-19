@@ -16,5 +16,14 @@ describe User, "Create" do
     @user = User.create :username => "myname", :password => "somepassword", :email_address => "me@you.com"
     @user.authenticate({:username => "myname", :password => "someotherpassword"}).should be_false
   end
-    
+
+  it "fails with non unique username" do
+    @user1 = User.create :username => "myname", :password => "somepassword", :email_address => "me@you.com"
+    User.create(:username => "myname", :password => "somepassword", :email_address => "foo@you.com").should_not be_valid
+  end
+
+  it "fails with non unique password" do
+    @user1 = User.create :username => "myname", :password => "somepassword", :email_address => "me@you.com"
+    User.create(:username => "foo", :password => "somepassword", :email_address => "me@you.com").should_not be_valid
+  end
 end
