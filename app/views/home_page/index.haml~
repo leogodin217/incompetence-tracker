@@ -1,3 +1,4 @@
+%h3= session[:logged_in]
 %h3 Welcome to the Incompetence Tracker
 - if flash[:notice]
   .flash= flash[:notice]

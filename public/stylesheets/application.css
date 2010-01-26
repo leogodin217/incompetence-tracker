@@ -1,11 +1,23 @@
-
-
-.flash {
-  -webkit-border-radius: 1em; }
-
-#errorExplanation {
-  border: 1px solid black;
-  -webkit-border-radius: 1em;
-  padding: .8em;
-  margin: 1em;
-  background-color: #ccc; }
+body {
+  background-color: white; }
+  body h1 {
+    text-align: center; }
+  body .flash {
+    border: 1px solid black; }
+  body .login-box {
+    background-color: #c0c5e5;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    width: 500px;
+    height: 300px; }
+  body .login-box input {
+    border: 1px solid black; }
+  body #errorExplanation {
+    border: 1px solid black;
+    padding: .8em;
+    margin: 1em;
+    background-color: #ccc; }

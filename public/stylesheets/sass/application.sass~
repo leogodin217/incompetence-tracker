@@ -26,10 +26,8 @@ body
     :padding-top 5em
     :width 500px
     :height 300px
-
-  .login-box
-    input
-      :border 1px solid black
+      input
+        :border 1px solid black
   
   #errorExplanation
     :border 1px solid black

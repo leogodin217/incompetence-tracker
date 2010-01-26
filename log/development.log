@@ -2410,3 +2410,676 @@ Processing UsersController#create (for 127.0.0.1 at 2010-01-18 17:37:47) [POST]
 Rendering template within layouts/application
 Rendering users/signup
 Completed in 26ms (View: 7 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 19:47:02) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 25ms (View: 23 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 19:48:00) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 76ms (View: 62 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 19:49:18) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 11ms (View: 8 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 19:49:19) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 22ms (View: 7 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 19:49:19) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 11ms (View: 10 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 19:49:19) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 13ms (View: 11 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 19:49:20) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 11ms (View: 10 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 19:50:10) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 19:51:04) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 19:51:49) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 70ms (View: 66 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:01:14) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 22ms (View: 10 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:02:00) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 20ms (View: 17 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:03:06) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 5ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:03:10) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 18ms (View: 15 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:03:42) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 24ms (View: 5 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:03:50) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 13ms (View: 11 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:04:30) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:04:46) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 12ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:06:43) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 21ms (View: 4 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:07:20) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 29ms (View: 27 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:11:48) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 32ms (View: 7 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:12:44) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 18ms (View: 14 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:13:04) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 60ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:13:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 26ms (View: 6 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:13:26) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 3ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:13:34) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 12ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:26:21) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 9ms (View: 5 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:26:23) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 29ms (View: 24 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:28:54) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 42ms (View: 37 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:29:24) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 13ms (View: 12 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:29:29) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 27ms (View: 26 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:33:49) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 20ms (View: 18 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:34:51) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 68ms (View: 49 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:35:11) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 79ms (View: 77 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:35:17) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 23ms (View: 22 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:36:10) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 34ms (View: 13 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:36:18) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:36:25) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:36:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 8ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:36:38) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:36:51) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:37:03) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:37:08) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:37:15) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 26ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:37:36) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:38:25) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:40:28) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 30ms (View: 29 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:40:29) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 20ms (View: 17 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:41:32) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 26ms (View: 6 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:41:41) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 29ms (View: 17 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:41:42) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 23ms (View: 18 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:41:42) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:41:52) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 35ms (View: 15 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:42:31) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 34ms (View: 19 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:49:29) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 88ms (View: 85 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:53:35) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 24ms (View: 23 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:53:36) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 17ms (View: 5 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:54:29) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 19ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:54:55) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 30ms (View: 27 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:55:35) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 22ms (View: 5 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:57:36) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 18ms (View: 15 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 20:58:00) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:00:45) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 147ms (View: 9 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:01:23) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 29ms (View: 26 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:01:49) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 90ms (View: 87 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:01:59) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 47ms (View: 45 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:02:40) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 25ms (View: 23 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:03:37) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 55ms (View: 51 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:03:59) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 68ms (View: 65 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-25 21:04:06) [POST]
+  Parameters: {"authenticity_token"=>"nKEsakouDrD+JGjUWfFMQTGJMsn8gx0vjXLyq7qlZ5Y=", "username"=>"leo", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 257ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:04:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:04:12) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 32ms (View: 28 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-25 21:04:15) [GET]
+Redirected to http://localhost:3000/
+Completed in 16ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:04:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:04:18) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 25ms (View: 21 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-25 21:04:25) [POST]
+  Parameters: {"authenticity_token"=>"nKEsakouDrD+JGjUWfFMQTGJMsn8gx0vjXLyq7qlZ5Y=", "username"=>"leogodin217", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 39ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:04:25) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-25 21:04:32) [GET]
+Redirected to http://localhost:3000/
+Completed in 12ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:04:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:04:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 30ms (View: 18 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-25 21:04:38) [POST]
+  Parameters: {"authenticity_token"=>"nKEsakouDrD+JGjUWfFMQTGJMsn8gx0vjXLyq7qlZ5Y=", "username"=>"akjakfjakjf", "password"=>"kajskfjasfkjfdsa", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 60ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:04:38) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 12ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:04:45) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 18ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:05:39) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 19ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-25 21:05:41) [GET]
+Redirected to http://localhost:3000/
+Completed in 14ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:05:41) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 16ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:05:43) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-25 21:05:48) [POST]
+  Parameters: {"authenticity_token"=>"nKEsakouDrD+JGjUWfFMQTGJMsn8gx0vjXLyq7qlZ5Y=", "username"=>"asdfasdf", "password"=>"adsfafds", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 37ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:05:48) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 12ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:05:51) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 17ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-25 21:05:55) [GET]
+Redirected to http://localhost:3000/
+Completed in 15ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:05:55) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:06:58) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 15ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:07:00) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 24ms (View: 23 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:07:03) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 23ms (View: 20 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-25 21:07:08) [POST]
+  Parameters: {"authenticity_token"=>"nKEsakouDrD+JGjUWfFMQTGJMsn8gx0vjXLyq7qlZ5Y=", "username"=>"asdfafds", "password"=>"afdasfdasf", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 26ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:07:08) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 13ms (View: 11 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:07:11) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 108ms (View: 94 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-01-25 21:07:17) [GET]
+Redirected to http://localhost:3000/
+Completed in 4ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:07:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:07:56) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 21ms (View: 20 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:07:58) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 21ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:08:01) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 21ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-25 21:08:05) [POST]
+  Parameters: {"authenticity_token"=>"nKEsakouDrD+JGjUWfFMQTGJMsn8gx0vjXLyq7qlZ5Y=", "username"=>"adsfafds", "password"=>"adsfafds", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 14ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:08:05) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 22ms (View: 4 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:08:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 5ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:08:16) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 32ms (View: 20 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-25 21:08:21) [POST]
+  Parameters: {"authenticity_token"=>"nKEsakouDrD+JGjUWfFMQTGJMsn8gx0vjXLyq7qlZ5Y=", "username"=>"adsfafds", "password"=>"asfdafds", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 38ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:08:21) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:08:24) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-01-25 21:08:26) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 31ms (View: 18 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-01-25 21:08:33) [POST]
+  Parameters: {"authenticity_token"=>"nKEsakouDrD+JGjUWfFMQTGJMsn8gx0vjXLyq7qlZ5Y=", "username"=>"leogodin217", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 129ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:08:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 12ms (View: 10 | 200 OK [http://localhost/]
