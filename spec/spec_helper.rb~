@@ -7,10 +7,12 @@ Spork.prefork do
   # need to restart spork for it take effect.
   # This file is copied to ~/spec when you run 'ruby script/generate rspec'
   # from the project root directory.
+  puts "prefork start"
   ENV["RAILS_ENV"] ||= 'test'
   require File.expand_path(File.join(File.dirname(__FILE__),'..','config','environment'))
   require 'spec/autorun'
   require 'spec/rails'
+  puts "prefork 2"
   #require File.dirname(__FILE__) + '/factories.rb'
 
   # Uncomment the next line to use webrat's matchers
@@ -20,13 +22,16 @@ Spork.prefork do
   # in ./support/ and its subdirectories.
   Dir[File.expand_path(File.join(File.dirname(__FILE__),'support','**','*.rb'))].each {|f| require f}
   
+  puts "prefork 3" 
   Webrat.configure do |config|
     config.mode = :rails
   end
+  puts "prefork 4" 
   Spec::Runner.configure do |config|
     transactional_specs(config)
     #config.include(Webrat::Matchers, :type => [:integration])
   end
+  puts "prefork5"
 end
 
 Spork.each_run do

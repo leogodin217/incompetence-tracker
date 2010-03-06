@@ -4,6 +4,7 @@ ActionController::Routing::Routes.draw do |map|
   map.login   '/login',  :controller => :users, :action => :login
   map.logout  '/logout', :controller => :users, :action => :logout
   map.resources :users
+  map.resources :contact_records
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

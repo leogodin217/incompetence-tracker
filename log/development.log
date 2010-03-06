@@ -3083,3 +3083,948 @@ Processing HomePageController#index (for 127.0.0.1 at 2010-01-25 21:08:33) [GET]
 Rendering template within layouts/application
 Rendering home_page/index
 Completed in 12ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-02-21 15:22:37) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 83ms (View: 80 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-02-21 15:22:43) [POST]
+  Parameters: {"authenticity_token"=>"d4EwDksyewMUqNkfCLGDRjH6Pt9lfaAseD7CoxWVN6E=", "username"=>"leogodin217", "password"=>"K0shoryu", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 16ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-02-21 15:22:43) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-02-21 15:22:50) [POST]
+  Parameters: {"authenticity_token"=>"d4EwDksyewMUqNkfCLGDRjH6Pt9lfaAseD7CoxWVN6E=", "username"=>"leogodin217", "password"=>"mypass", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 14ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-02-21 15:22:50) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 3ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-02-21 15:40:24) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 15:41:20) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 14ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 15:41:22) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-02-21 15:41:27) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-02-21 15:43:14) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 54ms (View: 43 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-02-21 15:43:22) [POST]
+  Parameters: {"authenticity_token"=>"d4EwDksyewMUqNkfCLGDRjH6Pt9lfaAseD7CoxWVN6E=", "user"=>{"username"=>"myuser", "password"=>"mypassword", "email_address"=>"me@you.com"}, "commit"=>"Signup"}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 48ms (View: 5 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-02-21 15:43:30) [POST]
+  Parameters: {"authenticity_token"=>"d4EwDksyewMUqNkfCLGDRjH6Pt9lfaAseD7CoxWVN6E=", "user"=>{"username"=>"myuser", "password"=>"", "email_address"=>"me@someoneelse.com"}, "commit"=>"Signup"}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 20ms (View: 5 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-02-21 15:43:36) [POST]
+  Parameters: {"authenticity_token"=>"d4EwDksyewMUqNkfCLGDRjH6Pt9lfaAseD7CoxWVN6E=", "user"=>{"username"=>"myuser", "password"=>"mypassword", "email_address"=>"me@someoneelse.com"}, "commit"=>"Signup"}
+Redirected to http://localhost:3000/
+Completed in 19ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 15:43:36) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-02-21 15:43:38) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 35ms (View: 34 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-02-21 15:43:43) [POST]
+  Parameters: {"authenticity_token"=>"d4EwDksyewMUqNkfCLGDRjH6Pt9lfaAseD7CoxWVN6E=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 13ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 15:43:43) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 16:30:31) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+
+ActionView::TemplateError (undefined local variable or method `new_contact_path' for #<ActionView::Base:0xa18a908>) on line #10 of app/views/home_page/index.haml:
+7:   = link_to 'Signup', signup_path
+8: - else
+9:   = link_to 'logout', logout_path
+10:   = link_to 'new contact',  new_contact_path
+
+    app/views/home_page/index.haml:10:in `_run_haml_app47views47home_page47index46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (92.5ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 16:31:01) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2010-02-21 16:31:03) [GET]
+
+NameError (uninitialized constant ContactsController):
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (69.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-02-21 16:32:17) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 16:32:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-02-21 16:32:19) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-02-21 16:32:26) [POST]
+  Parameters: {"authenticity_token"=>"d4EwDksyewMUqNkfCLGDRjH6Pt9lfaAseD7CoxWVN6E=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 46ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 16:32:26) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-02-21 16:33:09) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 16:33:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-02-21 16:33:10) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 7ms (View: 5 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 16:34:40) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-02-21 16:34:43) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-02-21 16:34:51) [POST]
+  Parameters: {"authenticity_token"=>"d4EwDksyewMUqNkfCLGDRjH6Pt9lfaAseD7CoxWVN6E=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 16ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 16:34:51) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactsController#new (for 127.0.0.1 at 2010-02-21 16:34:53) [GET]
+
+ActionController::UnknownAction (No action responded to new. Actions: ):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-02-21 16:42:10) [POST]
+  Parameters: {"authenticity_token"=>"d4EwDksyewMUqNkfCLGDRjH6Pt9lfaAseD7CoxWVN6E=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 16ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-02-21 16:42:10) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactsController#new (for 127.0.0.1 at 2010-02-21 16:42:12) [GET]
+Rendering template within layouts/application
+Rendering contacts/new
+
+ActionView::TemplateError (undefined method `contact_company' for #<Contact @id=nil>) on line #7 of app/views/contacts/new.html.haml:
+4:   %fieldset
+5:     %p
+6:       = f.label       :contact_company
+7:       = f.text_field  :contact_company
+8: 
+9:     %p
+10:       =f.label        :contact_person
+
+    app/views/contacts/new.html.haml:7:in `block in _run_haml_app47views47contacts47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `call'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `block in form_for_with_haml'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `call'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `block in haml_bind_proc'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:170:in `form_for_with_haml'
+    app/views/contacts/new.html.haml:3:in `_run_haml_app47views47contacts47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (129.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactsController#new (for 127.0.0.1 at 2010-02-21 16:43:49) [GET]
+Rendering template within layouts/application
+Rendering contacts/new
+Completed in 23ms (View: 13 | 200 OK [http://localhost/contacts/new]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 10:55:36) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 43ms (View: 42 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-06 10:55:38) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 17ms (View: 15 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-06 10:55:43) [POST]
+  Parameters: {"authenticity_token"=>"6mBDc1RuZU7f+ByWDYVbrWr7ygp9k6WdbfptBHNhRa8=", "username"=>"leogodin217", "password"=>"mypass", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 14ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-06 10:55:43) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 6ms (View: 4 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-06 10:55:52) [POST]
+  Parameters: {"authenticity_token"=>"6mBDc1RuZU7f+ByWDYVbrWr7ygp9k6WdbfptBHNhRa8=", "username"=>"leogodin217", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 42ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 10:55:52) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactsController#new (for 127.0.0.1 at 2010-03-06 10:55:55) [GET]
+Rendering template within layouts/application
+Rendering contacts/new
+Completed in 87ms (View: 78 | 200 OK [http://localhost/contacts/new]
+
+
+Processing ContactsController#new (for 127.0.0.1 at 2010-03-06 11:42:45) [GET]
+Rendering template within layouts/application
+Rendering contacts/new
+Completed in 16ms (View: 3 | 200 OK [http://localhost/contacts/new]
+
+
+Processing ContactsController#new (for 127.0.0.1 at 2010-03-06 14:09:59) [GET]
+
+SyntaxError (/home/leo/incompetence-tracker/app/models/contact.rb:1: syntax error, unexpected tIDENTIFIER, expecting '<' or ';' or '\n'
+class Contact include DataMapper::Resource property :id,			Serial
+                     ^):
+  app/controllers/contacts_controller.rb:3:in `new'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (54.5ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactsController#new (for 127.0.0.1 at 2010-03-06 14:10:30) [GET]
+Rendering template within layouts/application
+Rendering contacts/new
+Completed in 25ms (View: 15 | 200 OK [http://localhost/contacts/new]
+
+
+Processing ContactsController#create (for 127.0.0.1 at 2010-03-06 14:11:25) [POST]
+  Parameters: {"authenticity_token"=>"6mBDc1RuZU7f+ByWDYVbrWr7ygp9k6WdbfptBHNhRa8=", "contact"=>{"company"=>"HTC", "person"=>"Joe", "details"=>"did some stuff", "contact_type"=>"call received"}, "commit"=>"Save changes"}
+
+ActionController::UnknownAction (No action responded to create. Actions: new):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactsController#create (for 127.0.0.1 at 2010-03-06 14:20:02) [POST]
+  Parameters: {"authenticity_token"=>"6mBDc1RuZU7f+ByWDYVbrWr7ygp9k6WdbfptBHNhRa8=", "contact"=>{"company"=>"HTC", "person"=>"Joe", "details"=>"did some stuff", "contact_type"=>"call received"}, "commit"=>"Save changes"}
+
+DataObjects::SyntaxError (table contacts has no column named company):
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute_non_query'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `block in execute'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:269:in `with_connection'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:59:in `execute'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:110:in `block in create'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `each'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `create'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/repository.rb:129:in `create'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:864:in `_create'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:624:in `create_hook'
+  extlib (0.9.14) lib/extlib/hook.rb:299:in `block in create_hook'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `catch'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `create_hook'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:925:in `save_self'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations.rb:61:in `save_self'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:912:in `block in _save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:1085:in `run_once'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:911:in `_save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:351:in `save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `block in save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations/support/context.rb:30:in `validation_context'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  app/controllers/contacts_controller.rb:10:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (162.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 14:25:43) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+
+ActionView::TemplateError (undefined local variable or method `new_contact_path' for #<ActionView::Base:0xa72a528>) on line #10 of app/views/home_page/index.haml:
+7:   = link_to 'Signup', signup_path
+8: - else
+9:   = link_to 'logout', logout_path
+10:   = link_to 'new contact',  new_contact_path
+
+    app/views/home_page/index.haml:10:in `_run_haml_app47views47home_page47index46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (98.0ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 14:25:49) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+
+ActionView::TemplateError (undefined local variable or method `new_contact_path' for #<ActionView::Base:0x92fcb9c>) on line #10 of app/views/home_page/index.haml:
+7:   = link_to 'Signup', signup_path
+8: - else
+9:   = link_to 'logout', logout_path
+10:   = link_to 'new contact',  new_contact_path
+
+    app/views/home_page/index.haml:10:in `_run_haml_app47views47home_page47index46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (67.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 14:26:14) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 17ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-03-06 14:26:16) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 14:26:16) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-06 14:26:20) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 24ms (View: 22 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-06 14:26:25) [POST]
+  Parameters: {"authenticity_token"=>"6mBDc1RuZU7f+ByWDYVbrWr7ygp9k6WdbfptBHNhRa8=", "username"=>"leogodin217", "password"=>"mypass", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 87ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-06 14:26:25) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-06 14:26:31) [POST]
+  Parameters: {"authenticity_token"=>"6mBDc1RuZU7f+ByWDYVbrWr7ygp9k6WdbfptBHNhRa8=", "username"=>"leogodin217", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 23ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 14:26:31) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:26:33) [GET]
+
+ActionView::MissingTemplate (Missing template contact_records/new.erb in view path app/views):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:27:40) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/contact_records/new.html.haml:
+1: .flash= error_messages_for :contact_record
+2: 
+3: - form_for @contact_record do |f|
+4:   %fieldset
+5:     %p
+6:       = f.label       :company
+
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:170:in `form_for_with_haml'
+    app/views/contact_records/new.html.haml:3:in `_run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (122.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:37:14) [GET]
+
+NameError (uninitialized constant ContactRecordsController::ContactRecord):
+  app/controllers/contact_records_controller.rb:7:in `new'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (50.1ms)
+Rendered rescues/_request_and_response (33.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:42:18) [GET]
+
+DataMapper::IncompleteModelError (ContactRecord must have a key to be valid):
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/model.rb:703:in `assert_valid'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/model.rb:398:in `new'
+  app/controllers/contact_records_controller.rb:7:in `new'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (98.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:43:45) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+
+ActionView::TemplateError (undefined method `contact_record_type' for #<ContactRecord:0x99f9ad4>) on line #19 of app/views/contact_records/new.html.haml:
+16: 
+17:     %p
+18:       =f.label        :contact_record_type
+19:       =f.select       :contact_record_type, @contact_types
+20: 
+21:     %p
+22:       =f.submit
+
+    app/views/contact_records/new.html.haml:19:in `block in _run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `call'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `block in form_for_with_haml'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `call'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `block in haml_bind_proc'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:170:in `form_for_with_haml'
+    app/views/contact_records/new.html.haml:3:in `_run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (85.0ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:44:18) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.inject) on line #19 of app/views/contact_records/new.html.haml:
+16: 
+17:     %p
+18:       =f.label        :contact_record_type
+19:       =f.select       :contact_record_type, @contact_types
+20: 
+21:     %p
+22:       =f.submit
+
+    app/views/contact_records/new.html.haml:19:in `block in _run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `call'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `block in form_for_with_haml'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `call'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `block in haml_bind_proc'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:170:in `form_for_with_haml'
+    app/views/contact_records/new.html.haml:3:in `_run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (144.3ms)
+Rendered rescues/_request_and_response (9.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:44:19) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.inject) on line #19 of app/views/contact_records/new.html.haml:
+16: 
+17:     %p
+18:       =f.label        :contact_record_type
+19:       =f.select       :contact_record_type, @contact_types
+20: 
+21:     %p
+22:       =f.submit
+
+    app/views/contact_records/new.html.haml:19:in `block in _run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `call'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `block in form_for_with_haml'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `call'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `block in haml_bind_proc'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:170:in `form_for_with_haml'
+    app/views/contact_records/new.html.haml:3:in `_run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (255.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:45:10) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.inject) on line #19 of app/views/contact_records/new.html.haml:
+16: 
+17:     %p
+18:       =f.label        :contact_record_type
+19:       =f.select       :contact_record_type, @contact_types
+20: 
+21:     %p
+22:       =f.submit
+
+    app/views/contact_records/new.html.haml:19:in `block in _run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `call'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `block in form_for_with_haml'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `call'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `block in haml_bind_proc'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:170:in `form_for_with_haml'
+    app/views/contact_records/new.html.haml:3:in `_run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (93.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:45:12) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.inject) on line #19 of app/views/contact_records/new.html.haml:
+16: 
+17:     %p
+18:       =f.label        :contact_record_type
+19:       =f.select       :contact_record_type, @contact_types
+20: 
+21:     %p
+22:       =f.submit
+
+    app/views/contact_records/new.html.haml:19:in `block in _run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `call'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `block in form_for_with_haml'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `call'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `block in haml_bind_proc'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:170:in `form_for_with_haml'
+    app/views/contact_records/new.html.haml:3:in `_run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (76.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:45:14) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.inject) on line #19 of app/views/contact_records/new.html.haml:
+16: 
+17:     %p
+18:       =f.label        :contact_record_type
+19:       =f.select       :contact_record_type, @contact_types
+20: 
+21:     %p
+22:       =f.submit
+
+    app/views/contact_records/new.html.haml:19:in `block in _run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `call'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:164:in `block in form_for_with_haml'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `call'
+    haml (2.2.17) lib/haml/helpers.rb:545:in `block in haml_bind_proc'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:170:in `form_for_with_haml'
+    app/views/contact_records/new.html.haml:3:in `_run_haml_app47views47contact_records47new46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (148.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:45:33) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 33ms (View: 21 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-03-06 14:45:49) [POST]
+  Parameters: {"authenticity_token"=>"6mBDc1RuZU7f+ByWDYVbrWr7ygp9k6WdbfptBHNhRa8=", "contact_record"=>{"company"=>"HTC", "person"=>"Joe", "details"=>"He didn't make me happy", "contact_record_type"=>"call made"}, "commit"=>"Save changes"}
+
+NoMethodError (undefined method `save' for nil:NilClass):
+  app/controllers/contact_records_controller.rb:14:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (82.5ms)
+Rendered rescues/_request_and_response (5.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-03-06 14:46:13) [POST]
+  Parameters: {"authenticity_token"=>"6mBDc1RuZU7f+ByWDYVbrWr7ygp9k6WdbfptBHNhRa8=", "contact_record"=>{"company"=>"HTC", "person"=>"Joe", "details"=>"He didn't make me happy", "contact_record_type"=>"call made"}, "commit"=>"Save changes"}
+
+DataObjects::SyntaxError (table contact_records has no column named contact_record_type):
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute_non_query'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `block in execute'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:269:in `with_connection'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:59:in `execute'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:110:in `block in create'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `each'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:83:in `create'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/repository.rb:129:in `create'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:864:in `_create'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:624:in `create_hook'
+  extlib (0.9.14) lib/extlib/hook.rb:299:in `block in create_hook'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `catch'
+  extlib (0.9.14) lib/extlib/hook.rb:297:in `create_hook'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:925:in `save_self'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations.rb:61:in `save_self'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:912:in `block in _save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:1085:in `run_once'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:911:in `_save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:351:in `save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `block in save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations/support/context.rb:30:in `validation_context'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  app/controllers/contact_records_controller.rb:14:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (187.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 14:53:16) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 72ms (View: 61 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-03-06 14:53:25) [POST]
+  Parameters: {"authenticity_token"=>"6mBDc1RuZU7f+ByWDYVbrWr7ygp9k6WdbfptBHNhRa8=", "contact_record"=>{"company"=>"HTC", "person"=>"Joe", "details"=>"we said stuff", "contact_record_type"=>"call made"}, "commit"=>"Save changes"}
+Redirected to http://localhost:3000/contact_records
+Completed in 26ms | 302 Found [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-06 14:53:25) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 20ms (View: 19 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-06 14:54:35) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/contact_records]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 16:13:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 71ms (View: 70 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-06 16:20:11) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 16ms (View: 15 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-06 16:20:16) [POST]
+  Parameters: {"authenticity_token"=>"tL3QMtQNVUFkRLDX6+9P7DIYuxygoUZc9mt8DHCQZ90=", "username"=>"leogodin217", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 15ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-06 16:20:16) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-03-06 16:20:22) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 30ms (View: 20 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-03-06 16:20:32) [POST]
+  Parameters: {"authenticity_token"=>"tL3QMtQNVUFkRLDX6+9P7DIYuxygoUZc9mt8DHCQZ90=", "user"=>{"username"=>"myuser", "password"=>"mypass", "email_address"=>"me@you.com"}, "commit"=>"Signup"}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 18ms (View: 5 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-03-06 16:20:39) [POST]
+  Parameters: {"authenticity_token"=>"tL3QMtQNVUFkRLDX6+9P7DIYuxygoUZc9mt8DHCQZ90=", "user"=>{"username"=>"myuser", "password"=>"mypassword", "email_address"=>"me@you.com"}, "commit"=>"Signup"}
+Redirected to http://localhost:3000/
+Completed in 54ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 16:20:39) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 13ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-06 16:20:42) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 15ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-06 16:20:48) [POST]
+  Parameters: {"authenticity_token"=>"tL3QMtQNVUFkRLDX6+9P7DIYuxygoUZc9mt8DHCQZ90=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 14ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 16:20:48) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-06 16:20:50) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 61ms (View: 50 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-03-06 16:21:00) [POST]
+  Parameters: {"authenticity_token"=>"tL3QMtQNVUFkRLDX6+9P7DIYuxygoUZc9mt8DHCQZ90=", "contact_record"=>{"company"=>"HTC", "person"=>"Some Guy", "details"=>"We talked", "contact_record_type"=>"call made"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/contact_records
+Completed in 14ms | 302 Found [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-06 16:21:00) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 11ms (View: 10 | 200 OK [http://localhost/contact_records]
