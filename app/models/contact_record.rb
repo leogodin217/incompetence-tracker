@@ -7,7 +7,6 @@ class ContactRecord
 	property :details,				Text
 	property :contact_record_type,	String
 	property :created_at,			DateTime
-	property :updated_at,			DateTime
 
 	def self.contact_record_types
 		@@contact_record_types

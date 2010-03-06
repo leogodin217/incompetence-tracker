@@ -20,6 +20,10 @@ describe ContactRecord do
 
 		response.should contain 'Contact Record created'
 		ContactRecord.all.should_not be_empty
+		@contact = ContactRecord.first
+		@contact.created_at.should_not be_blank
+		@contact.updated_at.should_not be_blank
+
 	end
 
 end
