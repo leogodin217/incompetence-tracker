@@ -3,8 +3,12 @@ ActionController::Routing::Routes.draw do |map|
   map.signup  '/signup', :controller => :users, :action => :signup
   map.login   '/login',  :controller => :users, :action => :login
   map.logout  '/logout', :controller => :users, :action => :logout
-  map.resources :users
+  map.resources :users do |users|
+    users.resources :contact_records
+  end
+
   map.resources :contact_records
+  #map.resources :contact_records
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

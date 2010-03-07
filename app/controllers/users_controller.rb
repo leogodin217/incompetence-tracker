@@ -25,6 +25,7 @@ class UsersController < ApplicationController
    
       if @user.authenticate(:username => params[:username], :password => params[:password]) 
         session[:logged_in] = true 
+		session[:logged_in_user] = @user.id
         flash[:notice] = "#{params[:username]} is logged in"
 
         redirect_to root_path

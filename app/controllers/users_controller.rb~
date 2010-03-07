@@ -23,7 +23,7 @@ class UsersController < ApplicationController
     session[:logged_in] = false  
     if @user = User.first(:username => params[:username]) 
    
-      if @user.authenticate(:username => params[:username], :password => params[:password]) == true 
+      if @user.authenticate(:username => params[:username], :password => params[:password]) 
         session[:logged_in] = true 
         flash[:notice] = "#{params[:username]} is logged in"
 

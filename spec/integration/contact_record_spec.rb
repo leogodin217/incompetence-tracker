@@ -23,7 +23,32 @@ describe ContactRecord do
 		@contact = ContactRecord.first
 		@contact.created_at.should_not be_blank
 	end
+	
+	it "can view my contacts" do
+		ContactRecord.all.should be_empty
 
+		@user = User.create :username => 'myuser', :password => 'mypassword', :email_address => 'me@you.com'
+		@user.contact_records.create(:company => 'Another Company',
+							 		 :person  => 'Another Person',
+							 		 :details => 'We also talked about stuff')
+		@user.contact_records.create(:company => 'A Company',
+							 		 :person  => 'A Person',
+							 		 :details => 'We talked about stuff')
+		@user.contact_records.create(:company => 'A Different Company',
+							 		 :person  => 'A Different Person',
+							 		 :details => 'We intended to talked about stuff')
+		@user.my_contact_records.length.should == 3
+
+		visit root_path
+		click_link 		'Login'
+		fill_in			'username', 	:with => 'myuser'
+		fill_in			'password', 	:with => 'mypassword'
+		click_button	'Login'	
+
+		click_link 'My Contact Records'
+
+		response.should contain('Contact Records: 3')
+	end
 
 
 

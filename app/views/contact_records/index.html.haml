@@ -1,4 +1,8 @@
 - if flash[:notice]
   .flash= flash[:notice]
 <h3>Contact Records</h3>
+= "Contact Records: #{@contact_records.length}"
+
+=link_to 'New Contact Record', new_contact_record_path
+=link_to 'My Contact Records', contact_records_path
 

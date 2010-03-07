@@ -6,8 +6,12 @@ class User
   property :email_address,  String, :required => true, :format => :email_address, :unique => true
   property :password_hash,  String, :length => 64, :required => true, :message => "Password must be between 8 and 24 characters long"
   property :password_salt,  String
+  
 
 
+  def my_contact_records
+	ContactRecord.all(:user_id => id)	
+  end
 
   def authenticate(opts)
    
