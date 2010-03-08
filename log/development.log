@@ -5252,3 +5252,397 @@ Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:04:15) 
 Rendering template within layouts/application
 Rendering contact_records/show
 Completed in 27ms (View: 14 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 17:05:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-07 17:05:36) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 39ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:05:38) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 19ms (View: 6 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:08:07) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 28ms (View: 12 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:08:28) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 71ms (View: 14 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:08:42) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 29ms (View: 16 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:10:58) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+
+ActionView::TemplateError (undefined method `contact_type' for #<ContactRecord:0xab9811c>) on line #12 of app/views/contact_records/show.html.haml:
+9:   %span.show_field_value= @contact_record.company
+10: %p
+11:   %span.show_field_name Contact Type:  
+12:   %span.show_field_value= @contact_record.contact_type
+13: %p
+14:   %span.show_field_name Details:  
+15:   %span.show_field_value= @contact_record.details
+
+    app/views/contact_records/show.html.haml:12:in `_run_haml_app47views47contact_records47show46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (105.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:11:12) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 29ms (View: 15 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#edit (for 127.0.0.1 at 2010-03-07 17:11:15) [GET]
+  Parameters: {"id"=>"#<ContactRecord:0xae94520>"}
+
+ActionController::UnknownAction (No action responded to edit. Actions: create, index, new, and show):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:11:28) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 84ms (View: 65 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:11:30) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 23ms (View: 5 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index to #<contactrecord:0xb81590c> (for 127.0.0.1 at 2010-03-07 17:11:31) [GET]
+
+ActionView::MissingTemplate (Missing template contact_records/index.erb in view path app/views):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index to #<contactrecord:0xb81590c> (for 127.0.0.1 at 2010-03-07 17:11:41) [GET]
+
+ActionView::MissingTemplate (Missing template contact_records/index.erb in view path app/views):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:12:14) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 29ms (View: 14 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:12:24) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 31ms (View: 15 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 17:12:49) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-07 17:12:53) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 32ms (View: 5 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-07 17:13:34) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 40ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-07 17:13:35) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 34ms (View: 5 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:13:36) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 73ms (View: 14 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-07 17:13:38) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 32ms (View: 5 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-07 17:13:40) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 31ms (View: 5 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-07 17:13:53) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 39ms (View: 15 | 200 OK [http://localhost/contact_records]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 17:13:57) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-07 17:14:00) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 31ms (View: 5 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:14:01) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 22ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:16:58) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 30ms (View: 15 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:17:00) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 18ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:17:01) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 27ms (View: 7 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:17:53) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 32ms (View: 16 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:51:05) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 27ms (View: 5 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:51:38) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 18ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:51:40) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 17ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:51:55) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 20ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:51:56) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 22ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:52:32) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 117ms (View: 103 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:52:51) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 25ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:53:12) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 18ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:53:58) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 34ms (View: 20 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:54:08) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 30ms (View: 14 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:54:22) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 19ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:55:10) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 35ms (View: 18 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:55:31) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 39ms (View: 16 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:56:28) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 88ms (View: 72 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:56:41) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 30ms (View: 16 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 17:57:51) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 7ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-03-07 17:58:14) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 17:58:14) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-07 17:58:40) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-07 17:58:49) [POST]
+  Parameters: {"authenticity_token"=>"2/qOCB3bVTGbB0omF+JRJQ7mhl69eCnFT90kaTHdS6k=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 20ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 17:58:49) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 17:59:12) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 14ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 17:59:20) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 15ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 18:40:51) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 7ms (View: 5 | 200 OK [http://localhost/]

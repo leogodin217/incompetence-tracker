@@ -21,3 +21,8 @@ body {
     padding: .8em;
     margin: 1em;
     background-color: #ccc; }
+  body .show-field-name {
+    font-weight: bold;
+    float: left; }
+  body .show-field-value {
+    margin-left: 10em; }
