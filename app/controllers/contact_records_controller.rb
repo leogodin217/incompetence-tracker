@@ -20,4 +20,8 @@ class ContactRecordsController < ApplicationController
 			render :new
 		end
 	end
+
+	def show
+		@contact_record = ContactRecord.get(params[:id])
+	end
 end

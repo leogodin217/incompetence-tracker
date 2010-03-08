@@ -4757,3 +4757,498 @@ Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-06 18:13:52)
 Rendering template within layouts/application
 Rendering contact_records/index
 Completed in 30ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-06 18:50:30) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+ERROR: compiling _run_haml_app47views47contact_records47index46html46haml RAISED /home/leo/incompetence-tracker/app/views/contact_records/index.html.haml:8: unknown type of %string
+..._record.created_at.strftime(%m/%d/%y)} - #{contact_record.co...
+...                               ^
+/home/leo/incompetence-tracker/app/views/contact_records/index.html.haml:8: syntax error, unexpected $end, expecting ')'
+..._record.created_at.strftime(%m/%d/%y)} - #{contact_record.co...
+...                               ^
+Function body:           def _run_haml_app47views47contact_records47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:xhtml, :encoding=>"utf-8", :escape_html=>false});_erbout = _hamlout.buffer;__in_erb_template = true;; if flash[:notice];
+_hamlout.push_text("<div class='flash'>#{_hamlout.adjust_tabs(1); haml_temp = flash[:notice]
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</div>\n", 0, false);end;
+_hamlout.push_text("<h3>Contact Records</h3>\n#{haml_temp =  "Contact Records: #{@contact_records.length}"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<br />\n", 0, false);
+
+_hamlout.push_text("<ul>\n", 1, false); @contact_records.each do |contact_record|;
+_hamlout.push_text("  <ul>#{_hamlout.adjust_tabs(1); haml_temp = "#{contact_record.created_at.strftime(%m/%d/%y)} - #{contact_record.company}"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</ul>\n", 0, false);
+end;
+_hamlout.push_text("</ul>\n<br />\n#{_hamlout.adjust_tabs(-1); haml_temp = link_to 'New Contact Record', new_contact_record_path
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp = link_to 'My Contact Records', contact_records_path
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/local/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/local/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/sass/plugin/rails.rb:19:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (/home/leo/incompetence-tracker/app/views/contact_records/index.html.haml:8: unknown type of %string
+..._record.created_at.strftime(%m/%d/%y)} - #{contact_record.co...
+...                               ^
+/home/leo/incompetence-tracker/app/views/contact_records/index.html.haml:8: syntax error, unexpected $end, expecting ')'
+..._record.created_at.strftime(%m/%d/%y)} - #{contact_record.co...
+...                               ^) on line #8 of app/views/contact_records/index.html.haml:
+5: %br
+6: %ul
+7:   - @contact_records.each do |contact_record|
+8:     %ul= "#{contact_record.created_at.strftime(%m/%d/%y)} - #{contact_record.company}"
+9: 
+10: %br
+11: =link_to 'New Contact Record', new_contact_record_path
+
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (63.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-06 18:51:07) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 40ms (View: 15 | 200 OK [http://localhost/contact_records]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 18:51:13) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 5ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 19:01:46) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 19:01:48) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-06 19:01:49) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-06 19:01:51) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 76ms (View: 5 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-06 19:02:41) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+ERROR: compiling _run_haml_app47views47contact_records47index46html46haml RAISED /home/leo/incompetence-tracker/app/views/contact_records/index.html.haml:9: syntax error, unexpected tIDENTIFIER, expecting ')'
+_hamlout.format_script_false_true_fal...
+        ^
+Function body:           def _run_haml_app47views47contact_records47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:xhtml, :encoding=>"utf-8", :escape_html=>false});_erbout = _hamlout.buffer;__in_erb_template = true;; if flash[:notice];
+_hamlout.push_text("<div class='flash'>#{_hamlout.adjust_tabs(1); haml_temp = flash[:notice]
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</div>\n", 0, false);end;
+_hamlout.push_text("<h3>Contact Records</h3>\n#{haml_temp =  "Contact Records: #{@contact_records.length}"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<br />\n", 0, false);
+
+_hamlout.push_text("<ul>\n", 1, false); @contact_records.each do |contact_record|;
+_hamlout.push_text("  <ul>#{_hamlout.adjust_tabs(1); haml_temp = link_to "#{contact_record.created_at.strftime("%m/%d/%y:%I%M")} - #{contact_record.company}", contact_record_path(contact_record(1)
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</ul>\n", 0, false);
+end;
+_hamlout.push_text("</ul>\n<br />\n#{_hamlout.adjust_tabs(-1); haml_temp = link_to 'New Contact Record', new_contact_record_path
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp = link_to 'My Contact Records', contact_records_path
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/local/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/local/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/sass/plugin/rails.rb:19:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (/home/leo/incompetence-tracker/app/views/contact_records/index.html.haml:9: syntax error, unexpected tIDENTIFIER, expecting ')'
+_hamlout.format_script_false_true_fal...
+        ^) on line #9 of app/views/contact_records/index.html.haml:
+6: %ul
+7:   - @contact_records.each do |contact_record|
+8:     %ul= link_to "#{contact_record.created_at.strftime("%m/%d/%y:%I%M")} - #{contact_record.company}", contact_record_path(contact_record(1)
+9: 
+10: %br
+11: =link_to 'New Contact Record', new_contact_record_path
+12: =link_to 'My Contact Records', contact_records_path
+
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (59.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-06 19:03:01) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+ERROR: compiling _run_haml_app47views47contact_records47index46html46haml RAISED /home/leo/incompetence-tracker/app/views/contact_records/index.html.haml:8: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...tact_record_path contact_record(1)
+...                               ^
+Function body:           def _run_haml_app47views47contact_records47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:xhtml, :encoding=>"utf-8", :escape_html=>false});_erbout = _hamlout.buffer;__in_erb_template = true;; if flash[:notice];
+_hamlout.push_text("<div class='flash'>#{_hamlout.adjust_tabs(1); haml_temp = flash[:notice]
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</div>\n", 0, false);end;
+_hamlout.push_text("<h3>Contact Records</h3>\n#{haml_temp =  "Contact Records: #{@contact_records.length}"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<br />\n", 0, false);
+
+_hamlout.push_text("<ul>\n", 1, false); @contact_records.each do |contact_record|;
+_hamlout.push_text("  <ul>#{_hamlout.adjust_tabs(1); haml_temp = link_to "#{contact_record.created_at.strftime("%m/%d/%y:%I%M")} - #{contact_record.company}", contact_record_path contact_record(1)
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</ul>\n", 0, false);
+end;
+_hamlout.push_text("</ul>\n<br />\n#{_hamlout.adjust_tabs(-1); haml_temp = link_to 'New Contact Record', new_contact_record_path
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp = link_to 'My Contact Records', contact_records_path
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/local/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/local/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/sass/plugin/rails.rb:19:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+ActionView::TemplateError (/home/leo/incompetence-tracker/app/views/contact_records/index.html.haml:8: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...tact_record_path contact_record(1)
+...                               ^) on line #8 of app/views/contact_records/index.html.haml:
+5: %br
+6: %ul
+7:   - @contact_records.each do |contact_record|
+8:     %ul= link_to "#{contact_record.created_at.strftime("%m/%d/%y:%I%M")} - #{contact_record.company}", contact_record_path contact_record(1)
+9: 
+10: %br
+11: =link_to 'New Contact Record', new_contact_record_path
+
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (61.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-06 19:03:17) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 40ms (View: 15 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-06 19:03:19) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, index, and new):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 16:39:59) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 717ms (View: 713 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 16:40:03) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, index, and new):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 16:44:57) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionView::MissingTemplate (Missing template contact_records/show.erb in view path app/views):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 16:48:03) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %p and nested within it.) on line #4 of app/views/contact_records/show.html.haml:
+1: %h3 Contact Record
+2: 
+3: %p Create Date:
+4:     = @contact_record.created_at    
+5: 
+6: %p Company:
+7:     = @contact_record.company
+
+    app/views/contact_records/show.html.haml:4
+    haml (2.2.17) lib/haml/precompiler.rb:740:in `render_tag'
+    haml (2.2.17) lib/haml/precompiler.rb:213:in `process_line'
+    haml (2.2.17) lib/haml/precompiler.rb:177:in `precompile'
+    haml (2.2.17) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `new'
+    haml (2.2.17) lib/haml/template/plugin.rb:24:in `compile'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (119.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 16:49:40) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 35ms (View: 16 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 17:04:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-07 17:04:05) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 15ms (View: 14 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-07 17:04:11) [POST]
+  Parameters: {"authenticity_token"=>"2/qOCB3bVTGbB0omF+JRJQ7mhl69eCnFT90kaTHdS6k=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 16ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 17:04:11) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-07 17:04:13) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 43ms (View: 17 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-07 17:04:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 27ms (View: 14 | 200 OK [http://localhost/contact_records/1]

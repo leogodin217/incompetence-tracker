@@ -1,0 +1,9 @@
+%h3 Contact Record
+
+%p= " Create Date: #{@contact_record.created_at}" 
+
+%p= " Company:#{@contact_record.company}"
+
+%p= "Type: #{@contact_record.contact_record_type}"
+
+%p= "Details: #{@contact_record.details}"

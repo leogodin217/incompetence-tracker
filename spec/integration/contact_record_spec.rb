@@ -24,7 +24,7 @@ describe ContactRecord do
 		@contact.created_at.should_not be_blank
 	end
 	
-	it "can view my contacts" do
+	it "can view my contact records" do
 		ContactRecord.all.should be_empty
 
 		@user = User.create :username => 'myuser', :password => 'mypassword', :email_address => 'me@you.com'
@@ -48,6 +48,24 @@ describe ContactRecord do
 		click_link 'My Contact Records'
 
 		response.should contain('Contact Records: 3')
+	end
+
+	it "can view a contact record" do
+		@user = User.create :username => 'myuser', :password => 'mypassword', :email_address => 'me@you.com'
+		@contact_record = @user.contact_records.create(:company => 'Another Company',
+							 		 				   :person  => 'Another Person',
+							 		 				   :details => 'We also talked about stuff')
+
+		visit root_path
+		click_link		'Login'
+		fill_in 		'username', 	:with => 'myuser'
+		fill_in			'password',		:with => 'mypassword'
+		click_button	'Login'
+
+		visit contact_record_path(@contact_record.id)
+
+		response.should contain 'Another Company'
+		
 	end
 
 
