@@ -111,4 +111,41 @@ describe ContactRecord do
 		response.should_not contain 'You must be logged in to access this feature'	
 	end
 
+	it 'only allows Contact Record owner to view Contact Record' do
+		User.create :username 		=> 'somedude',
+					:password 		=> 'mypassword',
+					:email_address  => 'somedude@you.com'
+
+		@owner = User.create :username 		=> 'myuser',
+							 :password 		=> 'mypassword',
+							 :email_address  => 'me@you.com'
+
+		@owner.contact_records.create :company 	=> 'some company',
+				             		  :person    => 'some person',
+							 		  :details   => 'some details of a contact record'
+
+		visit root_path
+		click_link 'login'	
+		fill_in 'username', :with => 'somedude'
+		fill_in 'password', :with => 'mypassword'
+		click_button 'login'
+
+		visit contact_record_path(1)
+
+		response.should contain 'You may only view your own Contact Records'
+
+		visit root_path
+		click_link 'logout'
+		click_link 'login'	
+		fill_in 'username', :with => 'myuser'
+		fill_in 'password', :with => 'mypassword'
+		click_button 'login'
+
+		visit contact_record_path(1)
+
+		response.should contain 'some details of a contact record'
+
+
+	end
+
 end

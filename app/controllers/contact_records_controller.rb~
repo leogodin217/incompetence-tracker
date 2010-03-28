@@ -1,12 +1,7 @@
 class ContactRecordsController < ApplicationController
 	def index
-		if session[:logged_in_user] > 0
 			@user = User.get(session[:logged_in_user])
 			@contact_records = @user.my_contact_records
-		else
-			flash[:notice] = "You must be logged in to access this feature"
-			redirect_to login_path
-		end
 	end
 		
 	def new
@@ -27,6 +22,11 @@ class ContactRecordsController < ApplicationController
 	end
 
 	def show
+		@user = User.get(session[:logged_in_user])
 		@contact_record = ContactRecord.get(params[:id])
+		unless @user.id == @contact_record.id
+			flash[:notice] = 'You may only view your own Contact Records'
+			redirect_to contact_records_path
+		end
 	end
 end

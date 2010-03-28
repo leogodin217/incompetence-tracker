@@ -22,6 +22,11 @@ class ContactRecordsController < ApplicationController
 	end
 
 	def show
+		@user = User.get(session[:logged_in_user])
 		@contact_record = ContactRecord.get(params[:id])
+		unless @user.id == @contact_record.user_id
+			flash[:notice] = 'You may only view your own Contact Records'
+			redirect_to contact_records_path
+		end
 	end
 end

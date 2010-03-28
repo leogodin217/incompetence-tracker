@@ -7140,3 +7140,359 @@ Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 07:55
 Rendering template within layouts/application
 Rendering home_page/home_page_index
 Completed in 203ms (View: 40 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:27:24) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 14ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-03-28 08:27:55) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 100ms (View: 80 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-03-28 08:28:17) [POST]
+  Parameters: {"authenticity_token"=>"yj0lIfcbrnhBlg6JZGLhKQaFcCoZFqMEzAubDDyt3Bo=", "user"=>{"username"=>"somedude", "password"=>"mypassword", "email_address"=>"somedude@leogodin.net"}, "commit"=>"Signup"}
+Redirected to http://localhost:3000/
+Completed in 31ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:28:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:28:19) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:28:29) [POST]
+  Parameters: {"authenticity_token"=>"yj0lIfcbrnhBlg6JZGLhKQaFcCoZFqMEzAubDDyt3Bo=", "username"=>"somedude", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 13ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:28:29) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:28:45) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 29ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:28:48) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 37ms (View: 15 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:30:06) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 28ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-28 08:30:07) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 37ms (View: 13 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:31:29) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-03-28 08:31:30) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:31:31) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:40:29) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:40:35) [POST]
+  Parameters: {"authenticity_token"=>"yj0lIfcbrnhBlg6JZGLhKQaFcCoZFqMEzAubDDyt3Bo=", "username"=>"somedude", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 16ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:40:35) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-28 08:40:37) [GET]
+
+SyntaxError (/home/leo/incompetence-tracker/app/controllers/contact_records_controller.rb:25: syntax error, unexpected ']', expecting ')'
+		@user = User.get(session:logged_in_user])
+		                                        ^):
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (44.1ms)
+Rendered rescues/_request_and_response (407.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:42:58) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 31ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:43:23) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/contact_records
+Completed in 30ms | 302 Found [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:43:23) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 28ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:43:31) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 36ms (View: 4 | 200 OK [http://localhost/contact_records/2]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:43:37) [GET]
+  Parameters: {"id"=>"3"}
+Redirected to http://localhost:3000/contact_records
+Completed in 40ms | 302 Found [http://localhost/contact_records/3]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:43:37) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 36ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:43:47) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 83ms (View: 3 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:43:53) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/contact_records
+Completed in 32ms | 302 Found [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:43:53) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 33ms (View: 5 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:43:58) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 29ms (View: 4 | 200 OK [http://localhost/contact_records/2]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:46:07) [GET]
+  Parameters: {"id"=>"3"}
+Redirected to http://localhost:3000/contact_records
+Completed in 27ms | 302 Found [http://localhost/contact_records/3]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:46:07) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 35ms (View: 9 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:46:24) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/contact_records_controller.rb:27:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (93.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:49:30) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-03-28 08:49:32) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:49:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:49:36) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:49:52) [POST]
+  Parameters: {"authenticity_token"=>"yj0lIfcbrnhBlg6JZGLhKQaFcCoZFqMEzAubDDyt3Bo=", "username"=>"somedude", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 15ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:49:52) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-28 08:50:03) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 72ms (View: 5 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-03-28 08:50:17) [POST]
+  Parameters: {"authenticity_token"=>"yj0lIfcbrnhBlg6JZGLhKQaFcCoZFqMEzAubDDyt3Bo=", "contact_record"=>{"company"=>"a company", "person"=>"some person", "details"=>"some stuff", "contact_record_type"=>"call made"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/contact_records
+Completed in 25ms | 302 Found [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:50:17) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 31ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:50:20) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/contact_records
+Completed in 75ms | 302 Found [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:50:21) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 33ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:50:22) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/contact_records
+Completed in 29ms | 302 Found [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:50:22) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 34ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:50:27) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/contact_records
+Completed in 73ms | 302 Found [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:50:27) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 43ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:50:28) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/contact_records
+Completed in 26ms | 302 Found [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:50:28) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 33ms (View: 5 | 200 OK [http://localhost/contact_records]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:50:30) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 6ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-03-28 08:50:33) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:50:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:50:35) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:50:40) [POST]
+  Parameters: {"authenticity_token"=>"yj0lIfcbrnhBlg6JZGLhKQaFcCoZFqMEzAubDDyt3Bo=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 14ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:50:40) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 9ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:50:43) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 81ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:50:45) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 36ms (View: 6 | 200 OK [http://localhost/contact_records/1]
