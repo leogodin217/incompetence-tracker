@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.root :controller => :home_page
+  map.root :controller => :home_page, :action => :home_page_index
   map.signup  '/signup', :controller => :users, :action => :signup
   map.login   '/login',  :controller => :users, :action => :login
   map.logout  '/logout', :controller => :users, :action => :logout

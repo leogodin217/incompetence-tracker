@@ -62,12 +62,34 @@ describe ContactRecord do
 		fill_in			'password',		:with => 'mypassword'
 		click_button	'Login'
 
-		visit contact_record_path(@contact_record)
+		visit contact_record_path(@contact_record.id)
 
 		response.should contain 'Another Company'
 		
 	end
 
+	it 'requires a login to view contact_records' do
+		ContactRecord.create(:user_id 			  => 1,
+						 	 :company 			  => 'a company',
+							 :person  			  => 'a person',
+							 :details 			  => 'some details',
+							 :contact_record_type => 'email sent')
 
+		User.create(:username 	   => 'myuser',
+					:password 	   => 'mypassword',
+					:email_address => 'me@you.com')
+		
+		visit root_path
+		click_link 'My Contact Records'
+
+		response.should contain 'You must be logged in to access this feature'
+
+		fill_in 'username', :with => 'myuser'
+		fill_in 'password', :with => 'mypassword'
+		click_button 'login'
+
+		visit contact_records_path
+		response.should_not contain 'You must be logged in to access this feature'
+	end
 
 end

@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
 
-  before_filter :check_logged_in, :except => 'home_page_index'
+  before_filter :check_logged_in
 
 
   def check_logged_in

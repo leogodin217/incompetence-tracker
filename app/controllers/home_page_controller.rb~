@@ -1,5 +1,5 @@
 class HomePageController < ApplicationController
-  def home_page_index
+  def index
 
   end
 end

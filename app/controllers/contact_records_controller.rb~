@@ -1,7 +1,12 @@
 class ContactRecordsController < ApplicationController
 	def index
-		@user = User.get(session[:logged_in_user])
-		@contact_records = @user.my_contact_records
+		if session[:logged_in_user] > 0
+			@user = User.get(session[:logged_in_user])
+			@contact_records = @user.my_contact_records
+		else
+			flash[:notice] = "You must be logged in to access this feature"
+			redirect_to login_path
+		end
 	end
 		
 	def new
@@ -19,5 +24,9 @@ class ContactRecordsController < ApplicationController
 		else
 			render :new
 		end
+	end
+
+	def show
+		@contact_record = ContactRecord.get(params[:id])
 	end
 end

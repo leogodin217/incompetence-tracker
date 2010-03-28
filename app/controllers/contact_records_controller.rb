@@ -1,7 +1,7 @@
 class ContactRecordsController < ApplicationController
 	def index
-		@user = User.get(session[:logged_in_user])
-		@contact_records = @user.my_contact_records
+			@user = User.get(session[:logged_in_user])
+			@contact_records = @user.my_contact_records
 	end
 		
 	def new

@@ -5,9 +5,8 @@
 %br
 %ul
   - @contact_records.each do |contact_record|
-    %ul= link_to "#{contact_record.created_at.strftime("%m/%d/%y:%I%M")} - #{contact_record.company}", contact_record_path(1)
+    %ul= link_to "#{contact_record.created_at.strftime("%m/%d/%y:%I%M")} - #{contact_record.company}", contact_record(contact_record)
 
 %br
 =link_to 'New Contact Record', new_contact_record_path
-=link_to 'My Contact Records', contact_records_path
 

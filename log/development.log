@@ -5646,3 +5646,1497 @@ Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 18:40:51) [GET]
 Rendering template within layouts/application
 Rendering home_page/index
 Completed in 7ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-07 19:00:51) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 09:08:53) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 43ms (View: 41 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 09:26:56) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 5ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 09:26:58) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 15ms (View: 13 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-14 09:27:03) [POST]
+  Parameters: {"authenticity_token"=>"1e8ajHFBhrLAx/9jI74750wtOJOr5LYj8Rov41ICG58=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 15ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 09:27:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:27:06) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 44ms (View: 17 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:27:08) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 28ms (View: 15 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:27:19) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 27ms (View: 4 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-14 09:27:21) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 72ms (View: 50 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-03-14 09:27:29) [POST]
+  Parameters: {"authenticity_token"=>"1e8ajHFBhrLAx/9jI74750wtOJOr5LYj8Rov41ICG58=", "contact_record"=>{"company"=>"asdfasdf", "person"=>"asdfasdf", "details"=>"asdfasdf", "contact_record_type"=>"email received"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/contact_records
+Completed in 57ms | 302 Found [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:27:30) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 31ms (View: 5 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:27:31) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 17ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:27:37) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 17ms (View: 3 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-14 09:37:13) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 62ms (View: 5 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-03-14 09:37:23) [POST]
+  Parameters: {"authenticity_token"=>"1e8ajHFBhrLAx/9jI74750wtOJOr5LYj8Rov41ICG58=", "contact_record"=>{"company"=>"my co", "person"=>"me", "details"=>"did stuff", "contact_record_type"=>"call received"}, "commit"=>"Create"}
+
+RuntimeError (What is in this record):
+  app/controllers/contact_records_controller.rb:13:in `create'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-03-14 09:37:41) [POST]
+  Parameters: {"authenticity_token"=>"1e8ajHFBhrLAx/9jI74750wtOJOr5LYj8Rov41ICG58=", "contact_record"=>{"company"=>"my co", "person"=>"me", "details"=>"did stuff", "contact_record_type"=>"call received"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/contact_records
+Completed in 25ms | 302 Found [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:37:41) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 31ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:37:43) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 19ms (View: 3 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:41:04) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 18ms (View: 5 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:41:06) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 15ms (View: 3 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:41:08) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 16ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:41:08) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 18ms (View: 6 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:41:08) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 18ms (View: 4 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:41:09) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 31ms (View: 7 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:41:10) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 71ms (View: 43 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:41:12) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 17ms (View: 3 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:42:27) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (lets have a looksee):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (42.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:42:45) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (44.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:42:53) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (52.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:43:25) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 33ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:26) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (42.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:31) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (41.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:33) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (41.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:33) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (41.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:34) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (91.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:34) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:34) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (98.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:35) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (43.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:35) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (41.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:37) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (41.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:38) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (41.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:43:47) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 31ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:48) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (43.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:55) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (43.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:43:58) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (42.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:44:12) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 33ms (View: 7 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:44:15) [GET]
+  Parameters: {"id"=>"1"}
+
+RuntimeError (#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>):
+  app/controllers/contact_records_controller.rb:26:in `show'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (88.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:45:02) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 42ms (View: 18 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:45:39) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 86ms (View: 62 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-14 09:45:43) [GET]
+  Parameters: {"id"=>"5"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 17ms (View: 4 | 200 OK [http://localhost/contact_records/5]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 09:46:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-03-14 09:46:09) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 09:46:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:46:15) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 34ms (View: 7 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 09:46:17) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 32ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-14 09:46:21) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 26ms (View: 4 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 09:49:44) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  2010-03-14 10:03:51 -0700
+  Status: 500 Internal Server Error
+  /home/leo/incompetence-tracker/app/controllers/application_controller.rb:11: syntax error, unexpected tASSOC, expecting keyword_end
+  before_filter :check_logged_in, :except => :controller => :home_path
+                                                           ^
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `block in load_file'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing_with_dependencies'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:89:in `rescue in dispatch'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:96:in `dispatch'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+/!\ FAILSAFE /!\  2010-03-14 10:03:52 -0700
+  Status: 500 Internal Server Error
+  /home/leo/incompetence-tracker/app/controllers/application_controller.rb:11: syntax error, unexpected tASSOC, expecting keyword_end
+  before_filter :check_logged_in, :except => :controller => :home_path
+                                                           ^
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `block in load_file'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing_with_dependencies'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:89:in `rescue in dispatch'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:96:in `dispatch'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+/!\ FAILSAFE /!\  2010-03-14 10:04:11 -0700
+  Status: 500 Internal Server Error
+  /home/leo/incompetence-tracker/app/controllers/application_controller.rb:11: syntax error, unexpected tASSOC, expecting keyword_end
+  before_filter :check_logged_in, :except => :controller => :home_path
+                                                           ^
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `block in load_file'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing_with_dependencies'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:89:in `rescue in dispatch'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:96:in `dispatch'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+/!\ FAILSAFE /!\  2010-03-14 10:04:13 -0700
+  Status: 500 Internal Server Error
+  /home/leo/incompetence-tracker/app/controllers/application_controller.rb:11: syntax error, unexpected tASSOC, expecting keyword_end
+  before_filter :check_logged_in, :except => :controller => :home_path
+                                                           ^
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `block in load_file'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing_with_dependencies'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:89:in `rescue in dispatch'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:96:in `dispatch'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 10:04:22) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+/!\ FAILSAFE /!\  2010-03-14 10:08:32 -0700
+  Status: 500 Internal Server Error
+  /home/leo/incompetence-tracker/app/controllers/application_controller.rb:15: syntax error, unexpected keyword_do_block, expecting keyword_then or ';' or '\n'
+/home/leo/incompetence-tracker/app/controllers/application_controller.rb:20: syntax error, unexpected keyword_end, expecting $end
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `block in load_file'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing_with_dependencies'
+    /usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:89:in `rescue in dispatch'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:96:in `dispatch'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `block in call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 10:08:58) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:58) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:58) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 5ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:08:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:00) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:00) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:00) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:00) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:00) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:00) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:00) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:00) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:00) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:09:01) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:10:27) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 6ms (View: 4 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-14 10:11:07) [POST]
+  Parameters: {"authenticity_token"=>"CoZlvTHZK6ZCiMXtOH9El5ULBVtQoVkTgwktEXzF0dE=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 14ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 10:11:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 10:11:09) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 76ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 10:11:56) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-03-14 10:11:58) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 10:11:58) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:11:58) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 7ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 10:12:04) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/contact_records]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:12:04) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 10:12:08) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:12:08) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 10:12:10) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:12:10) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 5ms (View: 4 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 10:12:11) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:12:11) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 10:12:12) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:12:12) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-14 10:13:26) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:13:26) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 6ms (View: 5 | 200 OK [http://localhost/login]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 10:15:15) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/contact_records]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-14 10:15:15) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-14 10:17:14) [GET]
+
+RuntimeError (check_logged_in ran):
+  app/controllers/application_controller.rb:15:in `check_logged_in'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (94.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-27 14:58:23) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 459ms | 302 Found [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-27 14:58:24) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 108ms (View: 106 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-27 14:59:00) [POST]
+  Parameters: {"authenticity_token"=>"snts9GbO7E57j+Xk1dyA9PiXsWKlkA0RfCIs7xv2Vb8=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 16ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-27 14:59:00) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 16ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 14:59:05) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 86ms (View: 32 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:01:15) [GET]
+
+TypeError (exception class/object expected):
+  app/controllers/contact_records_controller.rb:4:in `raise'
+  app/controllers/contact_records_controller.rb:4:in `index'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (77.0ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-27 15:01:24) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:01:27) [GET]
+
+TypeError (exception class/object expected):
+  app/controllers/contact_records_controller.rb:4:in `raise'
+  app/controllers/contact_records_controller.rb:4:in `index'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (52.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:01:51) [GET]
+
+RuntimeError (1):
+  app/controllers/contact_records_controller.rb:4:in `index'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (80.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:02:46) [GET]
+
+RuntimeError (#<User @id=1 @username="myuser" @email_address="me@you.com" @password_hash="b6067ffef84d93996155c9a5f1aa240757536794c8b306011b89d6d1021ffd5d" @password_salt="0.414206786236883">):
+  app/controllers/contact_records_controller.rb:4:in `index'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (43.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:03:07) [GET]
+
+TypeError (exception class/object expected):
+  app/controllers/contact_records_controller.rb:4:in `raise'
+  app/controllers/contact_records_controller.rb:4:in `index'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (94.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:03:14) [GET]
+
+RuntimeError ([#<ContactRecord @id=1 @company="asdfasdfasfd" @person="asdfasfd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:17:36 -0700 @user_id=1>, #<ContactRecord @id=2 @company="sadfasf" @person="adsfasdffd" @details=<not loaded> @contact_record_type="call made" @created_at=Sat, 06 Mar 2010 17:45:16 -0700 @user_id=1>, #<ContactRecord @id=3 @company="asdfasdf" @person="asdfasdf" @details=<not loaded> @contact_record_type="email received" @created_at=Sun, 14 Mar 2010 09:27:30 -0700 @user_id=1>, #<ContactRecord @id=4 @company="my co" @person="me" @details=<not loaded> @contact_record_type="call received" @created_at=Sun, 14 Mar 2010 09:37:41 -0700 @user_id=1>, #<ContactRecord @id=5 @company="my company" @person="my person" @details=<not loaded> @contact_record_type="email sent" @created_at=Sun, 14 Mar 2010 09:40:18 -0700 @user_id=1>]):
+  app/controllers/contact_records_controller.rb:4:in `index'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (44.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-03-27 15:03:37) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: authenticate, check_logged_in, create, logout, and signup):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:04:44) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 82ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-27 15:04:47) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-03-27 15:04:49) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-27 15:04:49) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-27 15:04:49) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 2 | 200 OK [http://localhost/login]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:04:58) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/contact_records]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-27 15:04:58) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:10:04) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/contact_records]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-27 15:10:04) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 5ms (View: 4 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-27 15:10:15) [POST]
+  Parameters: {"authenticity_token"=>"snts9GbO7E57j+Xk1dyA9PiXsWKlkA0RfCIs7xv2Vb8=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 16ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-27 15:10:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 7ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:10:23) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 31ms (View: 7 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:10:43) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 71ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-27 15:11:27) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-27 15:44:57) [GET]
+Rendering template within layouts/application
+Rendering home_page/index
+Completed in 13ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-03-27 15:44:59) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-27 15:44:59) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-27 15:44:59) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#index (for 127.0.0.1 at 2010-03-27 15:45:03) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-27 15:45:03) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-27 15:47:04) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 15ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:47:08) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/contact_records]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-27 15:47:08) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-27 15:48:06) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:48:07) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/contact_records]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-27 15:48:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-27 15:48:16) [POST]
+  Parameters: {"authenticity_token"=>"snts9GbO7E57j+Xk1dyA9PiXsWKlkA0RfCIs7xv2Vb8=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 21ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-27 15:48:16) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:48:19) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 44ms (View: 12 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:54:01) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 59ms (View: 35 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-27 15:56:14) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 32ms (View: 7 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 07:49:52) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 759ms | 302 Found [http://localhost/contact_records]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 07:49:53) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 1345ms (View: 1344 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 07:55:45) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 203ms (View: 40 | 200 OK [http://localhost/]
