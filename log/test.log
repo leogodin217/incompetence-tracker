@@ -16496,3 +16496,612 @@ Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:11:44) [GET]
 Rendering template within layouts/application
 Rendering users/login
 Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 82ms (View: 81 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 6ms (View: 5 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:14:07) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 86ms (View: 84 | 200 OK [http://www.example.com/contact_records/new]
+REQUESTING PAGE: POST /contact_records with {"contact_record"=>{"company"=>"Some Company", "person"=>"Some Person", "details"=>"Talked to someone and said things but disagreed", "contact_record_type"=>"call made"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/contact_records/new"}
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-03-28 08:14:07) [POST]
+  Parameters: {"contact_record"=>{"company"=>"Some Company", "person"=>"Some Person", "details"=>"Talked to someone and said things but disagreed", "contact_record_type"=>"call made"}, "commit"=>"Create"}
+Redirected to http://www.example.com/contact_records
+Completed in 3ms | 302 Found [http://www.example.com/contact_records]
+REQUESTING PAGE: GET http://www.example.com/contact_records with {} and HTTP headers {"HTTP_REFERER"=>"/contact_records"}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 7ms (View: 5 | 200 OK [http://www.example.com/contact_records]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:14:07) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 6ms (View: 4 | 200 OK [http://www.example.com/contact_records]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:14:07) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 8ms (View: 7 | 200 OK [http://www.example.com/contact_records/1]
+REQUESTING PAGE: GET /contact_records with {} and HTTP headers {}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://www.example.com/contact_records]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/contact_records"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:14:07) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 5ms (View: 3 | 200 OK [http://www.example.com/contact_records]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 5ms (View: 5 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"user"=>{"username"=>"myuser", "password"=>"mypassword", "email_address"=>"mymail@myserver.com"}, "commit"=>"Signup"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-03-28 08:14:07) [POST]
+  Parameters: {"user"=>{"username"=>"myuser", "password"=>"mypassword", "email_address"=>"mymail@myserver.com"}, "commit"=>"Signup"}
+Redirected to http://www.example.com/
+Completed in 4ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"user1", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:14:07) [POST]
+  Parameters: {"username"=>"user1", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Redirected to http://www.example.com/
+Completed in 0ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"anotheruser1", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:14:07) [POST]
+  Parameters: {"username"=>"anotheruser1", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/login
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"user1", "password"=>"myotherpassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:14:07) [POST]
+  Parameters: {"username"=>"user1", "password"=>"myotherpassword", "commit"=>"Login"}
+Redirected to http://www.example.com/login
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:14:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 91ms (View: 90 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:24:32) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 6ms (View: 5 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:24:32) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-28 08:24:32) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 89ms (View: 87 | 200 OK [http://www.example.com/contact_records/new]
+REQUESTING PAGE: POST /contact_records with {"contact_record"=>{"company"=>"Some Company", "person"=>"Some Person", "details"=>"Talked to someone and said things but disagreed", "contact_record_type"=>"call made"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/contact_records/new"}
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-03-28 08:24:33) [POST]
+  Parameters: {"contact_record"=>{"company"=>"Some Company", "person"=>"Some Person", "details"=>"Talked to someone and said things but disagreed", "contact_record_type"=>"call made"}, "commit"=>"Create"}
+Redirected to http://www.example.com/contact_records
+Completed in 2ms | 302 Found [http://www.example.com/contact_records]
+REQUESTING PAGE: GET http://www.example.com/contact_records with {} and HTTP headers {"HTTP_REFERER"=>"/contact_records"}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 7ms (View: 5 | 200 OK [http://www.example.com/contact_records]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:24:33) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 6ms (View: 4 | 200 OK [http://www.example.com/contact_records]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:24:33) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 9ms (View: 8 | 200 OK [http://www.example.com/contact_records/1]
+REQUESTING PAGE: GET /contact_records with {} and HTTP headers {}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://www.example.com/contact_records]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/contact_records"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 3ms (View: 3 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:24:33) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 4ms (View: 3 | 200 OK [http://www.example.com/contact_records]
+REQUESTING PAGE: GET /contact_records/new with {} and HTTP headers {}
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://www.example.com/contact_records/new]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/contact_records/new"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:24:33) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 4ms (View: 3 | 200 OK [http://www.example.com/contact_records/new]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 5ms (View: 5 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"user"=>{"username"=>"myuser", "password"=>"mypassword", "email_address"=>"mymail@myserver.com"}, "commit"=>"Signup"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-03-28 08:24:33) [POST]
+  Parameters: {"user"=>{"username"=>"myuser", "password"=>"mypassword", "email_address"=>"mymail@myserver.com"}, "commit"=>"Signup"}
+Redirected to http://www.example.com/
+Completed in 3ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"user1", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:24:33) [POST]
+  Parameters: {"username"=>"user1", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Redirected to http://www.example.com/
+Completed in 0ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"anotheruser1", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:24:33) [POST]
+  Parameters: {"username"=>"anotheruser1", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/login
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 1ms (View: 1 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 3ms (View: 2 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"user1", "password"=>"myotherpassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-03-28 08:24:33) [POST]
+  Parameters: {"username"=>"user1", "password"=>"myotherpassword", "commit"=>"Login"}
+Redirected to http://www.example.com/login
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-03-28 08:24:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 2ms (View: 2 | 200 OK [http://www.example.com/login]

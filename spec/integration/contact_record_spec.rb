@@ -88,7 +88,27 @@ describe ContactRecord do
 		click_button 'login'
 
 		visit contact_records_path
+
 		response.should_not contain 'You must be logged in to access this feature'
+	end
+
+	it 'requires a login to create contact records' do
+
+		User.create(:username 		=> 'myuser',
+					:password 		=> 'mypassword',
+					:email_address  => 'me@you.com')
+
+		visit new_contact_record_path
+
+		response.should contain 'You must be logged in to access this feature'
+
+		fill_in 'username', :with => 'myuser'
+		fill_in 'password', :with => 'mypassword'
+		click_button 'login'
+
+		visit new_contact_record_path
+
+		response.should_not contain 'You must be logged in to access this feature'	
 	end
 
 end
