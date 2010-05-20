@@ -69,20 +69,22 @@ describe ContactRecord do
 	end
 
 	it 'requires a login to view contact_records' do
+		User.create(:username 	   => 'myuser',
+					:password 	   => 'mypassword',
+					:email_address => 'me@you.com',
+				    :id 		   => '1')
+
 		ContactRecord.create(:user_id 			  => 1,
 						 	 :company 			  => 'a company',
 							 :person  			  => 'a person',
 							 :details 			  => 'some details',
 							 :contact_record_type => 'email sent')
 
-		User.create(:username 	   => 'myuser',
-					:password 	   => 'mypassword',
-					:email_address => 'me@you.com')
-		
+		visit root_path
+		raise 'you got this far'	
 		visit contact_records_path
-
 		response.should contain 'You must be logged in to access this feature'
-
+		
 		fill_in 'username', :with => 'myuser'
 		fill_in 'password', :with => 'mypassword'
 		click_button 'login'
@@ -126,7 +128,7 @@ describe ContactRecord do
 
 		visit root_path
 		click_link 'login'	
-		fill_in 'username', :with => 'myuser'
+		fill_in 'username', :with => 'somedude'
 		fill_in 'password', :with => 'mypassword'
 		click_button 'login'
 
@@ -137,7 +139,7 @@ describe ContactRecord do
 		visit root_path
 		click_link 'logout'
 		click_link 'login'	
-		fill_in 'username', :with => 'somedude'
+		fill_in 'username', :with => 'myuser'
 		fill_in 'password', :with => 'mypassword'
 		click_button 'login'
 

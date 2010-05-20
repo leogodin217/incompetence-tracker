@@ -5,8 +5,11 @@ ActionController::Routing::Routes.draw do |map|
   map.logout  '/logout', :controller => :users, :action => :logout
   map.resources :users do |users|
     users.resources :contact_records
+	users.resources :problems
   end
 
+  
+  map.resources :problems
   map.resources :contact_records
   #map.resources :contact_records
   # The priority is based upon order of creation: first created -> highest priority.

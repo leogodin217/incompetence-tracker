@@ -69,20 +69,20 @@ describe ContactRecord do
 	end
 
 	it 'requires a login to view contact_records' do
+		User.create(:username 	   => 'myuser',
+					:password 	   => 'mypassword',
+					:email_address => 'me@you.com',
+				    :id 		   => '1')
+
 		ContactRecord.create(:user_id 			  => 1,
 						 	 :company 			  => 'a company',
 							 :person  			  => 'a person',
 							 :details 			  => 'some details',
 							 :contact_record_type => 'email sent')
 
-		User.create(:username 	   => 'myuser',
-					:password 	   => 'mypassword',
-					:email_address => 'me@you.com')
-		
 		visit contact_records_path
-
 		response.should contain 'You must be logged in to access this feature'
-
+		
 		fill_in 'username', :with => 'myuser'
 		fill_in 'password', :with => 'mypassword'
 		click_button 'login'
