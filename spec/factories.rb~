@@ -1,8 +1,13 @@
 require 'factory_girl'
 require 'factory_girl_extensions'
 
-Factory.define :contact do |o|
+Factory.define :user do |o|
 	o.username 		'myuser'
 	o.password		'mypassword'
 	o.email_address	'me@you.com'
+end
+
+Factory.define :problem do |p|
+	p.title 			'A title'
+	p.description		'A description'
 end

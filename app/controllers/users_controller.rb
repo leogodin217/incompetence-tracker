@@ -5,6 +5,10 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+  def login
+
+  end
+
   def logout
     session[:logged_in] = nil
     redirect_to root_path

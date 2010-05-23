@@ -7941,3 +7941,27 @@ Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-20 00:03
 Rendering template within layouts/application
 Rendering home_page/home_page_index
 Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-22 13:47:46) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 75ms (View: 73 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-23 12:51:43) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-23 12:51:45) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 15ms (View: 14 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-23 13:17:15) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 21ms (View: 3 | 200 OK [http://localhost/login]

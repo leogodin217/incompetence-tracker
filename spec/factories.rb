@@ -6,3 +6,8 @@ Factory.define :user do |o|
 	o.password		'mypassword'
 	o.email_address	'me@you.com'
 end
+
+Factory.define :problem do |p|
+	p.title 			'A title'
+	p.description		'A description'
+end

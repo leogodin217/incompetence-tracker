@@ -6,19 +6,16 @@ describe Problem do
 		Problem.all.should be_empty
 
 		User.create :username		=> 'myuser',
-					:password		=> 'mypassword',
-					:email_address 	=> 'myuser@leogodin.net'
-
+					:password		=> 'mypassword'
 
 		visit root_path
 		save_and_open_page
 		click_link  	'login'
-		save_and_open_page
+		rais 'Got to login'
 		fill_in 		'username', 	:with => 'myuser'
 		fill_in 		'password', 	:with => 'mypassword'
 
 		click_button 	'login'
-		save_and_open_page
 		click_link		'New Problem'
 		fill_in			'problem_title', 			:with => 'I got a problem man!'
 		fill_in			'problem_company_name', 	:with => 'some stupid company'
@@ -33,9 +30,11 @@ describe Problem do
 		Problem.all.length.should == 1
 	end
 
-	it 'can view a problem'
+	it 'can view a problem' do
+		@problem = Problem.gen
 
 
+	end
 
 
 end
