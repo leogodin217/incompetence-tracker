@@ -43,9 +43,13 @@ describe Problem do
 		fill_in 		'password', 	:with => 'mypassword'
 		click_button 	'login'
 
-		@problem = :problem.gen :title 			=> 'This is a problem',
-								:description	=> 'A problem description',
-								:company_name	=> 'my company'
+		@problem = :problem.gen :title 				=> 'This is a problem',
+								:description		=> 'A problem description',
+								:company_name		=> 'my company',
+								:company_web_site	=> 'www.myco.com',
+								:company_phone		=> '555-555-5555',
+								:company_email 		=> 'me@you.com',
+								:company_fax		=> '555-555-5556'
 
 
 		visit problem_path @problem.id
@@ -53,7 +57,9 @@ describe Problem do
 		response.should contain 'This is a problem'
 		response.should contain 'A problem description'
 		response.should contain 'my company'
-
+		response.should contain 'www.myco.com'
+		response.should contain '555-555-5555'
+		response.should contain '555-555-5556'
 	end
 
 
