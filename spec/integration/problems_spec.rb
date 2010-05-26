@@ -62,7 +62,25 @@ describe Problem do
 		response.should contain '555-555-5556'
 	end
 
+	it 'can view all problems' do
 
+		:user.gen
+		visit 			root_path
+		click_link 		'login'
+		fill_in 		'username', 	:with => 'myuser'
+		fill_in 		'password', 	:with => 'mypassword'
+		click_button 	'login'
+
+		:problem.gen :title => 'my problem'
+		:problem.gen :title => 'a problem'
+		:problem.gen :title => 'big problem'
+
+		visit problems_path
+
+		response.should contain 'my problem'
+		response.should contain 'a problem'
+		response.should contain 'big problem'
+	end
 
 
 end

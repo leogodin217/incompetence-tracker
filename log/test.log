@@ -7361,3 +7361,940 @@ Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:05:08) [GET]
 Rendering template within layouts/application
 Rendering users/login
 Completed in 11ms (View: 10 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:30:31) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 60ms (View: 58 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:30:31) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 15ms (View: 14 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:30:31) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:30:31) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-05-26 09:30:31) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 96ms (View: 94 | 200 OK [http://www.example.com/problems/new]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems/new"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:30:32) [POST]
+  Parameters: {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 12ms (View: 11 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:30:32) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 12ms (View: 11 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:30:32) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 12ms (View: 11 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:30:32) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Redirected to http://www.example.com/problems/1
+Completed in 2ms | 302 Found [http://www.example.com/problems]
+REQUESTING PAGE: GET http://www.example.com/problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 09:30:32) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 9ms (View: 8 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:30:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 5ms (View: 5 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:30:32) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 18ms (View: 18 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:30:32) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:30:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 09:30:32) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 7ms (View: 6 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET /problems with {} and HTTP headers {}
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-05-26 09:30:32) [GET]
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://www.example.com/problems]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:30:32) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 11ms (View: 10 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:04) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 62ms (View: 60 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:31:04) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 16ms (View: 14 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:31:04) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:04) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 6ms (View: 6 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-05-26 09:31:04) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 99ms (View: 97 | 200 OK [http://www.example.com/problems/new]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems/new"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:31:04) [POST]
+  Parameters: {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 15ms (View: 13 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:31:04) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 12ms (View: 11 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:31:04) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 15ms (View: 13 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:31:04) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Redirected to http://www.example.com/problems/1
+Completed in 2ms | 302 Found [http://www.example.com/problems]
+REQUESTING PAGE: GET http://www.example.com/problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 09:31:04) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 11ms (View: 9 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:04) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 6ms (View: 6 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:31:04) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 18ms (View: 18 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:31:04) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:04) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 8ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 09:31:04) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 7ms (View: 5 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:04) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:31:04) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 15ms (View: 14 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:31:04) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:05) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 9ms (View: 9 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-05-26 09:31:05) [GET]
+
+ArgumentError (no id given):
+  /usr/local/lib/ruby/gems/1.9.1/gems/factory_girl_extensions-0.3.1/lib/factory_girl_extensions.rb:61:in `method_missing'
+  /usr/local/lib/ruby/gems/1.9.1/gems/factory_girl_extensions-0.3.1/lib/factory_girl_extensions.rb:61:in `method_missing'
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  webrat (0.7.0) lib/webrat/adapters/rails.rb:46:in `do_request'
+  webrat (0.7.0) lib/webrat/adapters/rails.rb:15:in `get'
+  /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+  webrat (0.7.0) lib/webrat/core/session.rb:279:in `process_request'
+  webrat (0.7.0) lib/webrat/core/session.rb:118:in `request_page'
+  webrat (0.7.0) lib/webrat/core/session.rb:216:in `visit'
+  (eval):2:in `visit'
+  spec/integration/problems_spec.rb:78:in `block (2 levels) in <top (required)>'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+  /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+  spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+  spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+  spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+  spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+  spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+  spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+  spork (0.8.3) lib/spork/server.rb:47:in `run'
+  /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+  /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+  /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+  /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+  /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (115.3ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:41) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 61ms (View: 60 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:31:41) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 15ms (View: 13 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:31:41) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:41) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-05-26 09:31:41) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 100ms (View: 98 | 200 OK [http://www.example.com/problems/new]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems/new"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:31:42) [POST]
+  Parameters: {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 13ms (View: 11 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:31:42) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 12ms (View: 11 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:31:42) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 13ms (View: 11 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:31:42) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Redirected to http://www.example.com/problems/1
+Completed in 2ms | 302 Found [http://www.example.com/problems]
+REQUESTING PAGE: GET http://www.example.com/problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 09:31:42) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 10ms (View: 9 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:42) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 5ms (View: 5 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:31:42) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 17ms (View: 17 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:31:42) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:42) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 09:31:42) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 8ms (View: 6 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:42) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 6ms (View: 6 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:31:42) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 11ms (View: 11 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:31:42) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:31:42) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-05-26 09:31:42) [GET]
+
+ActionView::MissingTemplate (Missing template problems/index.erb in view path app/views):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  webrat (0.7.0) lib/webrat/adapters/rails.rb:46:in `do_request'
+  webrat (0.7.0) lib/webrat/adapters/rails.rb:15:in `get'
+  /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+  webrat (0.7.0) lib/webrat/core/session.rb:279:in `process_request'
+  webrat (0.7.0) lib/webrat/core/session.rb:118:in `request_page'
+  webrat (0.7.0) lib/webrat/core/session.rb:216:in `visit'
+  (eval):2:in `visit'
+  spec/integration/problems_spec.rb:78:in `block (2 levels) in <top (required)>'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+  /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+  spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+  spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+  spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+  spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+  spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+  spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+  spork (0.8.3) lib/spork/server.rb:47:in `run'
+  /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+  /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+  /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+  /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+  /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 63ms (View: 61 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 23ms (View: 21 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:33:40) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 9ms (View: 9 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 68ms (View: 66 | 200 OK [http://www.example.com/problems/new]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems/new"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:33:40) [POST]
+  Parameters: {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 19ms (View: 18 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:33:40) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 13ms (View: 11 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:33:40) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 13ms (View: 12 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:33:40) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Redirected to http://www.example.com/problems/1
+Completed in 2ms | 302 Found [http://www.example.com/problems]
+REQUESTING PAGE: GET http://www.example.com/problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 10ms (View: 8 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 5ms (View: 5 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 11ms (View: 11 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:33:40) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 7ms (View: 6 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 6ms (View: 6 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 11ms (View: 11 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:33:40) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-05-26 09:33:40) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+ERROR: compiling _run_haml_app47views47problems47index46html46haml RAISED /home/leo/incompetence-tracker/app/views/problems/index.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...lem.title, problem_path problem.id
+...                               ^
+Function body:           def _run_haml_app47views47problems47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:xhtml, :encoding=>"utf-8", :escape_html=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+_hamlout.push_text("<h3>Problems</h3>\n", 0, false); @problems.each do |problem|;
+_hamlout.push_text("#{haml_temp =  link_to problem.title, problem_path problem.id
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<br />\n", 0, false);end;_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/test_case.rb:20:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `block in render_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/local/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `block in perform_action_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `block in ms'
+/usr/local/lib/ruby/1.9.1/benchmark.rb:309:in `realtime'
+/usr/local/lib/ruby/gems/1.9.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+/usr/local/lib/ruby/gems/1.9.1/gems/haml-2.2.17/lib/sass/plugin/rails.rb:19:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `block in build_middleware_stack'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:8:in `synchronize'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lint.rb:47:in `_call'
+/usr/local/lib/ruby/gems/1.9.1/gems/rack-1.0.1/lib/rack/lint.rb:35:in `call'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/integration.rb:316:in `process'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/integration.rb:197:in `get'
+/usr/local/lib/ruby/gems/1.9.1/gems/actionpack-2.3.5/lib/action_controller/integration.rb:499:in `block (2 levels) in <module:Runner>'
+/usr/local/lib/ruby/gems/1.9.1/gems/webrat-0.7.0/lib/webrat/adapters/rails.rb:46:in `do_request'
+/usr/local/lib/ruby/gems/1.9.1/gems/webrat-0.7.0/lib/webrat/adapters/rails.rb:15:in `get'
+/usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+/usr/local/lib/ruby/gems/1.9.1/gems/webrat-0.7.0/lib/webrat/core/session.rb:279:in `process_request'
+/usr/local/lib/ruby/gems/1.9.1/gems/webrat-0.7.0/lib/webrat/core/session.rb:118:in `request_page'
+/usr/local/lib/ruby/gems/1.9.1/gems/webrat-0.7.0/lib/webrat/core/session.rb:216:in `visit'
+(eval):2:in `visit'
+/home/leo/incompetence-tracker/spec/integration/problems_spec.rb:78:in `block (2 levels) in <top (required)>'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/example/example_methods.rb:40:in `instance_eval'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/example/example_methods.rb:40:in `block in execute'
+/usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/example/example_methods.rb:37:in `execute'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/example/example_group_methods.rb:212:in `each'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/example/example_group_methods.rb:212:in `run_examples'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/example/example_group_methods.rb:103:in `run'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/runner/example_group_runner.rb:23:in `block in run'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/runner/example_group_runner.rb:22:in `each'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/runner/example_group_runner.rb:22:in `run'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/runner/options.rb:152:in `run_examples'
+/usr/local/lib/ruby/gems/1.9.1/gems/rspec-1.3.0/lib/spec/runner/command_line.rb:9:in `run'
+/home/leo/.gem/ruby/1.9.1/gems/spork-0.8.3/lib/spork/test_framework/rspec.rb:6:in `run_tests'
+/home/leo/.gem/ruby/1.9.1/gems/spork-0.8.3/lib/spork/run_strategy/forking.rb:13:in `block in run'
+/home/leo/.gem/ruby/1.9.1/gems/spork-0.8.3/lib/spork/forker.rb:21:in `block in initialize'
+/home/leo/.gem/ruby/1.9.1/gems/spork-0.8.3/lib/spork/forker.rb:18:in `fork'
+/home/leo/.gem/ruby/1.9.1/gems/spork-0.8.3/lib/spork/forker.rb:18:in `initialize'
+/home/leo/.gem/ruby/1.9.1/gems/spork-0.8.3/lib/spork/run_strategy/forking.rb:9:in `new'
+/home/leo/.gem/ruby/1.9.1/gems/spork-0.8.3/lib/spork/run_strategy/forking.rb:9:in `run'
+/home/leo/.gem/ruby/1.9.1/gems/spork-0.8.3/lib/spork/server.rb:47:in `run'
+/usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+/usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+/usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+/usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+/usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+ActionView::TemplateError (/home/leo/incompetence-tracker/app/views/problems/index.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...lem.title, problem_path problem.id
+...                               ^) on line #4 of app/views/problems/index.html.haml:
+1: %h3 Problems
+2: 
+3: - @problems.each do |problem|
+4:     = link_to problem.title, problem_path problem.id
+5:     %br
+
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.0) lib/webrat/adapters/rails.rb:46:in `do_request'
+    webrat (0.7.0) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.0) lib/webrat/core/session.rb:279:in `process_request'
+    webrat (0.7.0) lib/webrat/core/session.rb:118:in `request_page'
+    webrat (0.7.0) lib/webrat/core/session.rb:216:in `visit'
+    (eval):2:in `visit'
+    spec/integration/problems_spec.rb:78:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (127.9ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 58ms (View: 57 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 16ms (View: 14 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:34:15) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 62ms (View: 60 | 200 OK [http://www.example.com/problems/new]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems/new"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:34:15) [POST]
+  Parameters: {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 13ms (View: 11 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:34:15) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 13ms (View: 12 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:34:15) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 13ms (View: 11 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 09:34:15) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Redirected to http://www.example.com/problems/1
+Completed in 2ms | 302 Found [http://www.example.com/problems]
+REQUESTING PAGE: GET http://www.example.com/problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 10ms (View: 8 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 6ms (View: 6 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 11ms (View: 11 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:34:15) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 7ms (View: 6 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 5ms (View: 5 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 11ms (View: 11 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 09:34:15) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 7 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-05-26 09:34:15) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 10ms (View: 10 | 200 OK [http://www.example.com/problems]

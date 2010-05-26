@@ -46,7 +46,7 @@ describe Problem do
 		@problem = :problem.gen :title 				=> 'This is a problem',
 								:description		=> 'A problem description',
 								:company_name		=> 'my company',
-								:company_web_siet	=> 'www.myco.com',
+								:company_web_site	=> 'www.myco.com',
 								:company_phone		=> '555-555-5555',
 								:company_email 		=> 'me@you.com',
 								:company_fax		=> '555-555-5556'
@@ -62,7 +62,17 @@ describe Problem do
 		response.should contain '555-555-5556'
 	end
 
+	it 'can view all problems' do
+		:problem.gen :title => 'my problem'
+		:problem.gen :title => 'a problem'
+		:problem.gen :title => 'big problem'
 
+		visit problems_path
+
+		response.should contain 'my problem'
+		response.should contain 'a problem'
+		response.should contain 'big problem'
+	end
 
 
 end
