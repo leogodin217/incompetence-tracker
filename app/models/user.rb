@@ -15,8 +15,6 @@ class User
 
   def authenticate(opts)
    
-    puts "username sent is #{opts[:username]}, password sent is #{opts[:password]}"
-    puts "Self password_salt is #{self.password_salt}"
     return false unless self.username == opts[:username]
     Digest::SHA256.hexdigest(opts[:password] + self.password_salt) == self.password_hash
     
