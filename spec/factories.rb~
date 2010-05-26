@@ -10,4 +10,5 @@ end
 Factory.define :problem do |p|
 	p.title 			'A title'
 	p.description		'A description'
+	p.company_name		'A company'
 end

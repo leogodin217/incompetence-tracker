@@ -10,7 +10,12 @@ class ProblemsController < ApplicationController
 			flash[:notice] = 'Problem successfully created'
 			redirect_to problem_path @problem
 		else
+			flash[:notice] = 'Could not create Problem'
 			render :new
 		end
+	end
+
+	def show
+		@problem = Problem.get params[:id]
 	end
 end

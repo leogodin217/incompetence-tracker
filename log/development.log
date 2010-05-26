@@ -7965,3 +7965,284 @@ Processing UsersController#login (for 127.0.0.1 at 2010-05-23 13:17:15) [GET]
 Rendering template within layouts/application
 Rendering users/login
 Completed in 21ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-23 13:27:54) [POST]
+  Parameters: {"authenticity_token"=>"YHYUh6rUQukSAsAeQ4RzqE49OKGja4dPu2RBhEdLmPE=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 19ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-23 13:27:54) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-05-23 13:27:57) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: check_logged_in, create, new, and show):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-23 13:31:05) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-05-23 14:18:24) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 86ms (View: 74 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-05-23 14:18:38) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 16ms (View: 4 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-23 14:23:48) [POST]
+  Parameters: {"authenticity_token"=>"YHYUh6rUQukSAsAeQ4RzqE49OKGja4dPu2RBhEdLmPE=", "problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"", "company_phone"=>"", "company_email"=>"", "company_fax"=>""}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 19ms (View: 6 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-23 14:23:57) [POST]
+  Parameters: {"authenticity_token"=>"YHYUh6rUQukSAsAeQ4RzqE49OKGja4dPu2RBhEdLmPE=", "problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"asdfasfd", "company_phone"=>"adasdfafds", "company_email"=>"adfadfs", "company_fax"=>"adfafasdf"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 20ms (View: 6 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-23 14:24:01) [POST]
+  Parameters: {"authenticity_token"=>"YHYUh6rUQukSAsAeQ4RzqE49OKGja4dPu2RBhEdLmPE=", "problem"=>{"title"=>"asdfasfasdf", "description"=>"", "company_name"=>"", "company_web_site"=>"asdfasfd", "company_phone"=>"adasdfafds", "company_email"=>"adfadfs", "company_fax"=>"adfafasdf"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 19ms (View: 6 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-23 14:24:03) [POST]
+  Parameters: {"authenticity_token"=>"YHYUh6rUQukSAsAeQ4RzqE49OKGja4dPu2RBhEdLmPE=", "problem"=>{"title"=>"asdfasfasdf", "description"=>"adsfasdfafd", "company_name"=>"", "company_web_site"=>"asdfasfd", "company_phone"=>"adasdfafds", "company_email"=>"adfadfs", "company_fax"=>"adfafasdf"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 19ms (View: 6 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-23 14:24:10) [POST]
+  Parameters: {"authenticity_token"=>"YHYUh6rUQukSAsAeQ4RzqE49OKGja4dPu2RBhEdLmPE=", "problem"=>{"title"=>"asdfasfasdf", "description"=>"adsfasdfafd", "company_name"=>"asdfasdffsd", "company_web_site"=>"asdfasfd", "company_phone"=>"adasdfafds", "company_email"=>"adfadfs", "company_fax"=>"adfafasdf"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/problems/%23%3CProblem:0xaeead60%3E
+Completed in 18ms | 302 Found [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-23 14:24:10) [GET]
+  Parameters: {"id"=>"#<Problem:0xaeead60>"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 23ms (View: 9 | 200 OK [http://localhost/problems/%23%3CProblem:0xaeead60%3E]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-25 18:15:22) [GET]
+  Parameters: {"id"=>"#<Problem:0xaeead60>"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 19ms | 302 Found [http://localhost/problems/%23%3CProblem:0xaeead60%3E]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-25 18:15:22) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 24ms (View: 23 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-25 18:15:28) [POST]
+  Parameters: {"authenticity_token"=>"oz36q2GNMtRSnx5S5fkBdxP2bzarRhAQuY2RpjGP7s8=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 23ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-25 18:15:28) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 14ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-05-25 18:15:33) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: check_logged_in, create, new, and show):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-05-25 18:15:37) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 88ms (View: 46 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-25 18:15:42) [POST]
+  Parameters: {"authenticity_token"=>"oz36q2GNMtRSnx5S5fkBdxP2bzarRhAQuY2RpjGP7s8=", "problem"=>{"title"=>"asafsdf", "description"=>"asdfasfd", "company_name"=>"asfasfasd", "company_web_site"=>"", "company_phone"=>"", "company_email"=>"", "company_fax"=>""}, "commit"=>"Create"}
+Redirected to http://localhost:3000/problems/%23%3CProblem:0x8d7a7c4%3E
+Completed in 15ms | 302 Found [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-25 18:15:42) [GET]
+  Parameters: {"id"=>"#<Problem:0x8d7a7c4>"}
+Rendering template within layouts/application
+Rendering problems/show
+
+ActionView::TemplateError (undefined method `title' for nil:NilClass) on line #4 of app/views/problems/show.html.haml:
+1: .flash= flash[:notice]
+2: %h3 Viewing Problem
+3: 
+4: %p= "Title: #{@problem.title}"
+5: %p= "Company: #{@problem.company_name}"
+6: %p= "Description: #{@problem.description}"
+
+    app/views/problems/show.html.haml:4:in `_run_haml_app47views47problems47show46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (63.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 08:50:58) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 21ms | 302 Found [http://localhost/problems/1]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-05-26 08:50:58) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 25ms (View: 24 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-05-26 08:51:06) [POST]
+  Parameters: {"authenticity_token"=>"sEZ8gLSZ01zoo5JO8Q43fjv9YYNCOrN3Q1256Lz5pDI=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 22ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 08:51:06) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 14ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 08:51:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 30ms (View: 15 | 200 OK [http://localhost/problems/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-26 08:51:21) [GET]
+
+ActionController::RoutingError (No route matches "/problem/1" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 08:51:31) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 25ms (View: 8 | 200 OK [http://localhost/problems/3]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 08:55:07) [POST]
+  Parameters: {"authenticity_token"=>"oz36q2GNMtRSnx5S5fkBdxP2bzarRhAQuY2RpjGP7s8=", "problem"=>{"title"=>"asafsdf", "description"=>"asdfasfd", "company_name"=>"asfasfasd", "company_web_site"=>"", "company_phone"=>"", "company_email"=>"", "company_fax"=>""}, "commit"=>"Create"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (47.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 08:55:19) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-05-26 08:55:26) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-05-26 08:55:28) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 119ms (View: 53 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-05-26 08:55:31) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 29ms (View: 17 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-05-26 08:55:35) [POST]
+  Parameters: {"authenticity_token"=>"sEZ8gLSZ01zoo5JO8Q43fjv9YYNCOrN3Q1256Lz5pDI=", "problem"=>{"title"=>"asdfasfd", "description"=>"afdsasfd", "company_name"=>"asdfafdsadsf", "company_web_site"=>"", "company_phone"=>"", "company_email"=>"", "company_fax"=>""}, "commit"=>"Create"}
+Redirected to http://localhost:3000/problems/%23%3CProblem:0xb834210%3E
+Completed in 17ms | 302 Found [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-26 08:55:35) [GET]
+  Parameters: {"id"=>"#<Problem:0xb834210>"}
+Rendering template within layouts/application
+Rendering problems/show
+
+ActionView::TemplateError (undefined method `title' for nil:NilClass) on line #4 of app/views/problems/show.html.haml:
+1: .flash= flash[:notice]
+2: %h3 Viewing Problem
+3: 
+4: %p= "Title: #{@problem.title}"
+5: %p= "Company: #{@problem.company_name}"
+6: %p= "Description: #{@problem.description}"
+
+    app/views/problems/show.html.haml:4:in `_run_haml_app47views47problems47show46html46haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (2.2.17) lib/sass/plugin/rails.rb:19:in `process'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (59.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
