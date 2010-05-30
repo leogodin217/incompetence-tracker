@@ -82,5 +82,25 @@ describe Problem do
 		response.should contain 'big problem'
 	end
 
+	it 'can associate contact records with a problem' do
+		do_login
+		@problem 		 = :problem.gen
+		@contact_record  = :contact_record.gen :company => 'record 1', :user_id => '1'
+		@contact_record1 = :contact_record.gen :company => 'record 2', :user_id => '1'	
 
+		@problem.contact_records.should be_empty
+
+		visit problem_path @problem.id
+		click_link 'Associate Contact Record'
+		save_and_open_page
+		select  'record 1'
+		click_button 'Save'
+		click_link 'Associate Contact Record'
+		select  'record 2'
+		click_button 'Save'
+	
+		@problem.reload	
+		@problem.contact_records.length.should == 2	
+
+	end
 end

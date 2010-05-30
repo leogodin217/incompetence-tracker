@@ -1,6 +1,6 @@
 class ContactRecord
 	include DataMapper::Resource
-	
+
 	property :id,					Serial
 	property :company, 				String
     property :person,				String	
@@ -10,9 +10,14 @@ class ContactRecord
 	property :user_id,				Integer
 
 	belongs_to :user
+	has 1, :problem, :through => Resource
 
 	def self.contact_record_types
 		@@contact_record_types
+	end
+
+	def self.my_contact_records(user_id)
+		return ContactRecord.all :user_id => user_id
 	end
 
 	private

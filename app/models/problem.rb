@@ -9,4 +9,6 @@ class Problem
 	property :company_phone,	String
 	property :company_email,	String
 	property :company_fax,		String
+
+	has n, :contact_records, :through => Resource
 end

@@ -1,0 +1,7 @@
+%h3= "Associate Contact Record to #{@problem.title}"
+= form_tag {:controller => :problems, :action => :save_contact_record_association}, {:method => :put}
+= label_tag :contact_record
+%br
+= select_tag :contact_record, options_from_collection_for_select(@contact_records, :id, :company)
+%br
+= submit_tag

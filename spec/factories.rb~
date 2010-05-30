@@ -12,3 +12,9 @@ Factory.define :problem do |p|
 	p.description		'A description'
 	p.company_name		'A company'
 end
+
+Factory.define :contact_record do |c|
+	c.company 			  'A company'
+	c.person			  'A person'
+	c.contact_record_type 'call made'
+end

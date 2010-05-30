@@ -1,0 +1,9 @@
+class ContactRecordProblem
+	include DataMapper::Resource
+	property :id,					Serial
+	property :problem_id,			Integer
+	property :contact_record_id,	Integer
+
+	belongs_to :problem
+	belongs_to :contact_record
+end
