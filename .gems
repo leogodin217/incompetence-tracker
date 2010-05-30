@@ -1,4 +1,7 @@
+datamapper
 dm-core
 dm-validations
+dm-constraints
+dm-timestamps
 rails_datamapper
 rails --version 2.3.8
