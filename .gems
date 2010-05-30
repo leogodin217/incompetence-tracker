@@ -1,7 +1,10 @@
-datamapper
-dm-core
-dm-validations
-dm-constraints
-dm-timestamps
-rails_datamapper
+datamapper --version '>= 0.10.2'
+dm-core --version '>= 0.10.2'
+dm-validations --version '>= 0.10.2'
+dm-constraints --version '>= 0.10.2'
+dm-aggregates --version '>= 0.10.2'
+dm-timestamps --version '>= 0.10.2'
+rails_datamapper --version '>= 0.10.2'
 rails --version 2.3.8
+do_postgres --version '>= 0.10.1'
+data_objects --version '>= 0.10.1'
