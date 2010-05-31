@@ -10123,3 +10123,10 @@ Processing ProblemsController#show (for 127.0.0.1 at 2010-05-30 14:44:56) [GET]
 Rendering template within layouts/application
 Rendering problems/show
 Completed in 38ms (View: 6 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-05-30 18:35:33) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 278ms (View: 170 | 200 OK [http://localhost/problems/1]

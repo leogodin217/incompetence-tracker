@@ -8,6 +8,11 @@
 %p= "Phone: #{@problem.company_phone}"
 %p= "Email: #{@problem.company_email}"
 %p= "Fax: #{@problem.company_fax}"
+%p Contact Records
+- @problem.contact_records.each do |contact_record|
+  = link_to "#{contact_record.created_at} : #{contact_record.company}", contact_record_path(contact_record.id)
+  %br
+
 
 
 = link_to 'Associate Contact Record', associate_contact_record_problem_path(@problem.id)

@@ -92,7 +92,6 @@ describe Problem do
 
 		visit problem_path @problem.id
 		click_link 'Associate Contact Record'
-		save_and_open_page
 		select  'record 1'
 		click_button 'Save'
 		click_link 'Associate Contact Record'
@@ -102,5 +101,22 @@ describe Problem do
 		@problem.reload	
 		@problem.contact_records.length.should == 2	
 
+	end
+
+	it 'can view contact records for a problem' do
+		do_login
+		@problem 		 = :problem.gen
+		puts @probelm.inspect
+		@contact_record  = :contact_record.gen :company => 'record 1', :user_id => '1'
+		@contact_record1 = :contact_record.gen :company => 'record 2', :user_id => '1'	
+		@problem.contact_records << @contact_record
+		@problem.contact_records << @contact_record1
+		@problem.save
+		
+		@problem.contact_records.length.should == 2
+		puts @probelm.inspect
+		visit problem_path @problem.id
+		response.should contain 'record 1'
+		response.should contain 'record 2'
 	end
 end
