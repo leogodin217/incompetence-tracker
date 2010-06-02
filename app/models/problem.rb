@@ -9,6 +9,8 @@ class Problem
 	property :company_phone,	String
 	property :company_email,	String
 	property :company_fax,		String
+	property :user_id,			Integer
 
 	has n, :contact_records, :through => Resource
+	belongs_to :user
 end

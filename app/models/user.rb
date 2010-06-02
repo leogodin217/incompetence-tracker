@@ -8,6 +8,7 @@ class User
   property :password_salt,  String
   
  has n, :contact_records
+ has n, :problems
 
   def my_contact_records
 	ContactRecord.all(:user_id => id)	

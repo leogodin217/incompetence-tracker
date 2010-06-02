@@ -5,7 +5,9 @@ describe Problem do
 	it 'can create a Problem' do 
 		Problem.all.should be_empty
 
-		:user.gen
+		User.create :username => 'myuser',
+					:password => 'mypassword',
+					:email_address => 'myuser@localhost.com'
 
 
 		visit root_path
@@ -49,7 +51,8 @@ describe Problem do
 								:company_web_site	=> 'www.myco.com',
 								:company_phone		=> '555-555-5555',
 								:company_email 		=> 'me@you.com',
-								:company_fax		=> '555-555-5556'
+								:company_fax		=> '555-555-5556',
+								:user_id			=> '1'
 
 
 		visit problem_path @problem.id
@@ -84,7 +87,7 @@ describe Problem do
 
 	it 'can associate contact records with a problem' do
 		do_login
-		@problem 		 = :problem.gen
+		@problem 		 = :problem.gen :user_id => '1'
 		@contact_record  = :contact_record.gen :company => 'record 1', :user_id => '1'
 		@contact_record1 = :contact_record.gen :company => 'record 2', :user_id => '1'	
 
@@ -105,7 +108,7 @@ describe Problem do
 
 	it 'can view contact records for a problem' do
 		do_login
-		@problem 		 = :problem.gen
+		@problem 		 = :problem.gen :user_id => '1'
 		@contact_record  = :contact_record.gen :company => 'record 1', :user_id => '1'
 		@contact_record1 = :contact_record.gen :company => 'record 2', :user_id => '1'	
 		@problem.contact_records << @contact_record
@@ -143,6 +146,39 @@ describe Problem do
 		visit new_problem_path		
 
 		response.should_not contain 'You must be logged in to access this feature'
+	end
 
+	it 'makes problems private by default' do
+		User.create :username => 'owner', 
+					:password => 'mypassword', 
+					:email_address => 'owner@localhost.com'
+
+		User.create :username => 'viewer', 
+					:password => 'mypassword', 
+					:email_address => 'viewer@localhost.com'
+
+		@problem = :problem.gen :user_id => 1, :title => 'My Problem'
+
+		visit root_path
+		click_link 'login'
+		fill_in 'username', :with => 'viewer'
+		fill_in 'password', :with => 'mypassword'
+		click_button 'login'
+		
+		visit problem_path @problem.id
+
+		response.should contain 'You may only view your own Problems'
+
+		visit root_path
+		click_link 'logout'
+		click_link 'login'
+		fill_in 'username', :with => 'owner'
+		fill_in 'password', :with => 'mypassword'
+		click_button 'login'
+
+		visit problem_path @problem.id
+
+		response.should_not contain 'You may only view your own Problems'
+		response.should contain 	'My Problem'
 	end
 end

@@ -10137,3 +10137,204 @@ Processing ProblemsController#show (for 127.0.0.1 at 2010-06-02 14:41:44) [GET]
 Rendering template within layouts/application
 Rendering problems/show
 Completed in 367ms (View: 230 | 200 OK [http://localhost/problems/1]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 16:04:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 67ms (View: 61 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-06-02 16:04:04) [GET]
+Redirected to http://localhost:3000/
+Completed in 2ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 16:04:04) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 91ms (View: 89 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 16:04:05) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 63ms (View: 19 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 16:04:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 57ms (View: 43 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-02 16:04:15) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "username"=>"myuser1", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 52ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 16:04:16) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 16:09:12) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 52ms (View: 50 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-06-02 16:09:14) [GET]
+Redirected to http://localhost:3000/
+Completed in 3ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 16:09:14) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 10ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 16:09:16) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 15ms (View: 13 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-02 16:09:24) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/login
+Completed in 39ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 16:09:24) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 16:09:28) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 194ms (View: 44 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-02 16:09:43) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "user"=>{"username"=>"owner", "password"=>"mypassword", "email_address"=>"owner@localhost.com"}, "commit"=>"Signup"}
+Redirected to http://localhost:3000/
+Completed in 74ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 16:09:43) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 16:09:45) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 116ms (View: 26 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-02 16:09:57) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "user"=>{"username"=>"viewer", "password"=>"mypassword", "email_address"=>"viewer@localhost.com"}, "commit"=>"Signup"}
+Redirected to http://localhost:3000/
+Completed in 89ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 16:09:57) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 16:09:59) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 16ms (View: 12 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-02 16:10:05) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "username"=>"owner", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 15ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 16:10:05) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 5ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-02 16:10:07) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 174ms (View: 18 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-06-02 16:10:11) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "contact_record"=>{"company"=>"asdfasdfas", "person"=>"asdfasfdasfd", "details"=>"asdfasfdasdf", "contact_record_type"=>"call made"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/contact_records
+Completed in 117ms | 302 Found [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-02 16:10:11) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 122ms (View: 14 | 200 OK [http://localhost/contact_records]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 16:10:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 33ms (View: 29 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-06-02 16:10:16) [GET]
+Redirected to http://localhost:3000/
+Completed in 11ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 16:10:16) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 12ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 16:10:18) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 5ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-02 16:10:23) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "username"=>"viewer", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 72ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 16:10:23) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 10ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-02 16:10:26) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 46ms (View: 3 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-02 16:10:29) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/contact_records
+Completed in 35ms | 302 Found [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-02 16:10:29) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 39ms (View: 5 | 200 OK [http://localhost/contact_records]
