@@ -1,7 +1,7 @@
 class ProblemsController < ApplicationController
 	
 	def index
-		@problems = Problem.all
+		@problems = Problem.my_problems session[:logged_in_user]
 	end
 
 	def new

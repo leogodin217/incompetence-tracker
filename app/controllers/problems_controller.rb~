@@ -10,6 +10,7 @@ class ProblemsController < ApplicationController
 
 	def create
 		@problem = Problem.new params[:problem]
+		@problem.user_id = session[:logged_in_user]
 		if @problem.save
 			flash[:notice] = 'Problem successfully created'
 			redirect_to problem_path @problem.id

@@ -13,4 +13,8 @@ class Problem
 
 	has n, :contact_records, :through => Resource
 	belongs_to :user
+
+	def self.my_problems(user_id) 
+		return Problem.all :user_id => user_id
+	end
 end

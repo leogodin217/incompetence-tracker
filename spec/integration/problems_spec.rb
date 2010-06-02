@@ -74,9 +74,9 @@ describe Problem do
 		fill_in 		'password', 	:with => 'mypassword'
 		click_button 	'login'
 
-		:problem.gen :title => 'my problem'
-		:problem.gen :title => 'a problem'
-		:problem.gen :title => 'big problem'
+		:problem.gen :title => 'my problem', 	:user_id => '1'
+		:problem.gen :title => 'a problem', 	:user_id => '1'
+		:problem.gen :title => 'big problem', 	:user_id => '1'
 
 		visit problems_path
 
@@ -122,7 +122,7 @@ describe Problem do
 	end
 
 	it 'requires a login to create a problem' do
-		@problem = :problem.gen :title => 'My problem'
+		@problem = :problem.gen :title => 'My problem', :user_id => '1'
 
 		visit problem_path @problem.id
 
@@ -180,5 +180,45 @@ describe Problem do
 
 		response.should_not contain 'You may only view your own Problems'
 		response.should contain 	'My Problem'
+	end
+
+	it 'shows my problems only' do
+
+		User.create :username => 'owner', 
+					:password => 'mypassword', 
+					:email_address => 'owner@localhost.com'
+
+		User.create :username => 'viewer', 
+					:password => 'mypassword', 
+					:email_address => 'viewer@localhost.com'
+
+		:problem.gen :title => 'owners problem', :user_id => '1'
+		:problem.gen :title => 'owners other problem', :user_id => '1'
+		:problem.gen :title => 'viewers  problem', :user_id => '2'
+
+		visit root_path
+		click_link 'login'
+		fill_in 'username', :with => 'viewer'
+		fill_in 'password', :with => 'mypassword'
+		click_button 'login'
+
+		click_link 'My Problems'
+		response.should 	contain 'viewers problem'
+		response.should_not contain 'owners problem'
+		response.should_not contain 'owners other problem'
+
+		visit root_path
+		click_link 'logout'
+		click_link 'login'
+		fill_in 'username', :with => 'owner'
+		fill_in 'password', :with => 'mypassword'
+		click_button 'login'
+
+		click_link 'My Problems'
+		response.should_not contain 'viewers problem'
+		response.should 	contain 'owners problem'
+		response.should 	contain 'owners other problem'
+
+		
 	end
 end
