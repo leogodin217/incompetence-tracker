@@ -8,3 +8,4 @@ rails_datamapper --version '>= 0.10.2'
 rails --version 2.3.8
 do_postgres --version '>= 0.10.1'
 data_objects --version '>= 0.10.1'
+recaptcha --version '>= 0.2.3'

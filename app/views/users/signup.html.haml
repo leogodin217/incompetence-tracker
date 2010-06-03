@@ -1,4 +1,3 @@
-
 Signup for the Incompetence Tracker
 
 .flash= error_messages_for :user
@@ -12,6 +11,8 @@ Signup for the Incompetence Tracker
 
   = f.label       :email_address
   = f.text_field  :email_address 
+
+  = recaptcha_tags
 
   = f.submit 'Signup'
 

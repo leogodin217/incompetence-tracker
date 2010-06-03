@@ -10338,3 +10338,853 @@ Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-02 16:10:29)
 Rendering template within layouts/application
 Rendering contact_records/index
 Completed in 39ms (View: 5 | 200 OK [http://localhost/contact_records]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 17:50:35) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 32ms (View: 31 | 200 OK [http://localhost/]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-06-02 17:50:37) [GET]
+Redirected to http://localhost:3000/
+Completed in 5ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 17:50:37) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:50:38) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recapthca_tags' for #<ActionView::Base:0x99f3148>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recapthca_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (78.6ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:51:47) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recapthca_tags' for #<ActionView::Base:0xa624070>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recapthca_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (120.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:52:17) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0x991e748>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (135.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:52:18) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0x99262a8>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (73.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:52:20) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0x94ca7e4>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (142.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:52:23) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0x8e5fb1c>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (91.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:52:26) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0xb1a1f2c>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (126.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 17:52:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 28ms (View: 27 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:52:38) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0x9eb4d74>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (127.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 17:54:41) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 27ms (View: 25 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 17:54:42) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:54:46) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0xa6ece18>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (135.2ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 17:55:43) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 28ms (View: 26 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:55:45) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0xac3eae8>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (80.4ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:55:47) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0xc24ce80>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (120.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:55:49) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0xb272bec>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (123.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 17:55:50) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0xb01dd14>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (141.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 18:02:08) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 27ms (View: 26 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 18:02:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:02:10) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0xb829d90>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (122.8ms)
+Rendered rescues/_request_and_response (2.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:03:46) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0xb68a748>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (131.8ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:03:48) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0xa656a94>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (151.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:03:50) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0xa8ac494>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (73.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:03:51) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0xa413988>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (76.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:03:52) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined local variable or method `recaptcha_tags' for #<ActionView::Base:0x9d4f0e0>) on line #16 of app/views/users/signup.html.haml:
+13:   = f.label       :email_address
+14:   = f.text_field  :email_address 
+15: 
+16:   = recaptcha_tags
+17: 
+18:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:16:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:6:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (96.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:04:28) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined method `recaptcha_tags' for Recaptcha::ClientHelper:Module) on line #15 of app/views/users/signup.html.haml:
+12:   = f.label       :email_address
+13:   = f.text_field  :email_address 
+14: 
+15:   = Recaptcha::ClientHelper::recaptcha_tags
+16: 
+17:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:15:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:5:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (147.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:05:47) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined method `recaptcha_tags' for Recaptcha::ClientHelper:Module) on line #15 of app/views/users/signup.html.haml:
+12:   = f.label       :email_address
+13:   = f.text_field  :email_address 
+14: 
+15:   = Recaptcha::ClientHelper::recaptcha_tags
+16: 
+17:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:15:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:5:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (131.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:05:50) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (undefined method `recaptcha_tags' for Recaptcha::ClientHelper:Module) on line #15 of app/views/users/signup.html.haml:
+12:   = f.label       :email_address
+13:   = f.text_field  :email_address 
+14: 
+15:   = Recaptcha::ClientHelper::recaptcha_tags
+16: 
+17:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:15:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:5:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (76.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:05:59) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+
+ActionView::TemplateError (uninitialized constant Recaptcha::ClientHelpersdfas) on line #15 of app/views/users/signup.html.haml:
+12:   = f.label       :email_address
+13:   = f.text_field  :email_address 
+14: 
+15:   = Recaptcha::ClientHelpersdfas::recaptcha_tags
+16: 
+17:   = f.submit 'Signup'
+
+    app/views/users/signup.html.haml:15:in `block in _run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/users/signup.html.haml:5:in `_run_haml_app47views47users47signup46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (138.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:07:28) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 67ms (View: 27 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-02 18:09:33) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "user"=>{"username"=>"adude", "password"=>"mypassword", "email_address"=>"adude@localhost.com"}, "recaptcha_challenge_field"=>"02fgHQb22qkzj18W8VgRy5h0vcvxJ1TKGeF9vfm62dRlvGYrjAyYwXe9-Y5JdrUuyOPkob4ondkNv_ZegDcx3bS8ptkKZA7kVPiK1q5EBgGE0pFppu4y3YwST2l5Bao4oZ19EVc2qs8z7lL3Losv9CcTf4SFWjnrEhC3yyjJgLPmcVWyxqtIx4C_xFITsYFU5fkTmm77Hoc58TalkxcsoIwKnVEOXFYOo-CiGLBOHnuVdzfpqKm36zZpn79qn6nUIMuoH5Ie60PKNp01O2fmM-K9LoqMoB", "recaptcha_response_field"=>"asdfsadf", "commit"=>"Signup"}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 308ms (View: 6 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-02 18:10:32) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "user"=>{"username"=>"adude", "password"=>"mypassword", "email_address"=>"adude@localhost.com"}, "recaptcha_challenge_field"=>"02yJ4mZoAteugpNyo6oRELjjJ2iqMb-g51prWf2rEHuJ3YvwCPcKXBAyGwROZ4ZS4oF4YuG0FBzu63d8PRVPzKewc9l7vzqYxz_CwjaTJlXQXNTnQeoETFn1q1f-IpU2ult7kdbH0zMN9A20ZuS4QKouWTMEdQmoXv3tJyFfxxYl_JBl1gcCpFjrw2jlNiVT_vHBtAHwBZPQlXdBw33tUAp6yAlLc7IYL_-IC2b2j-fiPZio28smWwLqFPdkpew08CH6IHXLbu_PLbl42Zd1x6f0hgfmwB", "recaptcha_response_field"=>"brassardinjuries", "commit"=>"Signup"}
+Redirected to http://localhost:3000/
+Completed in 277ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 18:10:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 17ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 18:10:46) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 108ms (View: 6 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-02 18:12:38) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "user"=>{"username"=>"sdfasdf", "password"=>"asfasdfa", "email_address"=>"adfasdfdsf"}, "recaptcha_challenge_field"=>"02_UQQ4yGZkxI6xJrP0I9a1U9d-YOCLGzqD6fyufs88yN5jc9Nx7_ROED433iTE0j-oQ0rKmMduywTJiSxrm8xvx95R36ESpSNV2vurQifGPY62Y65628rrm8YgidqY_W09VDsh9EH5D3fKRMS05lAvFf91-lSDF8WNgI_fU_Y0OXVv5g49WRHta5pjWmZN4HUo45ogG3y4wFUBYCPkM19F9WwBsiCf6sx2gFOFAkQwxhsB4krzkt-qOvYQ_tiE6CtOFEHuK7YBiN9wQwxVNWzr8l31B0B", "recaptcha_response_field"=>"", "commit"=>"Signup"}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 394ms (View: 6 | 200 OK [http://localhost/users]

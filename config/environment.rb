@@ -16,6 +16,7 @@ Rails::Initializer.run do |config|
   config.gem 'dm-timestamps'
   config.gem 'data_objects'
   config.gem 'rails_datamapper'
+  config.gem 'recaptcha', :lib => 'recaptcha/rails'
 
   config.frameworks -= [:active_record]
 
@@ -27,3 +28,4 @@ end
 Haml.init_rails(binding)
 
 require File.join(Rails.root, '/lib/datamapper_extensions')
+require 'recaptcha'
