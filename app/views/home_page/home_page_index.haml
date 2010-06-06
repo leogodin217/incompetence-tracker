@@ -1,6 +1,4 @@
 %h3 Welcome to the Incompetence Tracker
-- if flash[:notice]
-  .flash= flash[:notice]
 
 - if session[:logged_in] == nil or session[:logged_in] == false 
   = link_to 'login', login_path

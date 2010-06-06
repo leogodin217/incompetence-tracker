@@ -14,4 +14,5 @@
   = link_to 'My Contact Records',   contact_records_path
   %br
   = link_to 'New Problem',          new_problem_path
+  = link_to 'My Problems',          problems_path
 

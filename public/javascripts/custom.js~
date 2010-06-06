@@ -1,3 +1,5 @@
 $(document).ready(function() {
-	$('.rounded').corners(20px);
+	alert('hi');
+	$('#contaent').hide();
+	$('#content').corner('20px');
 });

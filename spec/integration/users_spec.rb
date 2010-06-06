@@ -13,9 +13,7 @@ describe 'Guest visits home page' do
     fill_in 'Username', :with => "myuser"
     fill_in 'Password', :with => "mypassword"
     fill_in 'Email',    :with => "mymail@myserver.com"
-	save_and_open_page
     click_button 'Signup'
-	save_and_open_page
 
     User.count.should == 1
   end

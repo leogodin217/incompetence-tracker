@@ -1,8 +1,4 @@
 Signup for the Incompetence Tracker
-%h3= request.url.gsub( /https/, 'http')
-%h3= request.port
-%h3= request.host
-.flash= error_messages_for :user
 
 - form_for @user do |f|
   = f.label       :username

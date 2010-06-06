@@ -2,16 +2,20 @@
 !!! Strict
 %html
   %head
-  %title The Incompetence Tracker
-  = stylesheet_link_tag 'blueprint/screen', :media => 'screen, projection'
-  = stylesheet_link_tag 'blueprint/print', :media => 'print'
-  <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
-  = stylesheet_link_tag 'application'
-  = javascript_include_tag 'jquery'
-  = javascript_include_tag 'jquery.corners'
-  = javascript_include_tag 'custom'
+    %title The Incompetence Tracker
+    = stylesheet_link_tag 'blueprint/screen', :media => 'screen, projection'
+    = stylesheet_link_tag 'blueprint/print', :media => 'print'
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'jquery'
+    = javascript_include_tag 'jquery.corners'
+    = javascript_include_tag 'custom'
   %body
     %h1
       = link_to 'The Incompetence Tracker', root_path
+    %div.flash
+      - if flash[:notice]
+        = flash[:notice]
+
     
     #content= yield 

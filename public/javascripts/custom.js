@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	$('.rounded').corners('20px');
+	$('.login-box').corner('20px');
 });
