@@ -11188,3 +11188,287 @@ Processing UsersController#create (for 127.0.0.1 at 2010-06-02 18:12:38) [POST]
 Rendering template within layouts/application
 Rendering users/signup
 Completed in 394ms (View: 6 | 200 OK [http://localhost/users]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 19:48:47) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 54ms (View: 29 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 19:50:59) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 86ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#login (for 127.0.0.1 at 2010-06-02 19:51:01) [GET]
+
+NoMethodError (undefined method `ssl_required' for UsersController:Class):
+  app/controllers/users_controller.rb:2:in `<class:UsersController>'
+  app/controllers/users_controller.rb:1:in `<top (required)>'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (52.2ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ActionController::Base#home_page_index (for 127.0.0.1 at 2010-06-02 19:52:17) [GET]
+
+NameError (uninitialized constant ApplicationController::SslRequirement):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:4:in `<top (required)>'
+  app/controllers/home_page_controller.rb:1:in `<top (required)>'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (151.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 19:54:54) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 65ms (View: 63 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 19:54:55) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 6ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 19:54:56) [GET]
+Redirected to https://localhost/login
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 20:02:28) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 11ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 20:02:31) [GET]
+Redirected to https://localhost/login
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 20:02:46) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 48ms (View: 46 | 200 OK [https://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-02 20:03:02) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to https://localhost:3001/login
+Completed in 17ms | 302 Found [https://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 20:03:02) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 8ms (View: 3 | 200 OK [https://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-02 20:03:14) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "username"=>"owner", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to https://localhost:3001/login
+Completed in 99ms | 302 Found [https://localhost/users/authenticate]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 20:03:14) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 6ms (View: 5 | 200 OK [https://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 20:03:48) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [https://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-02 20:03:54) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost/users/authenticate
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 2ms | 302 Found [https://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 20:04:27) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 10ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 20:04:30) [GET]
+Redirected to https://localhost/signup
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/signup]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 20:04:34) [GET]
+Redirected to https://localhost/login
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 21:08:27) [GET]
+Redirected to http://127.0.0.1/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 22ms | 302 Found [https://127.0.0.1/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 21:08:46) [GET]
+Redirected to http://127.0.0.1/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [https://127.0.0.1/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 21:09:03) [GET]
+Redirected to http://localhost/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [https://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:09:17) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 65ms (View: 27 | 200 OK [https://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:36:03) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 77ms (View: 24 | 200 OK [https://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:38:04) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 73ms (View: 18 | 200 OK [https://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:38:08) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 104ms (View: 7 | 200 OK [https://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:38:09) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 59ms (View: 8 | 200 OK [https://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:38:31) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 130ms (View: 26 | 200 OK [https://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:38:33) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 51ms (View: 6 | 200 OK [https://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:38:51) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 226ms (View: 18 | 200 OK [https://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:38:54) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 77ms (View: 6 | 200 OK [https://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:41:28) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 82ms (View: 16 | 200 OK [https://localhost/signup]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 21:48:17) [GET]
+Redirected to http://localhost:3001/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [https://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 21:48:27) [GET]
+Redirected to http://localhost:3001/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [https://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 21:48:31) [GET]
+Redirected to http://localhost:3001/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [https://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:49:26) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 74ms (View: 33 | 200 OK [https://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-02 21:49:46) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 104ms (View: 8 | 200 OK [https://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-02 21:50:00) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "user"=>{"username"=>"asdfasdf", "password"=>"asdfasdfsdf", "email_address"=>"me@you.com"}, "recaptcha_challenge_field"=>"02A07S4JPNXLXg8i7KRMOQjHHjryV_yfIPQplBvIqS1AeIyBMTuZM3NyRrecispCUhuc3SFWIjVo2H_UZ6bhX4ciwIZVXHHNqRJvERExTxF0iTfAkXwyZZaPrdW6T2lATxMAZKC8f8itkMk3N9NIdT9puP-Iqfi8Vc0_9Ri9C-HsbLv4Svqd832pB7xvnzGd_XkGwwJ1Ef-9z016zN_5s9vDpi8w0gNAw9Arcgr4xkqp-kUSA7Ja5wqhBK3LLl8ECcFswqJWjLJKpShbmz4lyUlPRZ-voB", "recaptcha_response_field"=>"initiatedmalawi", "commit"=>"Signup"}
+Redirected to https://localhost:3001/
+Completed in 286ms | 302 Found [https://localhost/users]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 21:50:00) [GET]
+Redirected to http://localhost:3001/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [https://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-02 21:51:01) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 41ms (View: 40 | 200 OK [https://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-02 21:51:07) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "username"=>"myuser", "password"=>"mypass", "commit"=>"Login"}
+Redirected to http://localhost:3001/users/authenticate
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [https://localhost/users/authenticate]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-02 22:15:03) [GET]
+  Parameters: {"id"=>"authenticate"}
+Redirected to http://localhost:3001/users/authenticate
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [https://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-02 22:15:28) [GET]
+Redirected to http://localhost:3001/
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [https://localhost/]

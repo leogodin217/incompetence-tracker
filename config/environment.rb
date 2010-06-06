@@ -17,6 +17,7 @@ Rails::Initializer.run do |config|
   config.gem 'data_objects'
   config.gem 'rails_datamapper'
   config.gem 'recaptcha', :lib => 'recaptcha/rails'
+  config.gem 'ssl_requirement', :lib => 'ssl_requirement'
 
   config.frameworks -= [:active_record]
 
@@ -29,3 +30,4 @@ Haml.init_rails(binding)
 
 require File.join(Rails.root, '/lib/datamapper_extensions')
 require 'recaptcha'
+require 'ssl_requirement'
