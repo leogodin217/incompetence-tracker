@@ -12086,3 +12086,111 @@ Processing UsersController#login (for 127.0.0.1 at 2010-06-06 13:59:23) [GET]
 Rendering template within layouts/application
 Rendering users/login
 Completed in 61ms (View: 39 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:18:05) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 101ms (View: 37 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:18:21) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 14ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:18:22) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 9ms (View: 7 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:29:18) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 48ms (View: 23 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:30:28) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 33ms (View: 31 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:30:31) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 11ms (View: 9 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:30:33) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 170ms (View: 160 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:30:37) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 11ms (View: 10 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:32:31) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 10ms (View: 4 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:32:34) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 57ms (View: 42 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:32:58) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 8ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:33:44) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 17ms (View: 15 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:34:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 9ms (View: 7 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:34:38) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 4ms (View: 3 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:34:48) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 15ms (View: 13 | 200 OK [http://localhost/login]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-06 14:35:22) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 62ms (View: 48 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-06 14:35:24) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-06 14:35:26) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 32ms (View: 25 | 200 OK [http://localhost/login]

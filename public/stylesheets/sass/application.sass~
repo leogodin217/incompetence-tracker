@@ -1,14 +1,25 @@
-!bg = #40639B
-!loginbox = #00ab38
+!bg             = #ffffff
+!loginbox       = #00ab38
 !lighter-border = #3d3d3d
+!header-text    = #9e09a8
+!header-background = #3d3d3d
 
 body
   :margin  0
   :padding 0
+  :background-color     !bg
 
-  :background-color = #fff
+  // For Header
   h1
-    :text-align center
+    :background-color   !header-background
+    :text-align         center
+    :padding            .5em
+    a
+      :text-decoration    none
+      :font-weight        bold
+      :color              !header-text
+    
+
 
   #content
     :border 1px solid black
