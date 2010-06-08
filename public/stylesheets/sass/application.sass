@@ -1,8 +1,15 @@
-$bg             = #ffffff
-$loginbox       = #cc333f
-$lighter-border = #3d3d3d
-$header-text    = #ffffff
-$header-background = #00a0b0
+// Colors
+$bg                           = #f4f6ec
+$loginbox                     = #cc333f
+$lighter-border               = #3d3d3d
+$header-text                  = #ffffff
+$header-background-color      = #cc333f
+$command-bar-background-color = #d7d9d0
+$command-bar-color            = #6a4a3c
+$content-background-color     = #ffffff
+
+// Layout sizes
+$layout-margin                = 20px
 
 body
   :margin  0
@@ -13,9 +20,11 @@ body
 
   // For Header
   h1
-    :background-color   $header-background
-    :text-align         left
+    :background-color   $header-background-color
+    :text-align         center
     :padding            .5em
+    :margin-left        $layout-margin
+    :margin-right       $layout-margin
     :margin-bottom     0
     a, a:visited, a:hover, a:active
       :text-decoration    none
@@ -25,20 +34,30 @@ body
   // For command bar
   .command-bar
     :text-size        .8em
-    :background-color #3c3c3c
-    :color            #fff
+    :background-color $command-bar-background-color
+    :color            $command-bar-color
     :padding-top      .2em
     :padding-bottom   .2em
+    :padding-left     1em
+    :padding-right    1em
     :margin-top       0
+    :margin-left      $layout-margin
+    :margin-right     $layout-margin  
+
+    a, a:visited, a:hover, a:active
+      :text-decoration     none
+    a:hover, a:active
+      :color    $loginbox
 
 
   #content
-    :border 1px solid black
-    :margin  2em
+    :margin  $layout-margin
     :padding 2em
+    :background-color   $content-background-color
 
   .flash
-    border: 1px solid black
+    :margin-left    $layout-margin
+    :margin-right   $layout-margin 
 
 
   .login-box

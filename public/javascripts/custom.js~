@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	alert('hi');
-	$('#contaent').hide();
-	$('#content').corner('20px');
-});
+	$('.login-box').corner('20px');
+	$('.rounded-bottom').corner('bottom');
+	$('.rounded-top').corner('top');
+});$

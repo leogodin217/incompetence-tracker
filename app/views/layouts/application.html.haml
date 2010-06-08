@@ -11,17 +11,25 @@
     = javascript_include_tag 'jquery.corners'
     = javascript_include_tag 'custom'
   %body
-    %h1
+    %h1.rounded-top
       = link_to 'The Incompetence Tracker', root_path
-    %div.command-bar
+    %div.command-bar.rounded-bottom
       - if session[:logged_in] == nil or session[:logged_in] == false
         = link_to 'login', login_path
         = link_to 'signup', signup_path
       - else
-        = link_to 'logout', logout_path
+        = link_to 'logout', logout_path 
+        |
+        = link_to 'New Contact Record', new_contact_record_path 
+        |
+        = link_to 'My Contact Records', contact_records_path
+        |
+        = link_to 'New Problem', new_problem_path
+        |
+        = link_to 'My Problems', problems_path
     %div.flash
       - if flash[:notice]
         = flash[:notice]
 
     
-    #content= yield 
+    #content.rounded= yield 

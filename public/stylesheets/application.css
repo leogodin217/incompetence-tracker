@@ -1,12 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: #f4f6ec;
   font-family: Verdana, sans serif, serif; }
   body h1 {
-    background-color: #00a0b0;
-    text-align: left;
+    background-color: #cc333f;
+    text-align: center;
     padding: 0.5em;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 0; }
     body h1 a, body h1 a:visited, body h1 a:hover, body h1 a:active {
       text-decoration: none;
@@ -14,17 +16,26 @@ body {
       color: white; }
   body .command-bar {
     text-size: 0.8em;
-    background-color: #3c3c3c;
-    color: white;
+    background-color: #d7d9d0;
+    color: #6a4a3c;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
-    margin-top: 0; }
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px; }
+    body .command-bar a, body .command-bar a:visited, body .command-bar a:hover, body .command-bar a:active {
+      text-decoration: none; }
+    body .command-bar a:hover, body .command-bar a:active {
+      color: #cc333f; }
   body #content {
-    border: 1px solid black;
-    margin: 2em;
-    padding: 2em; }
+    margin: 20px;
+    padding: 2em;
+    background-color: white; }
   body .flash {
-    border: 1px solid black; }
+    margin-left: 20px;
+    margin-right: 20px; }
   body .login-box {
     background-color: #cc333f;
     border: 1px solid #3d3d3d;
