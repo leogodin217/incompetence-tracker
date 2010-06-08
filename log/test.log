@@ -53330,3 +53330,2376 @@ Processing ProblemsController#index (for 127.0.0.1 at 2010-06-06 14:11:37) [GET]
 Rendering template within layouts/application
 Rendering problems/index
 Completed in 29ms (View: 19 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:56:54) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/users_spec.rb:5:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (462.9ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:56:57) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/users_spec.rb:11:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (1131.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:00) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/users_spec.rb:29:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (1006.5ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/users_spec.rb:50:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (828.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:06) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/users_spec.rb:63:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (591.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/contact_record_spec.rb:9:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (857.7ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:12) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/contact_record_spec.rb:42:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (862.5ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/contact_record_spec.rb:59:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (1029.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET /contact_records with {} and HTTP headers {}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-07 18:57:18) [GET]
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 414ms | 302 Found [http://www.example.com/contact_records]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/contact_records"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:57:18) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 68ms (View: 51 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:57:18) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 10ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:18) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:280:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:132:in `request_page'
+    webrat (0.7.1) lib/webrat/core/elements/form.rb:20:in `submit'
+    webrat (0.7.1) lib/webrat/core/elements/field.rb:193:in `click'
+    webrat (0.7.1) lib/webrat/core/scope.rb:291:in `click_button'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `click_button'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `click_button'
+    spec/integration/contact_record_spec.rb:88:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (1064.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET /contact_records/new with {} and HTTP headers {}
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 18:57:21) [GET]
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://www.example.com/contact_records/new]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/contact_records/new"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:57:21) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 155ms (View: 155 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:57:22) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 10ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:22) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:280:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:132:in `request_page'
+    webrat (0.7.1) lib/webrat/core/elements/form.rb:20:in `submit'
+    webrat (0.7.1) lib/webrat/core/elements/field.rb:193:in `click'
+    webrat (0.7.1) lib/webrat/core/scope.rb:291:in `click_button'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `click_button'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `click_button'
+    spec/integration/contact_record_spec.rb:107:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (1010.4ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:24) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/contact_record_spec.rb:127:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (1058.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:27) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/problems_spec.rb:13:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (758.4ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/problems_spec.rb:42:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (1078.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:36) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/problems_spec.rb:71:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (904.5ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:39) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/spec_helper.rb:93:in `do_login'
+    spec/integration/problems_spec.rb:89:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (810.3ms)
+Rendered rescues/_request_and_response (7.7ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:42) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/spec_helper.rb:93:in `do_login'
+    spec/integration/problems_spec.rb:110:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (622.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-07 18:57:45) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 16ms | 302 Found [http://www.example.com/problems/1]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/problems/1"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:57:45) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 154ms (View: 136 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/login"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:45) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:280:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/spec_helper.rb:93:in `do_login'
+    spec/integration/problems_spec.rb:131:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (948.8ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET /problems/new with {} and HTTP headers {}
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-07 18:57:48) [GET]
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 18ms | 302 Found [http://www.example.com/problems/new]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/problems/new"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:57:48) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 92ms (View: 91 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/login"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:48) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:280:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/spec_helper.rb:93:in `do_login'
+    spec/integration/problems_spec.rb:144:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (954.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:51) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/problems_spec.rb:162:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (1059.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:57:55) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/home_page/home_page_index.haml:
+1: %h3 Welcome to the Incompetence Tracker
+2: 
+3:   = link_to 'new contact record',   new_contact_record_path
+4:   %br
+5:   = link_to 'My Contact Records',   contact_records_path
+6:   %br
+
+    app/views/home_page/home_page_index.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render_with_mock_proxy'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:50:in `do_request'
+    webrat (0.7.1) lib/webrat/adapters/rails.rb:15:in `get'
+    /usr/local/lib/ruby/1.9.1/forwardable.rb:182:in `get'
+    webrat (0.7.1) lib/webrat/core/session.rb:278:in `process_request'
+    webrat (0.7.1) lib/webrat/core/session.rb:119:in `request_page'
+    webrat (0.7.1) lib/webrat/core/session.rb:217:in `visit'
+    webrat (0.7.1) lib/webrat/core/methods.rb:7:in `visit'
+    spec/integration/problems_spec.rb:199:in `block (2 levels) in <top (required)>'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `block in execute'
+    /usr/local/lib/ruby/1.9.1/timeout.rb:44:in `timeout'
+    rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `block in run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `block in run'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+    spork (0.8.3) lib/spork/test_framework/rspec.rb:6:in `run_tests'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:13:in `block in run'
+    spork (0.8.3) lib/spork/forker.rb:21:in `block in initialize'
+    spork (0.8.3) lib/spork/forker.rb:18:in `fork'
+    spork (0.8.3) lib/spork/forker.rb:18:in `initialize'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `new'
+    spork (0.8.3) lib/spork/run_strategy/forking.rb:9:in `run'
+    spork (0.8.3) lib/spork/server.rb:47:in `run'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1558:in `perform_without_block'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1518:in `perform'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1592:in `block (2 levels) in main_loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `loop'
+    /usr/local/lib/ruby/1.9.1/drb/drb.rb:1588:in `block in main_loop'
+
+Rendered rescues/_trace (1160.7ms)
+Rendered rescues/_request_and_response (12.3ms)
+Rendering rescues/layout (internal_server_error)
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:01) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 704ms (View: 691 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:02) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 106ms (View: 106 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-07 18:59:02) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 73ms (View: 62 | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"user"=>{"username"=>"myuser", "password"=>"mypassword", "email_address"=>"mymail@myserver.com"}, "recaptcha_challenge_field"=>"", "recaptcha_response_field"=>"manual_challenge", "commit"=>"Signup"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-07 18:59:02) [POST]
+  Parameters: {"user"=>{"username"=>"myuser", "password"=>"mypassword", "email_address"=>"mymail@myserver.com"}, "recaptcha_challenge_field"=>"", "recaptcha_response_field"=>"manual_challenge", "commit"=>"Signup"}
+Redirected to http://www.example.com/
+Completed in 88ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:02) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 53ms (View: 53 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 27ms (View: 27 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:03) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 317ms (View: 316 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"user1", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:03) [POST]
+  Parameters: {"username"=>"user1", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 48ms (View: 48 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-06-07 18:59:03) [GET]
+Redirected to http://www.example.com/
+Completed in 0ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 43ms (View: 43 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 100ms (View: 100 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:04) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 49ms (View: 49 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"anotheruser1", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:04) [POST]
+  Parameters: {"username"=>"anotheruser1", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/login
+Completed in 11ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:04) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 179ms (View: 178 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:04) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 71ms (View: 71 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:04) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 96ms (View: 96 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"user1", "password"=>"myotherpassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:04) [POST]
+  Parameters: {"username"=>"user1", "password"=>"myotherpassword", "commit"=>"Login"}
+Redirected to http://www.example.com/login
+Completed in 28ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:05) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 41ms (View: 41 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:05) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 106ms (View: 98 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:05) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 75ms (View: 75 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:05) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:05) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 29ms (View: 29 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 18:59:05) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 46ms (View: 36 | 200 OK [http://www.example.com/contact_records/new]
+REQUESTING PAGE: POST /contact_records with {"contact_record"=>{"company"=>"Some Company", "person"=>"Some Person", "details"=>"Talked to someone and said things but disagreed", "contact_record_type"=>"call made"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/contact_records/new"}
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-06-07 18:59:05) [POST]
+  Parameters: {"contact_record"=>{"company"=>"Some Company", "person"=>"Some Person", "details"=>"Talked to someone and said things but disagreed", "contact_record_type"=>"call made"}, "commit"=>"Create"}
+Redirected to http://www.example.com/contact_records
+Completed in 54ms | 302 Found [http://www.example.com/contact_records]
+REQUESTING PAGE: GET http://www.example.com/contact_records with {} and HTTP headers {"HTTP_REFERER"=>"/contact_records"}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-07 18:59:05) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 131ms (View: 94 | 200 OK [http://www.example.com/contact_records]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:06) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 133ms (View: 133 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:06) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 41ms (View: 41 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:06) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 14ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:06) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 32ms (View: 32 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-07 18:59:06) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 254ms (View: 203 | 200 OK [http://www.example.com/contact_records]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:06) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 34ms (View: 34 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:06) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 290ms (View: 286 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:07) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 16ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 32ms (View: 32 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-07 18:59:07) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 124ms (View: 109 | 200 OK [http://www.example.com/contact_records/1]
+REQUESTING PAGE: GET /contact_records with {} and HTTP headers {}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-07 18:59:07) [GET]
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://www.example.com/contact_records]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/contact_records"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:07) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 114ms (View: 114 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:07) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 15ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 30ms (View: 29 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-07 18:59:07) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 468ms (View: 458 | 200 OK [http://www.example.com/contact_records]
+REQUESTING PAGE: GET /contact_records/new with {} and HTTP headers {}
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 18:59:08) [GET]
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://www.example.com/contact_records/new]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/contact_records/new"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:08) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 32ms (View: 32 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:08) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 23ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:08) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 68ms (View: 67 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 18:59:08) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 103ms (View: 94 | 200 OK [http://www.example.com/contact_records/new]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:08) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 52ms (View: 51 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:08) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 143ms (View: 142 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"somedude", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:09) [POST]
+  Parameters: {"username"=>"somedude", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 25ms (View: 25 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-07 18:59:09) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://www.example.com/contact_records
+Completed in 8ms | 302 Found [http://www.example.com/contact_records/1]
+REQUESTING PAGE: GET http://www.example.com/contact_records with {} and HTTP headers {"HTTP_REFERER"=>"/contact_records/1"}
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-07 18:59:09) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 32ms (View: 30 | 200 OK [http://www.example.com/contact_records]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/contact_records"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 52ms (View: 52 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-06-07 18:59:09) [GET]
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 87ms (View: 87 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:09) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 156ms (View: 156 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:09) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 33ms (View: 33 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /contact_records/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-07 18:59:09) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 233ms (View: 217 | 200 OK [http://www.example.com/contact_records/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:10) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 30ms (View: 30 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:10) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 167ms (View: 167 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:10) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 23ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:10) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 72ms (View: 72 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-07 18:59:10) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 116ms (View: 99 | 200 OK [http://www.example.com/problems/new]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems/new"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-06-07 18:59:10) [POST]
+  Parameters: {"problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 232ms (View: 202 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-06-07 18:59:10) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 67ms (View: 66 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-06-07 18:59:11) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 157ms (View: 154 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: POST /problems with {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-06-07 18:59:11) [POST]
+  Parameters: {"problem"=>{"title"=>"I got a problem man!", "description"=>"A really long way to say I been wronged man!", "company_name"=>"some stupid company", "company_web_site"=>"www.stupidco.com.stu.pid.co", "company_phone"=>"867-5309", "company_email"=>"nohelp@stupidco.com", "company_fax"=>"867-5309"}, "commit"=>"Create"}
+Redirected to http://www.example.com/problems/1
+Completed in 17ms | 302 Found [http://www.example.com/problems]
+REQUESTING PAGE: GET http://www.example.com/problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-07 18:59:11) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 262ms (View: 221 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:11) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 23 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:12) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 133ms (View: 133 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:12) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 23ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:12) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 53ms (View: 53 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-07 18:59:12) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 69ms (View: 54 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:12) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 28ms (View: 28 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:12) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 52ms (View: 52 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:12) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 11ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:12) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 70ms (View: 70 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-07 18:59:12) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 85ms (View: 74 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:12) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 37ms (View: 37 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:12) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 38ms (View: 38 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:13) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 20ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:13) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 72ms (View: 72 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-07 18:59:13) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 93ms (View: 66 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET /problems/1/associate_contact_record with {} and HTTP headers {"HTTP_REFERER"=>"/problems/1"}
+
+
+Processing ProblemsController#associate_contact_record (for 127.0.0.1 at 2010-06-07 18:59:13) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/associate_contact_record
+Completed in 61ms (View: 59 | 200 OK [http://www.example.com/problems/1/associate_contact_record]
+REQUESTING PAGE: POST /problems/1/save_contact_record_association with {"_method"=>"put", "contact_record"=>"1", "commit"=>"Save changes"} and HTTP headers {"HTTP_REFERER"=>"/problems/1/associate_contact_record"}
+
+
+Processing ProblemsController#save_contact_record_association (for 127.0.0.1 at 2010-06-07 18:59:13) [PUT]
+  Parameters: {"contact_record"=>"1", "commit"=>"Save changes", "id"=>"1"}
+Redirected to http://www.example.com/problems/1
+Completed in 148ms | 302 Found [http://www.example.com/problems/1/save_contact_record_association]
+REQUESTING PAGE: GET http://www.example.com/problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"/problems/1/save_contact_record_association"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-07 18:59:13) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 139ms (View: 118 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET /problems/1/associate_contact_record with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/problems/1"}
+
+
+Processing ProblemsController#associate_contact_record (for 127.0.0.1 at 2010-06-07 18:59:13) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/associate_contact_record
+Completed in 53ms (View: 43 | 200 OK [http://www.example.com/problems/1/associate_contact_record]
+REQUESTING PAGE: POST /problems/1/save_contact_record_association with {"_method"=>"put", "contact_record"=>"2", "commit"=>"Save changes"} and HTTP headers {"HTTP_REFERER"=>"/problems/1/associate_contact_record"}
+
+
+Processing ProblemsController#save_contact_record_association (for 127.0.0.1 at 2010-06-07 18:59:13) [PUT]
+  Parameters: {"contact_record"=>"2", "commit"=>"Save changes", "id"=>"1"}
+Redirected to http://www.example.com/problems/1
+Completed in 350ms | 302 Found [http://www.example.com/problems/1/save_contact_record_association]
+REQUESTING PAGE: GET http://www.example.com/problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"/problems/1/save_contact_record_association"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-07 18:59:14) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 36ms (View: 29 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:14) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 108ms (View: 108 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:14) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 84ms (View: 84 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:14) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 10ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:14) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 31ms (View: 31 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-07 18:59:14) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 37ms (View: 36 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-07 18:59:15) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://www.example.com/problems/1]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/problems/1"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:15) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 56ms (View: 56 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/login"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 65ms (View: 65 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:15) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 79ms (View: 79 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:15) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 28ms (View: 28 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-07 18:59:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 35ms (View: 26 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET /problems/new with {} and HTTP headers {}
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-07 18:59:15) [GET]
+Redirected to http://www.example.com/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://www.example.com/problems/new]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/problems/new"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:15) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 215ms (View: 215 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/login"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 53ms (View: 53 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:16) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 56ms (View: 56 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:16) [POST]
+  Parameters: {"username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 15ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:16) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 91ms (View: 90 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/new with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-07 18:59:16) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 266ms (View: 264 | 200 OK [http://www.example.com/problems/new]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:16) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 125ms (View: 125 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:16) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 115ms (View: 110 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"viewer", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:16) [POST]
+  Parameters: {"username"=>"viewer", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 5ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:16) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 38ms (View: 38 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-07 18:59:16) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://www.example.com/problems
+Completed in 2ms | 302 Found [http://www.example.com/problems/1]
+REQUESTING PAGE: GET http://www.example.com/problems with {} and HTTP headers {"HTTP_REFERER"=>"/problems/1"}
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-07 18:59:17) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 27ms (View: 26 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/problems"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 77ms (View: 76 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-06-07 18:59:17) [GET]
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 75ms (View: 74 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:17) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 28ms (View: 28 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"owner", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:17) [POST]
+  Parameters: {"username"=>"owner", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 8ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 19ms (View: 19 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems/1 with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-07 18:59:17) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 92ms (View: 90 | 200 OK [http://www.example.com/problems/1]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 89ms (View: 89 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:17) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 44ms (View: 44 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"viewer", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:17) [POST]
+  Parameters: {"username"=>"viewer", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 40ms (View: 40 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-07 18:59:17) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 65ms (View: 63 | 200 OK [http://www.example.com/problems]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/problems"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:18) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 67ms (View: 66 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /logout with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-06-07 18:59:18) [GET]
+Redirected to http://www.example.com/
+Completed in 1ms | 302 Found [http://www.example.com/logout]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/logout"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:18) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 60ms (View: 58 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /login with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-07 18:59:18) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 59ms (View: 59 | 200 OK [http://www.example.com/login]
+REQUESTING PAGE: POST /users/authenticate with {"username"=>"owner", "password"=>"mypassword", "commit"=>"Login"} and HTTP headers {"HTTP_REFERER"=>"/login"}
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-07 18:59:18) [POST]
+  Parameters: {"username"=>"owner", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://www.example.com/
+Completed in 2ms | 302 Found [http://www.example.com/users/authenticate]
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/users/authenticate"}
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 18:59:18) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 46ms (View: 46 | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /problems with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/"}
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-07 18:59:18) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 82ms (View: 81 | 200 OK [http://www.example.com/problems]

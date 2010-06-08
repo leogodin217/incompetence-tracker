@@ -1,15 +1,24 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: white; }
+  background-color: white;
+  font-family: Verdana, sans serif, serif; }
   body h1 {
-    background-color: #3d3d3d;
-    text-align: center;
-    padding: 0.5em; }
-    body h1 a {
+    background-color: #00a0b0;
+    text-align: left;
+    padding: 0.5em;
+    margin-bottom: 0; }
+    body h1 a, body h1 a:visited, body h1 a:hover, body h1 a:active {
       text-decoration: none;
       font-weight: bold;
-      color: #9e09a8; }
+      color: white; }
+  body .command-bar {
+    text-size: 0.8em;
+    background-color: #3c3c3c;
+    color: white;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-top: 0; }
   body #content {
     border: 1px solid black;
     margin: 2em;
@@ -17,7 +26,7 @@ body {
   body .flash {
     border: 1px solid black; }
   body .login-box {
-    background-color: #00ab38;
+    background-color: #cc333f;
     border: 1px solid #3d3d3d;
     text-align: center;
     vertical-align: middle;

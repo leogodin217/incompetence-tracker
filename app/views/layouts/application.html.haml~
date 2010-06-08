@@ -1,7 +1,7 @@
 !!! XML
 !!! Strict
 %html
-  %head
+  %hea
     %title The Incompetence Tracker
     = stylesheet_link_tag 'blueprint/screen', :media => 'screen, projection'
     = stylesheet_link_tag 'blueprint/print', :media => 'print'
@@ -13,6 +13,12 @@
   %body
     %h1
       = link_to 'The Incompetence Tracker', root_path
+    %div.command-bar
+      - if session[:logged_in] == nil or session[:logged_in] == false
+        = link_to 'login', login_path
+        = link_to 'signup', signup_path
+        else
+        = link_to 'logout', logout_path
     %div.flash
       - if flash[:notice]
         = flash[:notice]

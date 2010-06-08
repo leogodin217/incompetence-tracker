@@ -1,24 +1,35 @@
 !bg             = #ffffff
-!loginbox       = #00ab38
+!loginbox       = #cc333f
 !lighter-border = #3d3d3d
-!header-text    = #9e09a8
-!header-background = #3d3d3d
+!header-text    = #ffffff
+!header-background = #00a0b0
 
 body
   :margin  0
   :padding 0
   :background-color     !bg
 
+  :font-family          Verdana, sans serif, serif
+
   // For Header
   h1
     :background-color   !header-background
-    :text-align         center
+    :text-align         left
     :padding            .5em
-    a
+    :margin-bottom     0
+    a, a:visited, a:hover, a:active
       :text-decoration    none
       :font-weight        bold
       :color              !header-text
     
+  // For command bar
+  .command-bar
+    :text-size        .8em
+    :background-color #3c3c3c
+    :color            #fff
+    :padding-top      .2em
+    :padding-bottom   .2em
+    :margin-top       0
 
 
   #content
