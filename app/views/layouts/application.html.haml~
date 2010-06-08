@@ -1,7 +1,7 @@
 !!! XML
 !!! Strict
 %html
-  %hea
+  %head
     %title The Incompetence Tracker
     = stylesheet_link_tag 'blueprint/screen', :media => 'screen, projection'
     = stylesheet_link_tag 'blueprint/print', :media => 'print'
@@ -9,6 +9,7 @@
     = stylesheet_link_tag 'application'
     = javascript_include_tag 'jquery'
     = javascript_include_tag 'jquery.corners'
+    = javascript_include_tag 'jquery.dataTables'
     = javascript_include_tag 'custom'
   %body
     %h1.rounded-top
@@ -32,4 +33,4 @@
         = flash[:notice]
 
     
-    #content.rounded = yield 
+    #content.rounded= yield 

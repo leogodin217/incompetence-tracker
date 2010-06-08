@@ -12975,3 +12975,994 @@ Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 21:12
 Rendering template within layouts/application
 Rendering home_page/home_page_index
 Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 21:43:45) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 186ms (View: 24 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 21:59:37) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 124ms (View: 9 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:00:05) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 448ms (View: 233 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:00:19) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 109ms (View: 6 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:00:30) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 451ms (View: 17 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:00:43) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 102ms (View: 10 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:01:02) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 334ms (View: 39 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:01:32) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 423ms (View: 33 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:01:43) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 223ms (View: 59 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:02:31) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 414ms (View: 40 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:03:37) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 321ms (View: 45 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:03:57) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 128ms (View: 23 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:04:27) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 409ms (View: 14 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:04:43) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 127ms (View: 17 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:05:39) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 116ms (View: 17 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:06:08) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 489ms (View: 171 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:06:19) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 123ms (View: 18 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:06:37) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 364ms (View: 71 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:06:40) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 137ms (View: 13 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:07:01) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 384ms (View: 38 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:07:26) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 320ms (View: 170 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:07:45) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 118ms (View: 17 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:08:08) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 503ms (View: 13 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:08:25) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 140ms (View: 8 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:08:33) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 199ms (View: 68 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:08:58) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 429ms (View: 14 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:09:28) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 357ms (View: 44 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:09:50) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 173ms (View: 11 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:10:15) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 286ms (View: 17 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:10:29) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 124ms (View: 11 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:11:22) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 557ms (View: 37 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:12:11) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 164ms (View: 42 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:12:31) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 131ms (View: 11 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:13:18) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 474ms (View: 72 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:13:31) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 307ms (View: 128 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:13:42) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 447ms (View: 91 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:13:56) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 356ms (View: 33 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:14:15) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 294ms (View: 16 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:14:44) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 532ms (View: 18 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-07 22:15:02) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 412ms (View: 11 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 22:15:06) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 10ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-07 22:15:13) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 104ms (View: 21 | 200 OK [http://localhost/problems]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-07 22:15:16) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 99ms (View: 12 | 200 OK [http://localhost/contact_records]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-07 22:15:21) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 8ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:17:12) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 4298ms (View: 178 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:17:16) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 334ms (View: 10 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:18:36) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 460ms (View: 37 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:20:40) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 344ms (View: 14 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:21:06) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 344ms (View: 33 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:21:24) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 467ms (View: 40 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:21:48) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 221ms (View: 37 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:22:35) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 300ms (View: 37 | 200 OK [http://localhost/problems/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:22:37) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 404ms (View: 63 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:22:40) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 520ms (View: 66 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:24:16) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 350ms (View: 118 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:24:51) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 116ms (View: 6 | 200 OK [http://localhost/problems/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:24:56) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 132ms (View: 17 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:25:26) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 329ms (View: 6 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:25:28) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 335ms (View: 32 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:25:41) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 177ms (View: 37 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:25:55) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 578ms (View: 105 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:26:24) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 209ms (View: 37 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:26:33) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 550ms (View: 86 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:26:52) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 258ms (View: 64 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:27:05) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 156ms (View: 32 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:27:41) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 420ms (View: 15 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:27:43) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 181ms (View: 18 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:28:11) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 476ms (View: 34 | 200 OK [http://localhost/problems/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:28:13) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 361ms (View: 52 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 15:28:17) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 376ms (View: 136 | 200 OK [http://localhost/problems]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:28:19) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 223ms (View: 10 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 15:28:20) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 71ms (View: 21 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:28:28) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 437ms (View: 46 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:28:57) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 285ms (View: 147 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:29:45) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+
+ActionView::TemplateError (undefined method `buton_to' for #<ActionView::Helpers::FormBuilder:0xd1cc06c>) on line #34 of app/views/problems/new.html.haml:
+31: 
+32:     %p
+33:       = f.submit        'Create'
+34:       = f.buton_to      'Cancel', problems_path
+
+    app/views/problems/new.html.haml:34:in `block in _run_haml_app47views47problems47new46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/problems/new.html.haml:3:in `_run_haml_app47views47problems47new46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (232.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:29:59) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+
+ActionView::TemplateError (undefined method `buton_to' for #<ActionView::Base:0xdadecd8>) on line #34 of app/views/problems/new.html.haml:
+31: 
+32:     %p
+33:       = f.submit        'Create'
+34:       = buton_to      'Cancel', problems_path
+
+    app/views/problems/new.html.haml:34:in `block in _run_haml_app47views47problems47new46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/problems/new.html.haml:3:in `_run_haml_app47views47problems47new46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (223.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:30:13) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+
+ActionView::TemplateError (undefined method `buton' for #<ActionView::Base:0xa6af7b0>) on line #34 of app/views/problems/new.html.haml:
+31: 
+32:     %p
+33:       = f.submit        'Create'
+34:       = buton     'Cancel', problems_path
+
+    app/views/problems/new.html.haml:34:in `block in _run_haml_app47views47problems47new46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/problems/new.html.haml:3:in `_run_haml_app47views47problems47new46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (159.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:30:23) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+
+ActionView::TemplateError (undefined method `buton_tag' for #<ActionView::Base:0xaa4c3d4>) on line #34 of app/views/problems/new.html.haml:
+31: 
+32:     %p
+33:       = f.submit        'Create'
+34:       = buton_tag     'Cancel', problems_path
+
+    app/views/problems/new.html.haml:34:in `block in _run_haml_app47views47problems47new46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/problems/new.html.haml:3:in `_run_haml_app47views47problems47new46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (215.3ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:30:58) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+
+ActionView::TemplateError (undefined method `buton_to' for #<ActionView::Base:0xb3dcf28>) on line #34 of app/views/problems/new.html.haml:
+31: 
+32:     %p
+33:       = f.submit        'Create'
+34:       = buton_to     'Cancel', problems_path
+
+    app/views/problems/new.html.haml:34:in `block in _run_haml_app47views47problems47new46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:225:in `block in form_for_with_haml'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.6) lib/haml/helpers.rb:588:in `block in haml_bind_proc'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:231:in `form_for_with_haml'
+    app/views/problems/new.html.haml:3:in `_run_haml_app47views47problems47new46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (289.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:31:09) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 615ms (View: 150 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-06-08 15:31:13) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"", "company_phone"=>"", "company_email"=>"", "company_fax"=>""}}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 153ms (View: 7 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-06-08 15:31:39) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"", "company_phone"=>"", "company_email"=>"", "company_fax"=>""}}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 690ms (View: 70 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:31:42) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 344ms (View: 12 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-06-08 15:31:45) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"", "company_phone"=>"", "company_email"=>"", "company_fax"=>""}}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 462ms (View: 55 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:31:48) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 342ms (View: 11 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:31:49) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 502ms (View: 7 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-06-08 15:31:52) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"", "company_phone"=>"", "company_email"=>"", "company_fax"=>""}}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 153ms (View: 7 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:31:57) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 436ms (View: 96 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:32:26) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 433ms (View: 45 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-06-08 15:32:30) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "problem"=>{"title"=>"", "description"=>"", "company_name"=>"", "company_web_site"=>"", "company_phone"=>"", "company_email"=>"", "company_fax"=>""}}
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 556ms (View: 13 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 15:33:06) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 57ms (View: 4 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 15:33:08) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 531ms (View: 403 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 15:33:12) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 216ms (View: 51 | 200 OK [http://localhost/problems]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:33:43) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 376ms (View: 137 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:33:46) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 570ms (View: 10 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:34:25) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 121ms (View: 27 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:35:20) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 728ms (View: 16 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:45:55) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #9 of app/views/contact_records/index.html.haml:
+6:     %ul= link_to "#{contact_record.created_at.strftime("%m/%d/%y:%I%M")} - #{contact_record.company}", contact_record_path(contact_record.id)
+7: 
+8: <table id='contact-records-index'>
+9:   <thead>
+10:     <th>Date</th>
+11:     <th>Company</th>
+12:     <th>Contact Record Type</th>
+
+    app/views/contact_records/index.html.haml:9
+    haml (3.0.6) lib/haml/precompiler.rb:355:in `push_plain'
+    haml (3.0.6) lib/haml/precompiler.rb:279:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (413.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:46:49) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+
+ActionView::TemplateError (Inconsistent indentation: 7 spaces were used for indentation, but the rest of the document was indented using 2 spaces.) on line #17 of app/views/contact_records/index.html.haml:
+14: <tbody>
+15: - @contact_records.each do |contact_record|
+16:   %tr
+17:        %td= contact_record.created_at
+18:        %td= contact_record.company_name
+19:        %td= contact_record.contact_record_type
+20: </tbody>
+
+    app/views/contact_records/index.html.haml:17
+    haml (3.0.6) lib/haml/precompiler.rb:155:in `block in tabs'
+    haml (3.0.6) lib/haml/precompiler.rb:134:in `instance_eval'
+    haml (3.0.6) lib/haml/precompiler.rb:134:in `tabs'
+    haml (3.0.6) lib/haml/precompiler.rb:1040:in `block_opened?'
+    haml (3.0.6) lib/haml/precompiler.rb:768:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (246.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:47:04) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+
+ActionView::TemplateError (Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.) on line #17 of app/views/contact_records/index.html.haml:
+14: <tbody>
+15: - @contact_records.each do |contact_record|
+16:   %tr
+17:      %td= contact_record.created_at
+18:      %td= contact_record.company_name
+19:      %td= contact_record.contact_record_type
+20: </tbody>
+
+    app/views/contact_records/index.html.haml:17
+    haml (3.0.6) lib/haml/precompiler.rb:155:in `block in tabs'
+    haml (3.0.6) lib/haml/precompiler.rb:134:in `instance_eval'
+    haml (3.0.6) lib/haml/precompiler.rb:134:in `tabs'
+    haml (3.0.6) lib/haml/precompiler.rb:1040:in `block_opened?'
+    haml (3.0.6) lib/haml/precompiler.rb:768:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (310.1ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:49:12) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 497ms (View: 248 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:49:38) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 357ms (View: 101 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-06-08 15:49:46) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "contact_record"=>{"company"=>"asdfasdf", "person"=>"adsfasdfasf", "details"=>"asdfasfdasfasfasfdasdfasdfasfd", "contact_record_type"=>"call made"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/contact_records
+Completed in 569ms | 302 Found [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:49:47) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+
+ActionView::TemplateError (undefined method `company_name' for #<ContactRecord:0xd98c4ec>) on line #18 of app/views/contact_records/index.html.haml:
+15:     - @contact_records.each do |contact_record|
+16:       %tr
+17:         %td= contact_record.created_at
+18:         %td= contact_record.company_name
+19:         %td= contact_record.contact_record_type
+20:   
+
+    app/views/contact_records/index.html.haml:18:in `block in _run_haml_app47views47contact_records47index46html46haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/collection.rb:509:in `block in each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `block in each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `each'
+    /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/collection.rb:506:in `each'
+    app/views/contact_records/index.html.haml:15:in `_run_haml_app47views47contact_records47index46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (363.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:50:19) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 191ms (View: 42 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:50:42) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 131ms (View: 46 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 15:50:50) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 526ms (View: 14 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-06-08 15:50:57) [POST]
+  Parameters: {"authenticity_token"=>"VBKFWFh9ari45iCs44/AE0MWn0RUUZZsap77v09QnrY=", "contact_record"=>{"company"=>"asdfasdfasdf", "person"=>"adsfasdfasdf", "details"=>"asdfasfdasdf", "contact_record_type"=>"call received"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/contact_records
+Completed in 423ms | 302 Found [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:50:57) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 538ms (View: 18 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:59:06) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 448ms (View: 87 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 15:59:42) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 588ms (View: 78 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:00:30) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 187ms (View: 35 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:01:16) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 214ms (View: 47 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:02:09) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 324ms (View: 32 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:03:02) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 284ms (View: 34 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:03:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:03:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:03:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:03:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)

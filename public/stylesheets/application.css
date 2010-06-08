@@ -33,6 +33,13 @@ body {
     margin: 20px;
     padding: 2em;
     background-color: white; }
+    body #content input, body #content textarea, body #content select {
+      margin-left: 1em; }
+    body #content p label {
+      width: 12em;
+      float: left;
+      margin-right: 0.5em;
+      display: block; }
   body .flash {
     margin-left: 20px;
     margin-right: 20px; }

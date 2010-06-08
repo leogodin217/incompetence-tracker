@@ -2,21 +2,20 @@
 
 - form_for @contact_record do |f|
   %fieldset
+    %legend New Contact Record
     %p
       = f.label       :company
       = f.text_field  :company
-
     %p
       =f.label        :person
       =f.text_field   :person
-
     %p
       =f.label        :details
       =f.text_area    :details
-    
     %p
       =f.label        :contact_record_type
       =f.select       :contact_record_type, @contact_record_types
     %p
       =f.submit 'Create'
+      = link_to 'Cancel', contact_records_path
 

@@ -1,10 +1,16 @@
 <h3>Contact Records</h3>
 = "Contact Records: #{@contact_records.length}"
-%br
-%ul
-  - @contact_records.each do |contact_record|
-    %ul= link_to "#{contact_record.created_at.strftime("%m/%d/%y:%I%M")} - #{contact_record.company}", contact_record_path(contact_record.id)
 
-%br
-=link_to 'New Contact Record', new_contact_record_path
-
+%table#contact-records-index 
+  %thead
+    %tr
+      %th Date
+      %th Company
+      %th Contact Record Type
+  %tbody
+    - @contact_records.each do |contact_record|
+      %tr
+        %td= contact_record.created_at
+        %td= contact_record.company
+        %td= contact_record.contact_record_type
+  

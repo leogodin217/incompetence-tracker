@@ -47,13 +47,24 @@ body
     a, a:visited, a:hover, a:active
       :text-decoration     none
     a:hover, a:active
-      :color    #abb199
+      :color    $loginbox
 
 
   #content
     :margin  $layout-margin
     :padding 2em
     :background-color   $content-background-color
+
+    input, textarea, select
+      :margin-left 1em
+
+    p
+      label
+        :width 12em
+        :float left
+        :margin-right .5em
+        :display block
+
 
   .flash
     :margin-left    $layout-margin

@@ -2,7 +2,7 @@
 
 %p
   %span.show-field-name Create Date: 
-  .show-field-value= @contact_record.created_at.strftime("%m/%d/%Y: %I:%m %p")
+  .show-field-value= @contact_record.created_at.strftime("%m/%d/%Y %I:%m %p")
 
 %p
   %span.show-field-name Company: 
