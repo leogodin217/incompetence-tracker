@@ -101,4 +101,5 @@ body
   .show-field-value
     :margin-left    10em
 
-    
+  .button-link
+    :height 1.8em

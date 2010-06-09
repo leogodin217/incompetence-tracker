@@ -12,7 +12,7 @@
   %tbody
     - @contact_records.each do |contact_record|
       %tr
-        %td.table-link= link_to contact_record.created_at.strftime("%A - %m/%d/%y %H:%M"), contact_record_path(contact_record.id)
+        %td= link_to contact_record.created_at.strftime("%A - %m/%d/%y %H:%M"), contact_record_path(contact_record.id)
         %td= contact_record.company
         %td= contact_record.person
         %td= contact_record.contact_record_type
