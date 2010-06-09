@@ -46,6 +46,6 @@ class ProblemsController < ApplicationController
 		end
 		
 		@problem.associate_contact_record params[:contact_record]
-		redirect_to problem_path @problem
+		redirect_to problem_path @problem.id
 	end
 end

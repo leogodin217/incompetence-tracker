@@ -10,7 +10,7 @@ class ContactRecord
 	property :user_id,				Integer
 
 	belongs_to :user
-	has n, :problems, :through => Resource
+	has 1, :problem, :through => Resource
 
 	def self.contact_record_types
 		@@contact_record_types

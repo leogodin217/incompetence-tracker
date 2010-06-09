@@ -1,6 +1,15 @@
 %h3 Problems
 
-- @problems.each do |problem|
-    = link_to problem.title, problem_path(problem.id)
-    %br
-
+%table#problems-index
+  %caption My Problems
+  %thead
+    %tr
+      %th 
+      %th Company
+      %th Title
+  %tbody
+    - @problems.each do |problem|
+      %tr
+        %td.table-link= link_to 'Show', problem_path(problem.id)
+        %td= problem.company_name
+        %td= problem.title

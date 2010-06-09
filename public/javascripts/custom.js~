@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$('.rounded').corner('20px');
 	$('.rounded-bottom').corner('bottom');
 	$('.rounded-top').corner('top');
-	oTable = $('#contact-records-index').dataTable({
+	oTable = $('#contact-records-index #problems-index').dataTable({
 		"bJQueryUI"			: true,
 		"sPaginationType"	: "full_numbers",
 		"bLengthChange"		: false,
@@ -11,5 +11,5 @@ $(document).ready(function() {
 
 	$('input:submit').button();
 	$('.button-link').button();
-	$('.table-link').button();
+	$('.table-link>a').button();
 });$

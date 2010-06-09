@@ -20,6 +20,7 @@ class ContactRecord
 		return ContactRecord.all :user_id => user_id
 	end
 
+
 	private
 	
 	@@contact_record_types = ["call made", "call received", "email sent", "email received"]

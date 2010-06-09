@@ -9,6 +9,13 @@ $(document).ready(function() {
 		"bAutoWidth"		: true
 	});
 
+	oTable = $('#problems-index').dataTable({
+		"bJQueryUI"			: true,
+		"sPaginationType"	: "full_numbers",
+		"bLengthChange"		: false,
+		"bAutoWidth"		: true
+	});
+
 	$('input:submit').button();
 	$('.button-link').button();
 	$('.table-link>a').button();
