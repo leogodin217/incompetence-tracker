@@ -13966,3 +13966,1732 @@ ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" 
   /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
 
 Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:06:24) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 160ms (View: 19 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:06:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:06:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:06:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:06:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:07:05) [GET]
+
+ActionController::RoutingError (No route matches "/contact_record/1" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 16:07:11) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 298ms (View: 23 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 16:08:36) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 198ms (View: 31 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 16:10:27) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 216ms (View: 47 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 16:10:58) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.) on line #3 of app/views/contact_records/show.html.haml:
+1: %h3 Contact Record
+2: 
+3:   %span.show-field-name Create Date: 
+4:   .show-field-value= @contact_record.created_at.strftime("%m/%d/%Y %I:%m %p")
+5: 
+6:   %span.show-field-name Company: 
+
+    app/views/contact_records/show.html.haml:3
+    haml (3.0.6) lib/haml/precompiler.rb:773:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (269.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 16:11:19) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 215ms (View: 120 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 16:11:39) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 306ms (View: 191 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 16:11:53) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 232ms (View: 58 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 16:12:16) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 455ms (View: 15 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:13:29) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 336ms (View: 21 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 16:13:35) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 183ms (View: 93 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:13:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:16:31) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 193ms (View: 47 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:16:48) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 509ms (View: 33 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:16:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:17:04) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 123ms (View: 44 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:17:43) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 331ms (View: 31 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:17:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:18:36) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 341ms (View: 231 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:18:54) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 149ms (View: 16 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:18:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:19:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_desc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:19:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_desc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:32:56) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 1338ms (View: 286 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:32:58) [GET]
+
+ActionController::RoutingError (No route matches "/custom-theme/jquery-ui-1.8.2.custom.css" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:32:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:33:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:33:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:33:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:33:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:33:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:33:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:33:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:33:18) [GET]
+
+ActionController::RoutingError (No route matches "/custom-theme/jquery-ui-1.8.2.custom.css" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:35:08) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 209ms (View: 89 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:35:09) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:35:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:35:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:35:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:35:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:35:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:35:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:35:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:36:08) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 336ms (View: 131 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:36:37) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 603ms (View: 17 | 200 OK [http://localhost/contact_records]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/back_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_asc.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/sort_both.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-08 16:36:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/forward_disabled.jpg" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:39:00) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 179ms (View: 10 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:39:28) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 366ms (View: 33 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 16:59:56) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 217ms (View: 11 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 17:43:17) [GET]
+Redirected to http://localhost:3000/login
+Filter chain halted as [:check_logged_in] rendered_or_redirected.
+Completed in 200ms | 302 Found [http://localhost/contact_records]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-08 17:43:17) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 385ms (View: 383 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-08 17:48:38) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 208ms (View: 185 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-08 17:48:44) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 32ms (View: 24 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-08 17:48:50) [POST]
+  Parameters: {"authenticity_token"=>"svx5Ia6GJnZoWXCdNc2XU1cdyhIijxf8JsV4i1yJhq4=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 758ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 17:48:51) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 65ms (View: 61 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 17:48:54) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 311ms (View: 95 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 17:48:58) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 85ms (View: 6 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 17:50:19) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 143ms (View: 25 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 17:52:05) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 231ms (View: 91 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 17:52:26) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 80ms (View: 24 | 200 OK [http://localhost/problems/new]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 17:58:11) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 73ms (View: 43 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 18:00:38) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 74ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 18:00:53) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 90ms (View: 6 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#create (for 127.0.0.1 at 2010-06-08 18:01:34) [POST]
+  Parameters: {"authenticity_token"=>"svx5Ia6GJnZoWXCdNc2XU1cdyhIijxf8JsV4i1yJhq4=", "contact_record"=>{"company"=>"My Co Inorporated LLC International Woopdydoo", "person"=>"That really annoying lady", "details"=>"We did some stuff then did other things.  After that we did some different stuff", "contact_record_type"=>"email received"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/contact_records
+Completed in 61ms | 302 Found [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 18:01:35) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 36ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 18:01:50) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 60ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 18:03:05) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 71ms (View: 39 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 18:03:35) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 39ms (View: 7 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 18:04:39) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 140ms (View: 18 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 18:05:27) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 40ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 18:06:10) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 48ms (View: 15 | 200 OK [http://localhost/contact_records]

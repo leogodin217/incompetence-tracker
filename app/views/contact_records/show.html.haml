@@ -1,16 +1,14 @@
 %h3 Contact Record
 
-%p
-  %span.show-field-name Create Date: 
-  .show-field-value= @contact_record.created_at.strftime("%m/%d/%Y %I:%m %p")
+%span.show-field-name Create Date: 
+.show-field-value= @contact_record.created_at.strftime("%m/%d/%Y %I:%m %p")
 
-%p
-  %span.show-field-name Company: 
-  .show-field-value= @contact_record.company
-%p
-  %span.show-field-name Contact Type:  
-  .show-field-value= @contact_record.contact_record_type
-%p
-  %span.show-field-name Details:  
-  .show-field-value= @contact_record.details
+%span.show-field-name Company: 
+.show-field-value= @contact_record.company
+
+%span.show-field-name Contact Type:  
+.show-field-value= @contact_record.contact_record_type
+
+%span.show-field-name Details:  
+.show-field-value= @contact_record.details
 

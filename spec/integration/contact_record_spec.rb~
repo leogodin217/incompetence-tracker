@@ -80,8 +80,6 @@ describe ContactRecord do
 							 :details 			  => 'some details',
 							 :contact_record_type => 'email sent')
 
-		visit root_path
-		raise 'you got this far'	
 		visit contact_records_path
 		response.should contain 'You must be logged in to access this feature'
 		

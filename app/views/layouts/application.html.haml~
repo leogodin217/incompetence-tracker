@@ -5,11 +5,14 @@
     %title The Incompetence Tracker
     = stylesheet_link_tag 'blueprint/screen', :media => 'screen, projection'
     = stylesheet_link_tag 'blueprint/print', :media => 'print'
+    = stylesheet_link_tag 'demo_table'
+    = stylesheet_link_tag 'jquery-ui/jquery-ui-1.8.2.custom'
     <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
     = stylesheet_link_tag 'application'
     = javascript_include_tag 'jquery'
     = javascript_include_tag 'jquery.corners'
     = javascript_include_tag 'jquery.dataTables'
+    = javascript_include_tag 'jquery-ui'
     = javascript_include_tag 'custom'
   %body
     %h1.rounded-top

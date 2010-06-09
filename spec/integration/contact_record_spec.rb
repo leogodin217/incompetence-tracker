@@ -47,7 +47,9 @@ describe ContactRecord do
 
 		click_link 'My Contact Records'
 
-		response.should contain('Contact Records: 3')
+		response.should contain('Another Company')
+		response.should contain('A Company')
+		response.should contain('A Different Company')
 	end
 
 	it "can view a contact record" do
