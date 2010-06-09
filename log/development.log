@@ -19191,3 +19191,66 @@ Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 21:00:52) [GET]
 Rendering template within layouts/application
 Rendering problems/index
 Completed in 74ms (View: 5 | 200 OK [http://localhost/problems]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-06-08 21:11:37) [GET]
+Redirected to http://localhost:3000/
+Completed in 4ms | 302 Found [http://localhost/logout]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 21:11:37) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 36ms (View: 35 | 200 OK [http://localhost/]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-08 21:11:39) [GET]
+Redirected to https://localhost/signup
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/signup]
+
+
+Processing UsersController#signup (for 127.0.0.1 at 2010-06-08 21:12:03) [GET]
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 114ms (View: 44 | 200 OK [http://localhost/signup]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-08 21:12:10) [POST]
+  Parameters: {"authenticity_token"=>"svx5Ia6GJnZoWXCdNc2XU1cdyhIijxf8JsV4i1yJhq4=", "user"=>{"username"=>"adsfasdf", "password"=>"asdfasdf", "email_address"=>"asdfasdf"}, "recaptcha_challenge_field"=>"02zMIUzdpNk7uGfonXswTpm13AJ7EqIXxA6jYjCM5edggm9GguHLQkSOwZMMsbb7V5nJP4HVYNBFaWFJchEO1QXjUrGbd0w04vEbfxHDRtOZqtRdYBu9ddeih8reQJN9vmyHItnxhoMk5liv9NOxLnivJuh665hzbZATKWF9QaJchX0R3pV-cBd0IgmMp3wMxDETz8vFVqtjTlwC1oIvJMTK7WoefxvQllIEUW_BybifLVj9AwSNA-gBMKW73V2z14Xtd2ClegkiI3BxNj6yy8nXFVGOcB", "recaptcha_response_field"=>"adsfasdf", "commit"=>"Signup"}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 313ms (View: 6 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-08 21:12:59) [POST]
+  Parameters: {"authenticity_token"=>"svx5Ia6GJnZoWXCdNc2XU1cdyhIijxf8JsV4i1yJhq4=", "user"=>{"username"=>"adsfasdf", "password"=>"", "email_address"=>"asdfasdf"}, "recaptcha_challenge_field"=>"02hCJV9dZuZ3lz7aQhI97B61DlcfWMLjtkfwYiubL-cDMDJbzWlPqpTEfK_DdyfNS1Vhuad-CR_JJSAD90ATsaPTOoc8R_sY_xqQaKzxrnQTEyzbOCgRpjNG9rXfuvCf7rlpUWBvaSAL1nJ2f1_O4dyxvMkAgVfeZrFWM-LpcMNbwWTzmnKKtJ2k9oa7M-EX00WH2a1UqkEdYIWhcMbMbY_J_kgnXVTOm-sqng1LDJUlzpmS_dR0M9iAVUrNf_B0h0nPk33_9SMKiyVjl6OJS8uk7cuuUB", "recaptcha_response_field"=>"asdfsdf", "commit"=>"Signup"}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 388ms (View: 17 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-08 21:13:17) [POST]
+  Parameters: {"authenticity_token"=>"svx5Ia6GJnZoWXCdNc2XU1cdyhIijxf8JsV4i1yJhq4=", "user"=>{"username"=>"adsfasdf", "password"=>"dsafasdf", "email_address"=>"asdfasdf"}, "recaptcha_challenge_field"=>"02qZEX4BYIjKRAElAn-9EHKgJq7OA9mpEbZTx37x2klaIpvk2lbxEWVW__iZ4NENIKU83CHD1scRlP4gYRMqAak636gdYhfbWazz5MWJFR3oNjlmuaUF2uUdZmYV-QMiWtzOVe_LH4yp5P3vd5J6uYbKT13aJTQuB9dItR6g_Z-9PpkUa54tDj-YVZm7HfuHCwKbfjdFmS9SpZ6cPosusJw1-Ea9pVPWHF-s9F4hPkHQ1aU-rzPHdC1OusTuV4nzbizf8PsVITtWQIzwzwmZwBpLaGHk0B", "recaptcha_response_field"=>"eritreasimpson", "commit"=>"Signup"}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 3141ms (View: 9 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-08 21:13:20) [POST]
+  Parameters: {"authenticity_token"=>"svx5Ia6GJnZoWXCdNc2XU1cdyhIijxf8JsV4i1yJhq4=", "user"=>{"username"=>"adsfasdf", "password"=>"dsafasdf", "email_address"=>"asdfasdf"}, "recaptcha_challenge_field"=>"02qZEX4BYIjKRAElAn-9EHKgJq7OA9mpEbZTx37x2klaIpvk2lbxEWVW__iZ4NENIKU83CHD1scRlP4gYRMqAak636gdYhfbWazz5MWJFR3oNjlmuaUF2uUdZmYV-QMiWtzOVe_LH4yp5P3vd5J6uYbKT13aJTQuB9dItR6g_Z-9PpkUa54tDj-YVZm7HfuHCwKbfjdFmS9SpZ6cPosusJw1-Ea9pVPWHF-s9F4hPkHQ1aU-rzPHdC1OusTuV4nzbizf8PsVITtWQIzwzwmZwBpLaGHk0B", "recaptcha_response_field"=>"eritreasimpson", "commit"=>"Signup"}
+Rendering template within layouts/application
+Rendering users/signup
+Completed in 3227ms (View: 23 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-08 21:13:39) [POST]
+  Parameters: {"authenticity_token"=>"svx5Ia6GJnZoWXCdNc2XU1cdyhIijxf8JsV4i1yJhq4=", "user"=>{"username"=>"adsfasdf", "password"=>"asdfadsfdfs", "email_address"=>"blah@you.com"}, "recaptcha_challenge_field"=>"02pFw3iaM4kAuWyy4-75yPNIVS1-73dirGC6dnUklyqg_C6fjja0LNPKJg59AJNXCeQlwr-e1FqSqvfVji1qSlCxPGh0oZ2cUm2AhC646pzgzXxLZiwPbjYoSXO9u6iz7lIQXuQKKGO7OSHykeHfzhUOkGqZ-KcQ-M7CCrdEKpdqQO3pVbVtaxadgIMjfLlHAS_BCvI2f3P7PasZl-bTEds7OzEJVb66ClbptlyrFGhIjhjBQ3NvVr4HDs5MrwxFlS31-h65D8wxU_4UspCJfjg52YdEsB", "recaptcha_response_field"=>"capetownfacilities", "commit"=>"Signup"}
+Redirected to http://localhost:3000/
+Completed in 231ms | 302 Found [http://localhost/users]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 21:13:39) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 5ms (View: 3 | 200 OK [http://localhost/]
