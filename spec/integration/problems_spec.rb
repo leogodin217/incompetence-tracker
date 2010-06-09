@@ -95,10 +95,10 @@ describe Problem do
 
 		visit problem_path @problem.id
 		click_link 'Associate Contact Record'
-		select  'record 1'
+		select  /record 1/
 		click_button 'Save'
 		click_link 'Associate Contact Record'
-		select  'record 2'
+		select  /record 2/
 		click_button 'Save'
 	
 		@problem.reload	

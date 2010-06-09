@@ -18705,3 +18705,201 @@ Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 20:07:16)
 Rendering template within layouts/application
 Rendering contact_records/index
 Completed in 45ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 20:08:28) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 297ms (View: 12 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 20:08:30) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 57ms (View: 14 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:08:36) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 92ms (View: 30 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 20:08:47) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 27ms (View: 4 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 20:08:54) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 99ms (View: 7 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#create (for 127.0.0.1 at 2010-06-08 20:09:44) [POST]
+  Parameters: {"authenticity_token"=>"svx5Ia6GJnZoWXCdNc2XU1cdyhIijxf8JsV4i1yJhq4=", "problem"=>{"title"=>"All is peachy", "description"=>"I don't really have a problem but I wanted something here", "company_name"=>"a cool company", "company_web_site"=>"www.coolco.localhost.com", "company_phone"=>"555-555-5555", "company_email"=>"coolco@localhost", "company_fax"=>"555-555-5555"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/problems/4
+Completed in 190ms | 302 Found [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:09:44) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 50ms (View: 28 | 200 OK [http://localhost/problems/4]
+
+
+Processing ProblemsController#associate_contact_record (for 127.0.0.1 at 2010-06-08 20:09:52) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/associate_contact_record
+Completed in 80ms (View: 8 | 200 OK [http://localhost/problems/4/associate_contact_record]
+
+
+Processing ProblemsController#associate_contact_record (for 127.0.0.1 at 2010-06-08 20:11:00) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/associate_contact_record
+Completed in 56ms (View: 14 | 200 OK [http://localhost/problems/4/associate_contact_record]
+
+
+Processing ProblemsController#associate_contact_record (for 127.0.0.1 at 2010-06-08 20:11:04) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/associate_contact_record
+Completed in 80ms (View: 8 | 200 OK [http://localhost/problems/4/associate_contact_record]
+
+
+Processing ProblemsController#associate_contact_record (for 127.0.0.1 at 2010-06-08 20:11:25) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/associate_contact_record
+
+ActionView::TemplateError ([:company, :created_at] is not a symbol) on line #5 of app/views/problems/associate_contact_record.html.haml:
+2: = form_tag({:controller => :problems, :action => :save_contact_record_association}, {:method => :put})
+3: = label_tag :contact_record
+4: %br
+5: = select_tag :contact_record, options_from_collection_for_select(@contact_records, :id, [:company, :created_at])
+6: %br
+7: = submit_tag
+
+    /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/collection.rb:509:in `block in each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `block in each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `each'
+    /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/collection.rb:506:in `each'
+    app/views/problems/associate_contact_record.html.haml:5:in `_run_haml_app47views47problems47associate_contact_record46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (178.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemsController#associate_contact_record (for 127.0.0.1 at 2010-06-08 20:16:38) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/associate_contact_record
+Completed in 80ms (View: 22 | 200 OK [http://localhost/problems/4/associate_contact_record]
+
+
+Processing ProblemsController#associate_contact_record (for 127.0.0.1 at 2010-06-08 20:17:14) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/associate_contact_record
+Completed in 173ms (View: 9 | 200 OK [http://localhost/problems/4/associate_contact_record]
+
+
+Processing ProblemsController#save_contact_record_association (for 127.0.0.1 at 2010-06-08 20:17:36) [PUT]
+  Parameters: {"authenticity_token"=>"svx5Ia6GJnZoWXCdNc2XU1cdyhIijxf8JsV4i1yJhq4=", "contact_record"=>"7", "commit"=>"Save changes", "id"=>"4"}
+Redirected to http://localhost:3000/problems/4
+Completed in 92ms | 302 Found [http://localhost/problems/4/save_contact_record_association]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:17:36) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 137ms (View: 113 | 200 OK [http://localhost/problems/4]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 20:17:49) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 172ms (View: 14 | 200 OK [http://localhost/contact_records]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 20:17:51) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 187ms (View: 6 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:17:53) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 118ms (View: 39 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#associate_contact_record (for 127.0.0.1 at 2010-06-08 20:17:56) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/associate_contact_record
+Completed in 81ms (View: 9 | 200 OK [http://localhost/problems/1/associate_contact_record]
+
+
+Processing ProblemsController#save_contact_record_association (for 127.0.0.1 at 2010-06-08 20:18:01) [PUT]
+  Parameters: {"authenticity_token"=>"svx5Ia6GJnZoWXCdNc2XU1cdyhIijxf8JsV4i1yJhq4=", "contact_record"=>"7", "commit"=>"Save changes", "id"=>"1"}
+Redirected to http://localhost:3000/problems/1
+Completed in 86ms | 302 Found [http://localhost/problems/1/save_contact_record_association]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:18:01) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 56ms (View: 31 | 200 OK [http://localhost/problems/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 20:19:48) [GET]
+  Parameters: {"id"=>"7"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 197ms (View: 15 | 200 OK [http://localhost/contact_records/7]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:19:56) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 101ms (View: 31 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 20:20:01) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 69ms (View: 4 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:20:03) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 211ms (View: 31 | 200 OK [http://localhost/problems/4]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 20:20:06) [GET]
+  Parameters: {"id"=>"7"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 132ms (View: 22 | 200 OK [http://localhost/contact_records/7]

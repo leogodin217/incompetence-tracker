@@ -24,7 +24,6 @@ class ContactRecordsController < ApplicationController
 	def show
 		@user = User.get(session[:logged_in_user])
 		@contact_record = ContactRecord.get(params[:id])
-		@problem_id = @contact_record.problem.id unless @contact_record.problem.nil?
 		
 		unless @user.id == @contact_record.user_id
 			flash[:notice] = 'You may only view your own Contact Records'

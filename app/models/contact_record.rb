@@ -12,6 +12,10 @@ class ContactRecord
 	belongs_to :user
 	has 1, :problem, :through => Resource
 
+	def select_option_display
+		return "#{company} - #{created_at.strftime "%A %m/%d/%y %H:%M"} - #{contact_record_type}"
+	end
+	
 	def self.contact_record_types
 		@@contact_record_types
 	end

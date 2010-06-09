@@ -13,5 +13,3 @@
 .show-field-value= @contact_record.details
 
 = link_to 'Contact Records', contact_records_path, :class => 'button-link'
-- if @problem_id 
-  = link_to 'Problem', problem_path(@problem_id), :class => 'button-link'
