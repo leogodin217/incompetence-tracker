@@ -11,5 +11,5 @@
     - @problems.each do |problem|
       %tr
         %td.table-link= link_to 'Show', problem_path(problem.id)
-        %td= problem.company_name
-        %td= problem.title
+        %td= h problem.company_name
+        %td= h problem.title

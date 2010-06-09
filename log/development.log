@@ -18903,3 +18903,273 @@ Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 20:20:06) 
 Rendering template within layouts/application
 Rendering contact_records/show
 Completed in 132ms (View: 22 | 200 OK [http://localhost/contact_records/7]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 20:24:59) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 65ms (View: 10 | 200 OK [http://localhost/contact_records]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 20:25:02) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 96ms (View: 8 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:25:17) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 115ms (View: 46 | 200 OK [http://localhost/problems/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 20:26:27) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 77ms (View: 29 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 20:26:46) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+
+ActionView::TemplateError (wrong number of arguments (2 for 1)) on line #15 of app/views/contact_records/index.html.haml:
+12:   %tbody
+13:     - @contact_records.each do |contact_record|
+14:       %tr
+15:         %td.button-link= link_to h contact_record.created_at.strftime("%A - %m/%d/%y %H:%M"), contact_record_path(contact_record.id)
+16:         %td= h contact_record.company
+17:         %td= h contact_record.person
+18:         %td= h contact_record.contact_record_type
+
+    app/views/contact_records/index.html.haml:15:in `block in _run_haml_app47views47contact_records47index46html46haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/collection.rb:509:in `block in each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `block in each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `each'
+    /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/collection.rb:506:in `each'
+    app/views/contact_records/index.html.haml:13:in `_run_haml_app47views47contact_records47index46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (80.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:27:03) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 192ms (View: 163 | 200 OK [http://localhost/problems/1]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 20:27:10) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 105ms (View: 17 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 20:27:12) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 178ms (View: 7 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 20:27:14) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 87ms (View: 15 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 20:27:57) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 167ms (View: 15 | 200 OK [http://localhost/contact_records/1]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 20:28:23) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 64ms (View: 17 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:28:24) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 84ms (View: 32 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:28:59) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 134ms (View: 96 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-08 20:29:28) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 194ms (View: 157 | 200 OK [http://localhost/problems/1]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-08 20:29:34) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 80ms (View: 5 | 200 OK [http://localhost/contact_records/3]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:39:39) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 19ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:41:29) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 51ms (View: 46 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:45:12) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 20ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:46:49) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 16ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:47:29) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 29ms (View: 28 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:47:31) [GET]
+  Parameters: {"href"=>"#whatis"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 18 | 200 OK [http://localhost/?href=%23whatis]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:47:32) [GET]
+  Parameters: {"href"=>"#howto"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 22ms (View: 13 | 200 OK [http://localhost/?href=%23howto]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:48:20) [GET]
+  Parameters: {"href"=>"#howto"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 20ms (View: 17 | 200 OK [http://localhost/?href=%23howto]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:52:05) [GET]
+  Parameters: {"href"=>"#howto"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 35ms (View: 24 | 200 OK [http://localhost/?href=%23howto]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:53:21) [GET]
+  Parameters: {"href"=>"#howto"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 16ms (View: 15 | 200 OK [http://localhost/?href=%23howto]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:54:09) [GET]
+  Parameters: {"href"=>"#howto"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 8ms (View: 6 | 200 OK [http://localhost/?href=%23howto]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:54:23) [GET]
+  Parameters: {"href"=>"#howto"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 5ms (View: 3 | 200 OK [http://localhost/?href=%23howto]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:54:37) [GET]
+  Parameters: {"href"=>"#howto"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 5 | 200 OK [http://localhost/?href=%23howto]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:55:35) [GET]
+  Parameters: {"href"=>"#howto"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 17ms (View: 15 | 200 OK [http://localhost/?href=%23howto]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:55:57) [GET]
+  Parameters: {"href"=>"#howto"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 16ms (View: 14 | 200 OK [http://localhost/?href=%23howto]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:57:54) [GET]
+  Parameters: {"href"=>"#howto"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 7ms (View: 4 | 200 OK [http://localhost/?href=%23howto]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:58:30) [GET]
+  Parameters: {"href"=>"#howto"}
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 9ms (View: 6 | 200 OK [http://localhost/?href=%23howto]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-08 20:59:19) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 79ms (View: 14 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 20:59:20) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 77ms (View: 10 | 200 OK [http://localhost/contact_records]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-08 20:59:21) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 279ms (View: 32 | 200 OK [http://localhost/problems/new]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 20:59:22) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 68ms (View: 24 | 200 OK [http://localhost/problems]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:59:25) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]

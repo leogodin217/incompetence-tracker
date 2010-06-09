@@ -1,15 +1,15 @@
 %h3 Contact Record
 
 %span.show-field-name Create Date: 
-.show-field-value= @contact_record.created_at.strftime("%m/%d/%Y %I:%m %p")
+.show-field-value= h @contact_record.created_at.strftime("%m/%d/%Y %I:%m %p")
 
 %span.show-field-name Company: 
-.show-field-value= @contact_record.company
+.show-field-value= h @contact_record.company
 
 %span.show-field-name Contact Type:  
-.show-field-value= @contact_record.contact_record_type
+.show-field-value= h @contact_record.contact_record_type
 
 %span.show-field-name Details:  
-.show-field-value= @contact_record.details
+.show-field-value= h @contact_record.details
 
 = link_to 'Contact Records', contact_records_path, :class => 'button-link'

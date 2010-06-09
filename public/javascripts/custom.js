@@ -19,4 +19,5 @@ $(document).ready(function() {
 	$('input:submit').button();
 	$('.button-link').button();
 	$('.table-link>a').button();
+	$('#instructions').tabs({fx : {opacity : 'toggle'}});
 });$

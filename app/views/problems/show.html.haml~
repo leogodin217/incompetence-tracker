@@ -1,16 +1,12 @@
 %h3 Viewing Problem
 
-%p= "Title: #{@problem.title}"
-%p= "Company: #{@problem.company_name}"
-%p= "Description: #{@problem.description}"
-%p= "Website: #{@problem.company_web_site}"
-%p= "Phone: #{@problem.company_phone}"
-%p= "Email: #{@problem.company_email}"
-%p= "Fax: #{@problem.company_fax}"
-%p Contact Records
-- @problem.contact_records.each do |contact_record|
-  = link_to "#{contact_record.created_at.strftime "%A %m/%d/%y %H:%M"} : #{contact_record.company}", contact_record_path(contact_record.id)
-  %br
+%p= "Title: #{h @problem.title}"
+%p= "Company: #{h @problem.company_name}"
+%p= "Description: #{h @problem.description}"
+%p= "Website: #{h @problem.company_web_site}"
+%p= "Phone: #{h @problem.company_phone}"
+%p= "Email: #{h @problem.company_email}"
+%p= "Fax: #{h @problem.company_fax}"
 
 
 %table#contact-records-index 

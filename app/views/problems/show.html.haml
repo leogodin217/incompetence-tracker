@@ -1,12 +1,12 @@
 %h3 Viewing Problem
 
-%p= "Title: #{@problem.title}"
-%p= "Company: #{@problem.company_name}"
-%p= "Description: #{@problem.description}"
-%p= "Website: #{@problem.company_web_site}"
-%p= "Phone: #{@problem.company_phone}"
-%p= "Email: #{@problem.company_email}"
-%p= "Fax: #{@problem.company_fax}"
+%p= "Title: #{h @problem.title}"
+%p= "Company: #{h @problem.company_name}"
+%p= "Description: #{h @problem.description}"
+%p= "Website: #{h @problem.company_web_site}"
+%p= "Phone: #{h @problem.company_phone}"
+%p= "Email: #{h @problem.company_email}"
+%p= "Fax: #{h @problem.company_fax}"
 
 
 %table#contact-records-index 
@@ -20,9 +20,9 @@
   %tbody
     - @problem.contact_records.each do |contact_record|
       %tr
-        %td.table-link= link_to contact_record.created_at.strftime("%A - %m/%d/%y %H:%M"), contact_record_path(contact_record.id)
-        %td= contact_record.company
-        %td= contact_record.person
-        %td= contact_record.contact_record_type
+        %td.table-link= link_to h(contact_record.created_at.strftime("%A - %m/%d/%y %H:%M")), contact_record_path(contact_record.id)
+        %td= h contact_record.company
+        %td= h contact_record.person
+        %td= h contact_record.contact_record_type
   
 .button-link= link_to 'Associate Contact Record', associate_contact_record_problem_path(@problem.id)
