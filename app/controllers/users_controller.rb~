@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  #ssl_required :signup, :login, :create
+  ssl_required :signup, :login, :create, :authenticate
   skip_before_filter :check_logged_in
 
   def signup
