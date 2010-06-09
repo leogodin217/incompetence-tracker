@@ -1,5 +1,5 @@
 <h3>Contact Records</h3>
-= "Contact Records: #{@contact_records.length}"
+//= "Contact Records: #{@contact_records.length}"
 
 %table#contact-records-index 
   %caption Contact Records

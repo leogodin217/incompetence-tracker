@@ -17,4 +17,8 @@ class Problem
 	def self.my_problems(user_id) 
 		return Problem.all :user_id => user_id
 	end
+
+	def associate_contact_record(contact_record_id)
+		ContactRecordProblem.create(:problem_id => id, :contact_record_id => contact_record_id) unless ContactRecordProblem.first(:problem_id => id, :contact_record_id => contact_record_id).present? 
+	end
 end

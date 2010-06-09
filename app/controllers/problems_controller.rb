@@ -39,20 +39,13 @@ class ProblemsController < ApplicationController
 
 	def save_contact_record_association
 		@problem = Problem.get params[:id]
-		@contact_record = ContactRecord.get params[:contact_record]
+
 		unless session[:logged_in_user] == @problem.user_id
 			flash[:notice] = 'You may only view your own Problems'
 			redirect_to problems_path
 		end
-
-		@problem.contact_records << @contact_record
-
-		if @problem.save
-			redirect_to problem_path @problem.id
-		else
-			flash[:notice] = 'Could not associate Contact Record'
-			render :associate_contact_record
-		end
+		
+		@problem.associate_contact_record params[:contact_record]
+		redirect_to problem_path @problem.id
 	end
-
 end

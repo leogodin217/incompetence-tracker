@@ -65,3 +65,5 @@ body {
     float: left; }
   body .show-field-value {
     margin-left: 10em; }
+  body .table-link a, body .table-link a:visited, body .table-link a:hover, body .table-link a:active {
+    text-decoration: none; }

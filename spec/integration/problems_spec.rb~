@@ -74,9 +74,9 @@ describe Problem do
 		fill_in 		'password', 	:with => 'mypassword'
 		click_button 	'login'
 
-		:problem.gen :title => 'my problem'
-		:problem.gen :title => 'a problem'
-		:problem.gen :title => 'big problem'
+		:problem.gen :title => 'my problem', 	:user_id => '1'
+		:problem.gen :title => 'a problem', 	:user_id => '1'
+		:problem.gen :title => 'big problem', 	:user_id => '1'
 
 		visit problems_path
 
@@ -101,7 +101,7 @@ describe Problem do
 		select  'record 2'
 		click_button 'Save'
 	
-		@problem.reload	
+		#@problem.reload	
 		@problem.contact_records.length.should == 2	
 
 	end
