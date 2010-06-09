@@ -19173,3 +19173,21 @@ Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 20:59
 Rendering template within layouts/application
 Rendering home_page/home_page_index
 Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 21:00:46) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 20 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-08 21:00:49) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 193ms (View: 9 | 200 OK [http://localhost/contact_records]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-08 21:00:52) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 74ms (View: 5 | 200 OK [http://localhost/problems]
