@@ -19254,3 +19254,15 @@ Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 21:13
 Rendering template within layouts/application
 Rendering home_page/home_page_index
 Completed in 5ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-08 21:21:02) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 10ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-09 16:41:27) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 116ms (View: 89 | 200 OK [http://localhost/]
