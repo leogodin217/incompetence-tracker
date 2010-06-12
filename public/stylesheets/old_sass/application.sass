@@ -1,0 +1,103 @@
+// Colors
+$bg                           = #f4f6ec
+$loginbox                     = #cc333f
+$lighter-border               = #3d3d3d
+$header-text                  = #ffffff
+$header-background-color      = #cc333f
+$command-bar-background-color = #d7d9d0
+$command-bar-color            = #6a4a3c
+$content-background-color     = #ffffff
+
+// Layout sizes
+$layout-margin                = 20px
+
+body
+  :margin  0
+  :padding 0
+  :background-color     $bg
+
+  :font-family          Verdana, sans serif, serif
+
+  // For Header
+  h1
+    :background-color   $header-background-color
+    :text-align         center
+    :padding            .5em
+    :margin-left        $layout-margin
+    :margin-right       $layout-margin
+    :margin-bottom     0
+    a, a:visited, a:hover, a:active
+      :text-decoration    none
+      :font-weight        bold
+      :color              $header-text
+    
+  // For command bar
+  .command-bar
+    :text-size        .8em
+    :background-color $command-bar-background-color
+    :color            $command-bar-color
+    :padding-top      .2em
+    :padding-bottom   .2em
+    :padding-left     1em
+    :padding-right    1em
+    :margin-top       0
+    :margin-left      $layout-margin
+    :margin-right     $layout-margin  
+
+    a, a:visited, a:hover, a:active
+      :text-decoration     none
+    a:hover, a:active
+      :color    $loginbox
+
+
+  #content
+    :margin  $layout-margin
+    :padding 2em
+    :background-color   $content-background-color
+
+    input, textarea, select
+      :margin-left 1em
+
+    p
+      label
+        :width 12em
+        :float left
+        :margin-right .5em
+        :display block
+
+
+  .flash
+    :margin-left    $layout-margin
+    :margin-right   $layout-margin 
+
+
+  .login-box
+    :background-color = $loginbox
+    :border 1px solid $lighter-border
+    :text-align center
+    :vertical-align middle
+    :margin-left auto
+    :margin-right auto
+    :padding-top 5em
+    :width 500px
+    :height 250px
+
+  .login-box
+    input
+      :border 1px solid black
+  
+  #errorExplanation
+    :border 1px solid black
+
+    :padding .8em
+    :margin  1em
+
+    :background-color #ccc
+
+
+  .show-field-name
+    :font-weight    bold
+    :float          left
+  .show-field-value
+    :margin-left    10em
+
