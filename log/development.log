@@ -19522,3 +19522,29 @@ Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 19:34
 Rendering template within layouts/application
 Rendering home_page/home_page_index
 Completed in 10ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-16 19:46:13) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 48ms (View: 19 | 200 OK [http://localhost/contact_records]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-16 19:46:15) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 22ms (View: 5 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 19:46:18) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 68ms (View: 24 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#print (for 127.0.0.1 at 2010-06-16 19:46:26) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/print
+Completed in 67ms (View: 32 | 200 OK [http://localhost/problems/1/print]
