@@ -48,4 +48,8 @@ class ProblemsController < ApplicationController
 		@problem.associate_contact_record params[:contact_record]
 		redirect_to problem_path @problem.id
 	end
+
+	def print
+		@problem = Problem.get params[:id]
+	end
 end

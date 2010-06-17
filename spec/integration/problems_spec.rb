@@ -218,7 +218,55 @@ describe Problem do
 		response.should_not contain 'viewers problem'
 		response.should 	contain 'owners problem'
 		response.should 	contain 'owners other problem'
+	end
 
+	it 'can print a problem' do
+		@problem = Problem.gen :title 	=> 'This is a problem',
+							   :description 			=> 'This is a problem description',
+							   :company_name 			=> 'This is a company',
+							   :company_web_site	=> 'www.thisisacompany.com',
+							   :company_phone			=> '555-555-5555',
+							   :company_email			=> 'me@thisisacompany.com',
+							   :company_fax				=> '555-555-5556',
+							   :user_id						=> 1
+
+		@first_contact_time = Time.now
+	    @contact_record = ContactRecord.gen :company 				=> 'cr This is a company',
+							  				:person  							=> 'Some dude',
+							  				:details 							=> 'These are details',
+							  				:contact_record_type 	=> 'call made',
+							  				:created_at						=> @first_contact_time,
+												:user_id 							=> 1
+
+		@second_contact_time = Time.now + 60*60*24
+	    @contact_record2 = ContactRecord.gen :company				=> 'cr This is company',
+							  				:person 				=> 'Some other dude',
+							  				:details 				=> 'These are other details',
+							  				:contact_record_type 	=> 'call received',
+							  				:created_at				=> @second_contact_time
+			@problem.contact_records << @contact_record
+			@problem.contact_records << @contact_record2
+			@problem.save
 		
+		do_login
+		visit problem_path @problem.id
+		click_link 'Print Problem'
+		save_and_open_page
+		response.should contain 'This is a problem'
+		response.should contain 'This is a problem description'
+		response.should contain 'This is a company'
+		response.should contain 'www.thisisacompany.com'
+		response.should contain '555-555-5555'
+		response.should contain 'me@thisisacompany.com'
+		response.should contain '555-555-5556'
+		response.should contain @first_contact_time.strftime("%m/%d/%Y %I:%m %p")
+		response.should contain @second_contact_time.strftime("%m/%d/%Y %I:%m %p")
+		response.should contain 'Some other dude'
+		response.should contain 'Some dude'
+		response.should contain 'These are other details'
+		response.should contain 'These are details'
+		response.should contain 'call made'
+		response.should contain 'call received'
+							 
 	end
 end

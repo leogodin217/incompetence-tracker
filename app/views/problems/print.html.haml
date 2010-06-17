@@ -1,0 +1,45 @@
+%h3= @problem.title
+
+Description: 
+= @problem.description
+%br
+
+Company: 
+= @problem.company_name
+%br
+
+Website: 
+= @problem.company_web_site
+%br
+
+Phone: 
+= @problem.company_phone
+%br
+
+Email: 
+= @problem.company_email
+%br
+
+Fax:
+= @problem.company_fax
+%br
+
+- @problem.contact_records.each do |contact_record|
+  %p
+    %h4 New Contact
+    Date: 
+    = contact_record.created_at.strftime("%m/%d/%Y %I:%m %p")
+    %br
+
+    Person: 
+    = contact_record.person
+    %br
+
+    Type: 
+    = contact_record.contact_record_type
+    %br
+
+    Description: 
+    = contact_record.details
+    %br
+

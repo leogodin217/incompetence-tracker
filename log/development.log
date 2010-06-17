@@ -19284,3 +19284,241 @@ Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-12 13:09
 Rendering template within layouts/application
 Rendering home_page/home_page_index
 Completed in 32ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-12 13:13:36) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 29ms (View: 19 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-12 18:10:11) [GET]
+Redirected to https://localhost/login
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-16 18:29:43) [GET]
+Redirected to https://localhost/login
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 1ms | 302 Found [http://localhost/login]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 18:35:10) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 133ms (View: 131 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-16 18:35:12) [GET]
+Redirected to https://localhost/login
+Filter chain halted as [:ensure_proper_protocol] rendered_or_redirected.
+Completed in 0ms | 302 Found [http://localhost/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-16 18:35:34) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 39ms (View: 35 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-16 18:35:39) [POST]
+  Parameters: {"authenticity_token"=>"3hmPWvLd1ZyeIZ5VW20X81/chYbH+QGaQUaUs30fKVo=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 64ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 18:35:39) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 10ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-16 18:35:46) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 150ms (View: 54 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 18:35:48) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 151ms (View: 120 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#print (for 127.0.0.1 at 2010-06-16 18:35:52) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/print
+Completed in 65ms (View: 10 | 200 OK [http://localhost/problems/1/print]
+
+
+Processing ProblemsController#print (for 127.0.0.1 at 2010-06-16 18:38:40) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/print
+Completed in 555ms (View: 196 | 200 OK [http://localhost/problems/1/print]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-16 18:44:22) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 48ms (View: 6 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 18:44:25) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 145ms (View: 105 | 200 OK [http://localhost/problems/1]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 19:04:58) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 49ms (View: 47 | 200 OK [http://localhost/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-16 19:05:00) [GET]
+Rendering template within layouts/application
+Rendering users/login
+Completed in 52ms (View: 48 | 200 OK [http://localhost/login]
+
+
+Processing UsersController#authenticate (for 127.0.0.1 at 2010-06-16 19:05:06) [POST]
+  Parameters: {"authenticity_token"=>"JWTeWSNXC8WtjBtm6bkclI8Zud+xTk6u5C3ci0Ts/tE=", "username"=>"myuser", "password"=>"mypassword", "commit"=>"Login"}
+Redirected to http://localhost:3000/
+Completed in 71ms | 302 Found [http://localhost/users/authenticate]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 19:05:06) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 5ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-16 19:05:08) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 158ms (View: 33 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 19:05:10) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 143ms (View: 84 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#print (for 127.0.0.1 at 2010-06-16 19:05:12) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/print
+
+ActionView::TemplateError (Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.) on line #37 of app/views/problems/print.html.haml:
+34:     = contact_record.person
+35:     %br
+36: 
+37:    Type: 
+38:    = contact_record.contact_record_type
+39:    %br
+40: 
+
+    app/views/problems/print.html.haml:37
+    haml (3.0.6) lib/haml/precompiler.rb:155:in `block in tabs'
+    haml (3.0.6) lib/haml/precompiler.rb:134:in `instance_eval'
+    haml (3.0.6) lib/haml/precompiler.rb:134:in `tabs'
+    haml (3.0.6) lib/haml/precompiler.rb:1040:in `block_opened?'
+    haml (3.0.6) lib/haml/precompiler.rb:768:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (77.8ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemsController#print (for 127.0.0.1 at 2010-06-16 19:05:37) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/print
+
+ActionView::TemplateError (undefined method `description' for #<ContactRecord:0xbd73288>) on line #42 of app/views/problems/print.html.haml:
+39:     %br
+40: 
+41:     Description: 
+42:     = contact_record.description
+43:     %br
+
+    app/views/problems/print.html.haml:42:in `block in _run_haml_app47views47problems47print46html46haml'
+    /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/collection.rb:509:in `block in each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `block in each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `each'
+    extlib (0.9.15) lib/extlib/lazy_array.rb:413:in `each'
+    /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/collection.rb:506:in `each'
+    app/views/problems/print.html.haml:27:in `_run_haml_app47views47problems47print46html46haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (68.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProblemsController#print (for 127.0.0.1 at 2010-06-16 19:05:51) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/print
+Completed in 239ms (View: 95 | 200 OK [http://localhost/problems/1/print]
+
+
+Processing ProblemsController#print (for 127.0.0.1 at 2010-06-16 19:06:28) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/print
+Completed in 121ms (View: 90 | 200 OK [http://localhost/problems/1/print]
+
+
+Processing ProblemsController#print (for 127.0.0.1 at 2010-06-16 19:06:56) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/print
+Completed in 65ms (View: 47 | 200 OK [http://localhost/problems/1/print]
+
+
+Processing ProblemsController#print (for 127.0.0.1 at 2010-06-16 19:21:07) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/print
+Completed in 62ms (View: 39 | 200 OK [http://localhost/problems/1/print]
+
+
+Processing ProblemsController#print (for 127.0.0.1 at 2010-06-16 19:34:41) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/print
+Completed in 153ms (View: 54 | 200 OK [http://localhost/problems/1/print]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 19:34:54) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 10ms (View: 6 | 200 OK [http://localhost/]
