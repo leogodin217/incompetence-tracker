@@ -20283,3 +20283,27 @@ Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:47
 Rendering template within layouts/application
 Rendering home_page/home_page_index
 Completed in 195ms (View: 91 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:48:34) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 120ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-23 16:48:38) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 150ms (View: 6 | 200 OK [http://localhost/contact_records]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:51:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 41ms (View: 20 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-23 16:51:34) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 134ms (View: 17 | 200 OK [http://localhost/contact_records/new]
