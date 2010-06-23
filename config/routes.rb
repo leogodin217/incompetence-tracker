@@ -9,7 +9,7 @@ ActionController::Routing::Routes.draw do |map|
   end
 
   
-  map.resources :problems, :member => {:save_contact_record_association => :put, :associate_contact_record => :get, :print => :get}
+  map.resources :problems, :member => {:save_contact_record_association => :put, :associate_contact_record => :get, :print => :get, :save_public => :put, :make_public => :get}
   map.resources :contact_records
   #map.resources :contact_records
   # The priority is based upon order of creation: first created -> highest priority.

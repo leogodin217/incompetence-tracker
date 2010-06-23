@@ -19548,3 +19548,450 @@ Processing ProblemsController#print (for 127.0.0.1 at 2010-06-16 19:46:26) [GET]
 Rendering template within layouts/application
 Rendering problems/print
 Completed in 67ms (View: 32 | 200 OK [http://localhost/problems/1/print]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 19:51:36) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 6ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-16 20:05:35) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 21ms (View: 5 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 20:05:37) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 129ms (View: 112 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#make_public (for 127.0.0.1 at 2010-06-16 20:05:48) [PUT]
+  Parameters: {"authenticity_token"=>"JWTeWSNXC8WtjBtm6bkclI8Zud+xTk6u5C3ci0Ts/tE=", "id"=>"1"}
+
+ActionController::UnknownAction (No action responded to make_public. Actions: associate_contact_record, check_logged_in, create, index, new, print, save_contact_record_association, and show):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProblemsController#make_public (for 127.0.0.1 at 2010-06-16 20:07:47) [PUT]
+  Parameters: {"authenticity_token"=>"JWTeWSNXC8WtjBtm6bkclI8Zud+xTk6u5C3ci0Ts/tE=", "id"=>"1"}
+
+ActionController::UnknownAction (No action responded to make_public. Actions: associate_contact_record, check_logged_in, create, index, new, print, save_contact_record_association, and show):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProblemsController#make_public (for 127.0.0.1 at 2010-06-16 20:10:30) [PUT]
+  Parameters: {"authenticity_token"=>"JWTeWSNXC8WtjBtm6bkclI8Zud+xTk6u5C3ci0Ts/tE=", "id"=>"1"}
+
+ActionView::MissingTemplate (Missing template problems/make_public.erb in view path app/views):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:33:16) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 33ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-16 20:33:19) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 61ms (View: 5 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 20:33:22) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 87ms (View: 34 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#make_public (for 127.0.0.1 at 2010-06-16 20:33:24) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/make_public
+Completed in 108ms (View: 56 | 200 OK [http://localhost/problems/1/make_public]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 20:33:26) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 78ms (View: 23 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#make_public (for 127.0.0.1 at 2010-06-16 20:33:29) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/make_public
+Completed in 63ms (View: 7 | 200 OK [http://localhost/problems/1/make_public]
+
+
+Processing ProblemsController#save_public (for 127.0.0.1 at 2010-06-16 20:33:30) [PUT]
+  Parameters: {"authenticity_token"=>"JWTeWSNXC8WtjBtm6bkclI8Zud+xTk6u5C3ci0Ts/tE=", "id"=>"1"}
+
+DataObjects::SyntaxError (no such column: is_public):
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `execute_non_query'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:61:in `block in execute'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:269:in `with_connection'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:59:in `execute'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/adapters/data_objects_adapter.rb:183:in `update'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/repository.rb:163:in `update'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:896:in `_update'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:634:in `update_hook'
+  extlib (0.9.15) lib/extlib/hook.rb:308:in `block in update_hook'
+  extlib (0.9.15) lib/extlib/hook.rb:306:in `catch'
+  extlib (0.9.15) lib/extlib/hook.rb:306:in `update_hook'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:925:in `save_self'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations.rb:61:in `save_self'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:912:in `block in _save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:1085:in `run_once'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:911:in `_save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-core-0.10.2/lib/dm-core/resource.rb:351:in `save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `block in save'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations/support/context.rb:30:in `validation_context'
+  /usr/local/lib/ruby/gems/1.9.1/gems/dm-validations-0.10.2/lib/dm-validations.rb:48:in `save'
+  app/controllers/problems_controller.rb:63:in `save_public'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (136.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:34:39) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 44ms (View: 28 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-16 20:34:44) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 90ms (View: 29 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 20:34:46) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 57ms (View: 39 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#make_public (for 127.0.0.1 at 2010-06-16 20:34:49) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/make_public
+Completed in 108ms (View: 10 | 200 OK [http://localhost/problems/1/make_public]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 20:34:51) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 92ms (View: 36 | 200 OK [http://localhost/problems/1]
+
+
+Processing ProblemsController#make_public (for 127.0.0.1 at 2010-06-16 20:34:53) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/make_public
+Completed in 28ms (View: 6 | 200 OK [http://localhost/problems/1/make_public]
+
+
+Processing ProblemsController#save_public (for 127.0.0.1 at 2010-06-16 20:34:54) [PUT]
+  Parameters: {"authenticity_token"=>"JWTeWSNXC8WtjBtm6bkclI8Zud+xTk6u5C3ci0Ts/tE=", "id"=>"1"}
+Redirected to http://localhost:3000/problems/1
+Completed in 191ms | 302 Found [http://localhost/problems/1/save_public]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 20:34:54) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 74ms (View: 41 | 200 OK [http://localhost/problems/1]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:34:56) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 118ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-16 20:35:22) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 71ms (View: 15 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 20:35:23) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 79ms (View: 33 | 200 OK [http://localhost/problems/4]
+
+
+Processing ProblemsController#make_public (for 127.0.0.1 at 2010-06-16 20:35:24) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/make_public
+Completed in 20ms (View: 3 | 200 OK [http://localhost/problems/4/make_public]
+
+
+Processing ProblemsController#save_public (for 127.0.0.1 at 2010-06-16 20:35:26) [PUT]
+  Parameters: {"authenticity_token"=>"JWTeWSNXC8WtjBtm6bkclI8Zud+xTk6u5C3ci0Ts/tE=", "id"=>"4"}
+Redirected to http://localhost:3000/problems/4
+Completed in 41ms | 302 Found [http://localhost/problems/4/save_public]
+
+
+Processing ProblemsController#show (for 127.0.0.1 at 2010-06-16 20:35:26) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering problems/show
+Completed in 43ms (View: 25 | 200 OK [http://localhost/problems/4]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:35:29) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 26ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:37:14) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 59ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:40:59) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 53ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:41:10) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 34ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:41:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 157ms (View: 28 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:41:37) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 65ms (View: 22 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:42:54) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 87ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:43:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:43:43) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 25ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:43:44) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 135ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:45:34) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 25ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:45:59) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:46:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 74ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:46:21) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 26ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:47:09) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:47:12) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 72ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:47:14) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 35ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:47:35) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 22ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:47:57) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:48:06) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:48:38) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 67ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:49:15) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:49:26) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:49:42) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:49:53) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:50:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 26ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:50:30) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:50:48) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 25ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:51:11) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:51:18) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:51:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 22ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:51:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 73ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-16 20:51:39) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 26ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-16 20:52:57) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 20ms (View: 4 | 200 OK [http://localhost/problems]
+
+
+Processing ContactRecordsController#index (for 127.0.0.1 at 2010-06-16 20:52:58) [GET]
+Rendering template within layouts/application
+Rendering contact_records/index
+Completed in 132ms (View: 45 | 200 OK [http://localhost/contact_records]
+
+
+Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-16 20:53:02) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering contact_records/show
+Completed in 83ms (View: 17 | 200 OK [http://localhost/contact_records/2]

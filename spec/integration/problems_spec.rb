@@ -269,4 +269,23 @@ describe Problem do
 		response.should contain 'call received'
 							 
 	end
+
+	it 'can make a Problem public' do
+		@problem = :problem.gen :title => 'this is a problem', :user_id => 1
+		@problem.is_public.should be_false
+
+		visit root_path
+		response.should_not contain 'this is a problem'
+		do_login
+
+		visit problem_path @problem.id
+		click_link 'Make Public'
+		click_link 'Continue'
+		@problem.reload
+		@problem.is_public.should be_true
+		response.should contain 'Problem is now public'
+		visit root_path
+
+		response.should contain 'this is a problem'
+	end
 end

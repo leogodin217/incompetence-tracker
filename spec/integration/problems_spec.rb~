@@ -261,7 +261,6 @@ describe Problem do
 		response.should contain '555-555-5556'
 		response.should contain @first_contact_time.strftime("%m/%d/%Y %I:%m %p")
 		response.should contain @second_contact_time.strftime("%m/%d/%Y %I:%m %p")
-		response.should contain 'cr This is company'
 		response.should contain 'Some other dude'
 		response.should contain 'Some dude'
 		response.should contain 'These are other details'
@@ -269,5 +268,23 @@ describe Problem do
 		response.should contain 'call made'
 		response.should contain 'call received'
 							 
+	end
+
+	it 'can make a Problem public' do
+		@problem = :problem.gen :title => 'this is a problem', :user_id => 1
+		@problem.is_public.should be_false
+
+		visit root_path
+		response.should_not contain 'this is a problem'
+		do_login
+
+		visit problem_path @problem.id
+		save_and_open_page
+		click_link 'Make Public'
+		click_link 'Continue'
+		response.should contain 'Problem is now public'
+		visit root_path
+
+		response.should contain 'this is a problem'
 	end
 end

@@ -30,6 +30,7 @@ body {
     body .command-bar a:hover, body .command-bar a:active {
       color: #cc333f; }
   body #content {
+    height: 100%;
     margin: 20px;
     padding: 2em;
     background-color: white; }
@@ -40,6 +41,13 @@ body {
       float: left;
       margin-right: 0.5em;
       display: block; }
+    body #content #instructions {
+      width: 75%;
+      float: left; }
+    body #content #home-page-problems {
+      width: 20%;
+      position: relative;
+      float: right; }
   body .flash {
     margin-left: 20px;
     margin-right: 20px; }

@@ -10,6 +10,7 @@ class Problem
 	property :company_email,	String
 	property :company_fax,		String
 	property :user_id,			Integer
+	property :is_public,		Boolean,	:default => false
 
 	has n, :contact_records, :through => Resource
 	belongs_to :user

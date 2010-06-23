@@ -1,0 +1,6 @@
+%h3 Make Problem Public?
+
+Are you sure?  Pressing continue will allow others to see the details of this problem.
+
+.button-link= link_to 'Continue', save_public_problem_path(@problem.id), {:method => :put}
+.button-link= link_to 'Cancel', problem_path(@problem.id)

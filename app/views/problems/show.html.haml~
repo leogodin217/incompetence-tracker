@@ -26,3 +26,5 @@
         %td= h contact_record.contact_record_type
   
 .button-link= link_to 'Associate Contact Record', associate_contact_record_problem_path(@problem.id)
+.button-link= link_to 'Print Problem', print_problem_path(@problem.id)
+.button-link= link_to 'Make Public', make_public_problem_path(@problem.id), {:method => :put}

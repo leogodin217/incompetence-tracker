@@ -10,6 +10,7 @@ class Problem
 	property :company_email,	String
 	property :company_fax,		String
 	property :user_id,			Integer
+	property :is_public,		Boolean		:default => false
 
 	has n, :contact_records, :through => Resource
 	belongs_to :user
@@ -19,6 +20,6 @@ class Problem
 	end
 
 	def associate_contact_record(contact_record_id)
-		ContactRecordProblem.create(:problem_id => id, :contact_record_id => contact_record_id) unless ContactRecordProblem.first(:problem_id => id, :contact_record_id).present? 
+		ContactRecordProblem.create(:problem_id => id, :contact_record_id => contact_record_id) unless ContactRecordProblem.first(:problem_id => id, :contact_record_id => contact_record_id).present? 
 	end
 end

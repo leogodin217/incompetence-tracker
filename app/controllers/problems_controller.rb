@@ -52,4 +52,19 @@ class ProblemsController < ApplicationController
 	def print
 		@problem = Problem.get params[:id]
 	end
+
+	def make_public
+		@problem = Problem.get params[:id]
+	end
+
+	def save_public
+		@problem = Problem.get params[:id]
+		@problem.is_public = true
+		if @problem.save
+						flash[:notice] = 'Problem is now public'
+		else
+						flash[:notice] = 'Cannot make problem public'
+		end
+		redirect_to problem_path @problem.id
+	end
 end
