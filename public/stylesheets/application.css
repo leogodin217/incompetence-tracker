@@ -30,7 +30,6 @@ body {
     body .command-bar a:hover, body .command-bar a:active {
       color: #cc333f; }
   body #content {
-    height: 100%;
     margin: 20px;
     padding: 2em;
     background-color: white; }
@@ -42,12 +41,11 @@ body {
       margin-right: 0.5em;
       display: block; }
     body #content #instructions {
-      width: 75%;
+      width: 70%;
       float: left; }
     body #content #home-page-problems {
-      width: 20%;
-      position: relative;
-      float: right; }
+      margin-left: 80%;
+      width: 20%; }
   body .flash {
     margin-left: 20px;
     margin-right: 20px; }
@@ -74,8 +72,15 @@ body {
   body .show-field-value {
     margin-left: 10em; }
   body .main-action {
-    width: 30em;
-    height: 6em;
+    width: 15em;
     text-align: center;
-    vertical-align: middle;
-    border: 1px solid black; }
+    border: 1px solid black;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #cc333f;
+    margin-bottom: 1em;
+    float: left; }
+    body .main-action a, body .main-action a:hover, body .main-action a:visited, body .main-action a:active {
+      color: black;
+      text-decoration: none; }

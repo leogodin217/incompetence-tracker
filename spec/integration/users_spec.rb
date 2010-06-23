@@ -3,7 +3,7 @@ require File.dirname(__FILE__) + '/../spec_helper'
 describe 'Guest visits home page' do
   it "should see home page"  do
     visit root_path
-    response.should contain "Welcome to the Incompetence Tracker"
+    response.should contain "The Incompetence Tracker"
   end
 
   it "can create account" do

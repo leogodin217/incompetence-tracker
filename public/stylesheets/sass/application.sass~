@@ -51,7 +51,6 @@ body
 
 
   #content
-    :height   100%
     :margin  $layout-margin
     :padding 2em
     :background-color   $content-background-color
@@ -67,13 +66,11 @@ body
         :display block
 
     #instructions
-      :width  75%
-      :float left
+      :width    70% 
+      :float  left
     #home-page-problems
-      :width 20%
-      :position relative
-      :float right
-
+      :margin-left 80%
+      :width  20%
   .flash
     :margin-left    $layout-margin
     :margin-right   $layout-margin 
@@ -111,7 +108,15 @@ body
     :margin-left    10em
 
   .main-action
-    :width          30em
-    :height         6em
+    :width          15em
     :text-align     center
     :border         1px solid black
+    :font-size      2em
+    :padding-top    1em
+    :padding-bottom 1em
+    :background-color $header-background-color
+    :margin-bottom  1em
+    a, a:hover, a:visited, a:active
+      :color  black
+      :text-decoration  none
+

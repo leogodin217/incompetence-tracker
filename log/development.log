@@ -20055,3 +20055,231 @@ Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:21
 Rendering template within layouts/application
 Rendering home_page/home_page_index
 Completed in 23ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:24:25) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 343ms (View: 119 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:25:04) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 29ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:26:21) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:26:22) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 40ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:26:28) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:26:45) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 111ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:27:43) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:27:53) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 35ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:28:04) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 83ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:28:13) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:28:37) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 25ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:28:43) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:29:10) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 68ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:30:01) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 49ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:30:49) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 26ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:31:00) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 29ms (View: 10 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:31:26) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:31:47) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 30ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:33:16) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 126ms (View: 86 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:34:27) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 92ms (View: 55 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:34:27) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 44ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:34:57) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 35ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:35:20) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 86ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:36:14) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 54ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:36:58) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 26ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:37:26) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 78ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:37:48) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 30ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:38:01) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 30ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:38:14) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 29ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:38:27) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:38:54) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 104ms (View: 85 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:39:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 42ms (View: 19 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:40:26) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 25ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-23 16:40:56) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 309ms (View: 116 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-23 16:41:02) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 36ms (View: 7 | 200 OK [http://localhost/problems]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:42:32) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 56ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-23 16:43:44) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 208ms (View: 6 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:47:28) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 195ms (View: 91 | 200 OK [http://localhost/]
