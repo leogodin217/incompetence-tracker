@@ -19995,3 +19995,15 @@ Processing ContactRecordsController#show (for 127.0.0.1 at 2010-06-16 20:53:02) 
 Rendering template within layouts/application
 Rendering contact_records/show
 Completed in 83ms (View: 17 | 200 OK [http://localhost/contact_records/2]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:09:24) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 25ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-23 16:09:27) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 167ms (View: 60 | 200 OK [http://localhost/contact_records/new]
