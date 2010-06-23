@@ -14,9 +14,11 @@
 
 #home-page-problems
   %h4 Public Problems
+  -if @problems.length > 0
   -@problems.each do |problem|
     %p
-      %h4 New Problem
+      %em New Problem
+      %br
       = problem.title
       %br
 

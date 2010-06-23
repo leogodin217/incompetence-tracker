@@ -20007,3 +20007,9 @@ Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-23 16:09:27) [
 Rendering template within layouts/application
 Rendering contact_records/new
 Completed in 167ms (View: 60 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 16:11:44) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 76ms (View: 18 | 200 OK [http://localhost/]
