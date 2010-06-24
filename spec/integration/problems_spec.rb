@@ -251,7 +251,6 @@ describe Problem do
 		do_login
 		visit problem_path @problem.id
 		click_link 'Print Problem'
-		save_and_open_page
 		response.should contain 'This is a problem'
 		response.should contain 'This is a problem description'
 		response.should contain 'This is a company'

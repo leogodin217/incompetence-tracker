@@ -5,7 +5,6 @@
     %title The Incompetence Tracker
     = stylesheet_link_tag 'blueprint/screen', :media => 'screen, projection'
     = stylesheet_link_tag 'blueprint/print', :media => 'print'
-    = stylesheet_link_tag 'demo_table'
     = stylesheet_link_tag 'jquery-ui/jquery-ui-1.8.2.custom'
     <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
     = stylesheet_link_tag 'application'
@@ -22,7 +21,7 @@
         = link_to 'login', login_path
         = link_to 'signup', signup_path
       - else
-        = link_to 'logout', logout_path 
+        %span.command-button= link_to 'logout', logout_path 
         |
         = link_to 'New Contact Record', new_contact_record_path 
         |

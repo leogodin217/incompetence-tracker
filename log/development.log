@@ -20993,3 +20993,167 @@ Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:50
 Rendering template within layouts/application
 Rendering home_page/home_page_index
 Completed in 115ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 18:16:06) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 2633ms (View: 568 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 18:16:10) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 18:16:51) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 73ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 18:18:37) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 41ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 18:18:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/command-bar-gradient.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 18:18:40) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 314ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 18:18:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/command-bar-gradient.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 18:19:16) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 18:19:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/command-bar-gradient.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 18:19:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 66ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 18:19:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/command-bar-gradient.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 18:21:48) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 309ms (View: 125 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 18:21:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/command-bar-gradient.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 18:21:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/command-bar-gradient.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 18:21:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/command-bar-gradient.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-23 18:21:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/command-bar-gradient.png" with {:method=>:get}):
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 18:22:22) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 255ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 18:23:19) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 59ms (View: 18 | 200 OK [http://localhost/]

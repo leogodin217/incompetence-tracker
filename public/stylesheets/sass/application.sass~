@@ -64,7 +64,7 @@ body
       padding: 1em
       margin-left: 70%
       min-height:   35em
-      border: 1px solid black
+      border: 1px solid $command-bar-background-color
 
   .flash
     margin-left: $layout-margin
