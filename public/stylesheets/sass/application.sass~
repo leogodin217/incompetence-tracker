@@ -9,7 +9,7 @@ $command-bar-color: #6a4a3c
 $content-background-color: white
 
 // Layout sizes
-$layout-margin: 20px
+$layout-margin: 10px
 
 body
   margin: 0
@@ -57,14 +57,13 @@ body
         margin-right: 0.5em
         display: block
     #instructions
-      width: 67%
+      width: 68%
       float: left
     #home-page-problems
-      margin-left: 70%
       width: 30%
-      height:   75em
+      margin-left: 70%
+      //height:   75em
       border: 1px solid black
-      padding:  1em
   .flash
     margin-left: $layout-margin
     margin-right: $layout-margin
@@ -91,7 +90,7 @@ body
     float: left
   .show-field-value
     margin-left: 10em
-  .main-action
+//  .main-action
     width: 15em
     text-align: center
     border: 1px solid black
@@ -100,7 +99,7 @@ body
     padding-bottom: 1em
     background-color: $header-background-color
     margin-bottom: 1em
-    float: left
+    display: inline
     a, a:hover, a:visited, a:active
       color: black
       text-decoration: none

@@ -7,8 +7,8 @@ body {
     background-color: #cc333f;
     text-align: center;
     padding: 0.5em;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 0; }
     body h1 a, body h1 a:visited, body h1 a:hover, body h1 a:active {
       text-decoration: none;
@@ -23,14 +23,14 @@ body {
     padding-left: 1em;
     padding-right: 1em;
     margin-top: 0;
-    margin-left: 20px;
-    margin-right: 20px; }
+    margin-left: 10px;
+    margin-right: 10px; }
     body .command-bar a, body .command-bar a:visited, body .command-bar a:hover, body .command-bar a:active {
       text-decoration: none; }
     body .command-bar a:hover, body .command-bar a:active {
       color: #cc333f; }
   body #content {
-    margin: 20px;
+    margin: 10px;
     padding: 2em;
     background-color: white; }
     body #content input, body #content textarea, body #content select {
@@ -41,17 +41,16 @@ body {
       margin-right: 0.5em;
       display: block; }
     body #content #instructions {
-      width: 67%;
+      width: 68%;
       float: left; }
     body #content #home-page-problems {
+      width: 30%;
       margin-left: 70%;
-      width: 28%;
       height: 75em;
-      border: 1px solid black;
-      padding: 1em; }
+      border: 1px solid black; }
   body .flash {
-    margin-left: 20px;
-    margin-right: 20px; }
+    margin-left: 10px;
+    margin-right: 10px; }
   body .login-box {
     background-color: #cc333f;
     border: 1px solid #3d3d3d;
@@ -74,16 +73,3 @@ body {
     float: left; }
   body .show-field-value {
     margin-left: 10em; }
-  body .main-action {
-    width: 15em;
-    text-align: center;
-    border: 1px solid black;
-    font-size: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    background-color: #cc333f;
-    margin-bottom: 1em;
-    float: left; }
-    body .main-action a, body .main-action a:hover, body .main-action a:visited, body .main-action a:active {
-      color: black;
-      text-decoration: none; }

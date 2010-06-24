@@ -20523,3 +20523,401 @@ Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:06
 Rendering template within layouts/application
 Rendering home_page/home_page_index
 Completed in 59ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:10:28) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 52ms (View: 23 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:10:31) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 63ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:10:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 58ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:10:48) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 94ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:11:36) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:12:33) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 135ms (View: 79 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:12:54) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 24ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:13:19) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 39ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:13:20) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 63ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:13:35) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 30ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:14:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 85ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:14:24) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 63ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:14:27) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 117ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:14:38) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:14:40) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 36ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:15:19) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 70ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:15:47) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 31ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:16:23) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 21ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:16:29) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 26ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:17:17) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 222ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:17:23) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 32ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:17:41) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 83ms (View: 31 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:17:55) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 25ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:18:06) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 26ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:18:19) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 65ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:18:43) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 25ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:21:08) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 42ms (View: 5 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:21:57) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 114ms (View: 18 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:22:39) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 36ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:23:00) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 30ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:23:55) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 153ms (View: 95 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:23:58) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 71ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:25:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 35ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:25:29) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 75ms (View: 18 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-23 17:26:15) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 240ms (View: 21 | 200 OK [http://localhost/contact_records/new]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:29:25) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 1465ms (View: 1176 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:30:46) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Indenting at the beginning of the document is illegal.) on line #2 of app/views/home_page/home_page_index.haml:
+1: 
+2:    instructions
+3:     %ul
+4:       %li= link_to 'What Is This?', '#whatis'
+5:       %li= link_to 'What To Do?', '#todo'
+
+    app/views/home_page/home_page_index.haml:2
+    haml (3.0.6) lib/haml/precompiler.rb:167:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (141.2ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:31:02) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Indenting at the beginning of the document is illegal.) on line #2 of app/views/home_page/home_page_index.haml:
+1: 
+2:   #instructions
+3:     %ul
+4:       %li= link_to 'What Is This?', '#whatis'
+5:       %li= link_to 'What To Do?', '#todo'
+
+    app/views/home_page/home_page_index.haml:2
+    haml (3.0.6) lib/haml/precompiler.rb:167:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (69.8ms)
+Rendered rescues/_request_and_response (2.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:31:03) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Indenting at the beginning of the document is illegal.) on line #2 of app/views/home_page/home_page_index.haml:
+1: 
+2:   #instructions
+3:     %ul
+4:       %li= link_to 'What Is This?', '#whatis'
+5:       %li= link_to 'What To Do?', '#todo'
+
+    app/views/home_page/home_page_index.haml:2
+    haml (3.0.6) lib/haml/precompiler.rb:167:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (80.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:31:42) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+
+ActionView::TemplateError (Inconsistent indentation: 9 spaces were used for indentation, but the rest of the document was indented using 2 spaces.) on line #21 of app/views/home_page/home_page_index.haml:
+18:       %p
+19:         %em New Problem
+20:         %br
+21:          = problem.title
+22:          %br
+23:   
+24:          Company: 
+
+    app/views/home_page/home_page_index.haml:21
+    haml (3.0.6) lib/haml/precompiler.rb:155:in `block in tabs'
+    haml (3.0.6) lib/haml/precompiler.rb:134:in `instance_eval'
+    haml (3.0.6) lib/haml/precompiler.rb:134:in `tabs'
+    haml (3.0.6) lib/haml/precompiler.rb:1040:in `block_opened?'
+    haml (3.0.6) lib/haml/precompiler.rb:768:in `render_tag'
+    haml (3.0.6) lib/haml/precompiler.rb:214:in `process_line'
+    haml (3.0.6) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.6) lib/haml/engine.rb:116:in `initialize'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `new'
+    haml (3.0.6) lib/haml/template/plugin.rb:27:in `compile'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.6) lib/sass/plugin/rack.rb:41:in `call'
+    <internal:prelude>:8:in `synchronize'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (277.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:32:01) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 50ms (View: 28 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:33:07) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 82ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:33:27) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 95ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:34:19) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 92ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing ProblemsController#index (for 127.0.0.1 at 2010-06-23 17:34:31) [GET]
+Rendering template within layouts/application
+Rendering problems/index
+Completed in 86ms (View: 3 | 200 OK [http://localhost/problems]
+
+
+Processing ProblemsController#new (for 127.0.0.1 at 2010-06-23 17:34:39) [GET]
+Rendering template within layouts/application
+Rendering problems/new
+Completed in 443ms (View: 198 | 200 OK [http://localhost/problems/new]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:36:29) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 104ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing HomePageController#home_page_index (for 127.0.0.1 at 2010-06-23 17:36:44) [GET]
+Rendering template within layouts/application
+Rendering home_page/home_page_index
+Completed in 23ms (View: 4 | 200 OK [http://localhost/]
+
+
+Processing ContactRecordsController#new (for 127.0.0.1 at 2010-06-23 17:36:46) [GET]
+Rendering template within layouts/application
+Rendering contact_records/new
+Completed in 128ms (View: 10 | 200 OK [http://localhost/contact_records/new]
