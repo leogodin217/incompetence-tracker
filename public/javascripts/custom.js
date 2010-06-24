@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.rounded').corner('20px');
+	$('.rounded').corner('10px');
 	$('.rounded-bottom').corner('bottom');
 	$('.rounded-top').corner('top');
 	oTable = $('#contact-records-index').dataTable({

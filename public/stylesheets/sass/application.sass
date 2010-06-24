@@ -9,7 +9,7 @@ $command-bar-color: #6a4a3c
 $content-background-color: white
 
 // Layout sizes
-$layout-margin: 10px
+$layout-margin: 15px
 
 body
   margin: 0
@@ -46,7 +46,7 @@ body
       color: $loginbox
   #content
     margin: $layout-margin
-    padding: 2em
+    padding: 1em
     background-color: $content-background-color
     input, textarea, select
       margin-left: 1em
@@ -60,10 +60,12 @@ body
       width: 68%
       float: left
     #home-page-problems
-      width: 30%
+      //width: 28%
+      padding: 1em
       margin-left: 70%
-      height:   75em
-      border: 1px solid black
+      min-height:   35em
+      border: 1px solid $command-bar-background-color
+
   .flash
     margin-left: $layout-margin
     margin-right: $layout-margin
