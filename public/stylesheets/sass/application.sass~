@@ -57,11 +57,14 @@ body
         margin-right: 0.5em
         display: block
     #instructions
-      width: 70%
+      width: 67%
       float: left
     #home-page-problems
-      margin-left: 80%
-      width: 20%
+      margin-left: 70%
+      width: 30%
+      height:   75em
+      border: 1px solid black
+      padding:  1em
   .flash
     margin-left: $layout-margin
     margin-right: $layout-margin

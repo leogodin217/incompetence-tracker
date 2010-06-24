@@ -41,11 +41,14 @@ body {
       margin-right: 0.5em;
       display: block; }
     body #content #instructions {
-      width: 70%;
+      width: 67%;
       float: left; }
     body #content #home-page-problems {
-      margin-left: 80%;
-      width: 20%; }
+      margin-left: 70%;
+      width: 28%;
+      height: 75em;
+      border: 1px solid black;
+      padding: 1em; }
   body .flash {
     margin-left: 20px;
     margin-right: 20px; }

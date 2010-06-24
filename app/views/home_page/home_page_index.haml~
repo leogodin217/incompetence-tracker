@@ -17,7 +17,7 @@
   
   #home-page-problems
     %h4 Public Problems
-    -if @problems.length > 0
+    -if @problems.present?
       -@problems.each do |problem|
         %p
           %em New Problem
